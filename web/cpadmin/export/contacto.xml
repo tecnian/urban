@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<export>
+    <item>
+        <name>fecha_trans</name>
+        <title>FECHA</title>
+    </item>    
+    <item>
+        <name>nombre</name>
+        <title>NOMBRE</title>
+    </item>         
+    <item>
+        <name>email</name>
+        <title>EMAIL</title>
+    </item>     
+    <item>
+        <name>telefono</name>
+        <title>TELEFONO</title>
+    </item>
+    <item>
+        <name>ip</name>
+        <title>IP</title>
+    </item>       
+    <item>
+        <name>comentarios</name>
+        <title>COMENTARIOS</title>
+    </item>             
+    <item>
+        <name>str_gestionado</name>
+        <title>GESTIONADO</title>
+    </item>        
+</export>

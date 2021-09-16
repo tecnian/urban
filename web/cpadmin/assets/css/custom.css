@@ -1,0 +1,350 @@
+
+/* General
+----------------------------------------*/
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #424e79;
+    text-align: left;
+    background: #f2f6f9;
+}
+
+body.login {
+    background: linear-gradient(rgba(68, 84, 195, 0.25), rgba(68, 84, 195, 0.18)), url(../../assets/images/pattern/4.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-bottom: 0.66em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h5 {
+    font-size: 22px !important;
+}
+h6 {
+    font-size: 18px !important;
+}
+
+a.link {
+    color: #007bff;
+}
+a.link:hover {
+    color: #4454c3;
+}
+a.link_del {
+    margin-left: 15px;
+}
+
+.avatar-md {
+    opacity: 0.75;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+
+
+/* Logo
+----------------------------------------*/
+
+.header-brand-img {
+    height: 3.5rem;    
+}
+.app-sidebar__logo .header-brand-img {
+    margin-top: -5px;
+}
+
+@media (max-width: 767px) {
+
+    .header-brand-img.desktop-lgo {
+        display: none;
+    }
+    
+}
+
+
+/* Login
+----------------------------------------*/
+
+.text-muted {
+    padding-top: 10px;
+}
+
+
+/* Sidebar menu
+----------------------------------------*/
+
+.side-menu__label {
+    font-weight: 600;
+}
+.default-sidebar .slide a.active, .default-sidebar .slide a:hover {
+    background-color: #eff0f6;
+}
+.slide.is-expanded a.slide-item {
+    font-weight: 500;
+}
+.side-menu-icon {
+    margin-right: 12px;
+    margin-left: -5px;
+    font-size: 19px !important;
+    color: #4454c3; 
+    font-weight: 600 !important; 
+    opacity: 0.8;
+}
+.side-menu__item:hover > .side-menu-icon {
+    opacity: 1;
+}
+.sidenav-toggled .side-menu-icon {
+    margin-left: 10px;
+}
+.sidenav-toggled1 .side-menu-icon {
+    margin-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+/* Tablas
+----------------------------------------*/
+
+table.dataTable.table-custom {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+}
+
+table.dataTable thead>tr>th.sorting_asc, 
+table.dataTable thead>tr>th.sorting_desc, 
+table.dataTable thead>tr>th.sorting, 
+table.dataTable thead>tr>td.sorting_asc, 
+table.dataTable thead>tr>td.sorting_desc, 
+table.dataTable thead>tr>td.sorting {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+table.table-custom td.check {
+    width: 25px;
+    text-align: center;    
+}
+table.table-custom thead th.check {
+    width: 25px;
+    text-align: center;    
+}
+
+table.dataTable thead>tr>th.check {
+    padding-right: 12px !important;
+}
+
+/*table.dataTable thead .sorting.check {
+    .position: inherit;
+}
+table.dataTable thead .sorting_asc.check {
+    .position: inherit;
+}
+table.dataTable thead .sorting_desc.check {
+    .position: inherit;
+}*/
+
+table.dataTable a, table.dataTable a p {
+    font-weight: 600;
+    color: #4454c3;
+}
+table.dataTable a:hover,table.dataTable a p:hover {
+    opacity: 0.8;    
+}
+
+table.subtable th {
+    border-top: 1px solid #eff0f6;    
+    font-weight: 600 !important;
+    font-size: 13px !important;
+}
+
+.subtable a {
+    font-weight: 600;
+    color: #4454c3;
+}
+.subtable a:hover {
+    opacity: 0.8;    
+}
+
+.page-header.sublist {
+    margin-top: 0px;
+}
+
+
+/* Formularios
+----------------------------------------*/
+
+.form-group {
+    margin-bottom: 1.25rem;
+}
+.form-group-checkbox {
+    margin-bottom: 1.25rem;
+}
+
+.select2 {
+    width: 100%!important;
+}
+.select2-container--default .select2-results>.select2-results__options {
+    background-color: #f0f0f0;
+}
+.select2-results__option {
+    font-weight: 500;
+}
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #d3e7f5;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #4454c3;
+    color: white;
+}
+
+.form-file {
+    pointer-events: none;
+}
+
+.help-block {
+    margin-top: -20px;
+    font-size: 13px;
+    color: #999;
+}
+.link_delete {
+    margin-left: 15px;
+}
+
+.form-search form {
+    float: right;
+}
+.form-search .form-label {
+    padding-top: 6px;
+}
+
+/* Alertas
+----------------------------------------*/
+
+.error_info {
+    display: none;
+}
+.format_info {
+    display: none;
+}
+.form-group.has-warning label {
+  color: #f39c12;
+}
+.form-group.has-warning .form-control {
+  border-color: #f39c12 !important;
+  box-shadow: none;
+}
+.form-group.has-error label {
+  color: #dd4b39;
+}
+.form-group.has-error .form-control {
+  border-color: #dd4b39 !important;
+  box-shadow: none;
+}
+.form-group.has-error .select2-selection {
+  border-color: #dd4b39 !important;
+  box-shadow: none;
+}
+.form-group-file.has-error .form-file {
+  border-color: #dd4b39 !important;
+  box-shadow: none;
+}
+.form-group-file.has-error .form-label {
+  color: #dd4b39;
+}
+.input-group.has-error label {
+  color: #dd4b39;
+}
+.input-group.has-error .form-control {
+  border-color: #dd4b39 !important;
+  box-shadow: none;
+}
+
+
+
+
+/* MOD::multi_item
+----------------------------------------*/
+
+.multi_items {
+    width: 100%;
+    float: left;
+    max-width: 1000px;
+}
+.multi_items .multi_item {
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+    margin-bottom: 10px;    
+}
+.multi_items .multi_item .caption {
+    float: left;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    padding-right: 1%;
+}
+.multi_items .multi_item .field {
+    float: left; 
+    padding-right: 1%;
+}
+.multi_items .multi_item .field input {      
+    border: 1px solid #ccc;
+}
+.multi_items .add_multi_item {
+    cursor: pointer;    
+    display: inline-block;
+    margin-top: 20px;
+}
+.multi_items .add_multi_item:hover {
+    color: #000;
+}
+.multi_items .delete_multi_item {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;    
+}
+.multi_items .delete_multi_item .fa {
+    font-size: 20px;   
+    margin: 5px 0 0 10px;
+}
+
+.multi_items.content {
+    width: 100%;
+    float: left;
+    max-width: 600px;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    
+    .form-search {
+        display: none;
+    }
+    
+}
