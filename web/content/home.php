@@ -43,7 +43,7 @@
 
         <div class="row" id="slider">
             
-            <div class="gallery js-flickity">
+            <div class="gallery">
                 <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1.jpg')"></div>
                 <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2.jpg')"></div>
                 <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider3.jpg')"></div>
@@ -1479,6 +1479,11 @@
 
 
             $(document).ready(function() {
+                
+                $('#slider .gallery').flickity({
+                    //fade: true,
+                    autoPlay: 3000
+                });
 
                 var scroll = $(window).scrollTop();
                 $('#posicion').text(scroll);
