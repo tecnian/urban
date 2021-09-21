@@ -204,7 +204,7 @@ body {
 		border-radius: 55px;
 		color: var(--color-white);
 		border: 1px solid var(--color-white);
-		font-family: var(--font-avenir-bold);
+		font-family: var(--font-avenir-demibold);
 	}
 	.btn:hover{
 		background-color: var(--color-primary);
@@ -260,6 +260,7 @@ body {
 		margin-top: 14px;
 		border-bottom: 1px solid var(--color-white);
 		padding-bottom: 6px;
+                position: relative;
 	}
 	#header #menu-desktop li{
 		float: left;
@@ -279,8 +280,11 @@ body {
 		border-bottom: 3px solid var(--color-white);
 	}
 	#header .idiomas{
-		float: right;
-		margin-left: 40px;
+		/*float: right;
+		margin-left: 40px;*/
+                position: absolute;
+                right: 20px;
+                top: 40px;
 	}
 	#header .idiomas a{
 		color: var(--color-white);
@@ -316,7 +320,7 @@ body {
 		display: inline-block;
 		text-transform: uppercase;
 		color: var(--color-primary);
-		font-family: var(--font-avenir-bold);
+		font-family: var(--font-avenir-demibold);
 		width: 100%;
 		padding: 8px 0px;
 		text-decoration: none;
@@ -360,7 +364,7 @@ body {
 		display: inline-block;
 		width: 100%;
 		font-size: 18px;
-		font-family: var(--font-avenir-bold);
+		font-family: var(--font-avenir-demibold);
 	}
 	#home .capa h1{
 		margin: 0px;
@@ -409,6 +413,22 @@ body {
 		float: left;
 		width: 100%;
 	}
+        
+        .flickity-prev-next-button svg {
+            display: none;
+        }
+        .flickity-prev-next-button.next {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('../img/flecha_der_slider.png');
+        }
+        .flickity-prev-next-button.previous {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('../img/flecha_izq_slider.png');
+        }
 
 
 	/* gallery
@@ -503,7 +523,7 @@ body {
 	}
 	#mapas #donde a{
 		/*display: inline-block;*/
-		font-family: var(--font-avenir-bold);
+		font-family: var(--font-avenir-demibold);
 		text-decoration: none;
 		color: var(--color-white);
 		margin: 0px 10px;
@@ -805,6 +825,7 @@ body {
 		font-size: 22px;
 		font-family: var(--font-avenir-demibold);
 	}
+        
 	#tecnologia .informacion .textos ul{
 		margin-left: -20px;
 	}
@@ -871,9 +892,10 @@ body {
 		vertical-align: top;
 		width: 70%;
 		padding: 0px 15%;
-		text-align: justify;
+		/*text-align: justify;*/
 		hyphens: auto;
 		color: var(--color-white);
+                text-align: left;
 	}
 
 
@@ -1126,6 +1148,11 @@ body {
 		background-color: var(--color-white);
 		border: 1px solid var(--color-white);
 	}
+        #planos .plantas .box .botones .btn-small.active{
+		color: var(--color-primary);
+		background-color: var(--color-white);
+		border: 1px solid var(--color-white);
+	}
 	#planos .plantas .box .botones .btn-planos{
 		margin-top: 10px;
 		color: var(--color-primary);
@@ -1226,7 +1253,7 @@ body {
 		width: 100%;
 		font-size: 18px;
 		color: var(--color-white);
-		font-family: var(--font-avenir-bold);
+		font-family: var(--font-avenir-demibold);
 	}
 	#video .btn-play .ico-play:hover {
 		background-image: url('../img/video_icon_on.png');
@@ -1521,6 +1548,14 @@ body {
 
 	/* responsive
 	------------------------------------------------------------------------------------------------------  */
+        
+        @media only screen and (max-width: 1260px) {
+
+		#header #menu-desktop li{
+			padding: 0px 14px;
+		}
+
+	}
 
 	@media only screen and (max-width: 1200px) {
 

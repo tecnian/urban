@@ -12,11 +12,13 @@
                                         
 
                     <ul id="menu-desktop">
+                        <li> <a href="#inicio" title="Inicio"> Inicio </a> </li>
                         <li> <a href="#localizacion" title="Localización"> Localización </a> </li>
                         <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>
                         <li> <a href="#tecnologia" title="Tecnología"> Tecnología </a> </li>
                         <li> <a href="#sostenibilidad" title="Sostenibilidad"> Sostenibilidad </a> </li>
                         <li> <a href="#planos" title="Planos"> Planos </a> </li>
+                        <li> <a href="#video" title="Vídeo"> Vídeo </a> </li>
                         <li> <a href="#catalogo" title="Catálogo"> Catálogo </a> </li>
                         <li> <a href="#contacto" title="Contacto"> Contacto </a> </li>
 
@@ -34,11 +36,13 @@
             <div class="col_100" id="menu-responsive">
 
                 <ul>
+                    <li> <a href="#inicio" title="Inicio"> Inicio </a> </li>
                     <li> <a href="#localizacion" title="Localización"> Localización </a> </li>
                     <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>
                     <li> <a href="#tecnologia" title="Tecnología"> Tecnología </a> </li>
                     <li> <a href="#sostenibilidad" title="Sostenibilidad"> Sostenibilidad </a> </li>
                     <li> <a href="#planos" title="Planos"> Planos </a> </li>
+                    <li> <a href="#video" title="Vídeo"> Vídeo </a> </li>
                     <li> <a href="#catalogo" title="Catálogo"> Catálogo </a> </li>
                     <li> <a href="#contacto" title="Contacto"> Contacto </a> </li>
 

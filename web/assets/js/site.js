@@ -40,16 +40,182 @@ $(document).ready(function(){
         });
         
         
+        $('.lightbox-servicios .ico-close a').click(function() {
+            
+            close_lightbox_servicios();
+
+        });
         
+        $('.btn_servicio').click(function() {
+            
+            var item = $(this).attr('data-item');
+            
+            open_lightbox_servicios(item);
+
+        });
+        
+        $('.btn_planta').click(function() {
+            
+            var item = $(this).attr('data-item');
+            
+            show_planta(item);
+            
+            $('.btn_planta').removeClass('active');
+            $(this).addClass('active');
+
+        });
+        
+        
+        
+        $('a[href*=\\#]').click(function() {
+
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+                    && location.hostname == this.hostname) {
+
+                        var $target = $(this.hash);
+
+                        $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+                        if ($target.length) {
+
+                            var targetOffset = $target.offset().top-90;
+
+                            $('html,body').animate({scrollTop: targetOffset}, 1000);
+
+                            return false;
+
+                        }
+
+                }
+
+        });
                 
                                
 });
 
 
-function menu_responsive()
-{
-    $('#app-menu-responsive').slideToggle('fast');
-}
+            function menu_responsive(){
+
+                $("#menu-responsive").slideToggle('fast');
+
+            }
+
+            function open_lightbox_servicios(item){
+
+                $("#lightbox2").show();
+                
+                $(".servicio-info").css('display','none');
+                $("#servicio_info_" + item).css('display','block');
+
+            }
+
+            function close_lightbox_servicios(){
+                
+                $("#lightbox2").hide();
+
+            }
+
+            function open_lightbox_empresa(){
+
+                $("#lightbox_well").show();
+
+            }
+
+            function close_lightbox_empresa(){
+
+                $("#lightbox_well").hide();
+
+            }            
+
+            function close_lightbox_mapa(){
+                
+                $("#lightbox1").hide();
+
+            }
+
+            function open_lightbox_mapa(){
+
+                $("#lightbox1").show();
+
+            }
+
+
+            function show_planta(item){
+
+                $(".div_planta").hide();    
+                   
+                $("#planta" + item).show();   
+               
+            }
+
+            function show_mapa(i){
+
+                var imapa = i;
+
+                for (n=0; n<8; n++){
+
+                    $("#localizacion"+n).hide();    
+                    
+                    $("#tit-localizacion"+n).css({
+                        'color': 'var(--color-white)',
+                        'border-bottom': '2px solid var(--color-secundary)'
+                    });
+
+                }
+
+                $("#localizacion"+imapa).show();    
+
+                $("#tit-localizacion"+imapa).css({
+                    'color': 'var(--color-primary)',
+                    'border-bottom': '2px solid var(--color-primary)'
+                });
+
+            }
+            
+            function lightbox_mapa_position()
+            {
+                
+                var window_w = parseInt($(window).width());
+                var lightbox_w = parseInt($('.lightbox-mapa').width());
+                
+                var left = (window_w / 2) - (lightbox_w / 2);
+                
+                var window_h = parseInt($('#fotos').height());
+                var lightbox_h = parseInt($('.lightbox-mapa').height());
+                
+                var top = ((window_h / 2) - (lightbox_h / 2));
+                
+                
+                $('.lightbox-mapa').css('left',left + 'px');
+                $('.lightbox-mapa').css('top',top + 'px');
+            }
+
+
+            function lightbox_servicios_position()
+            {
+                
+                var window_w = parseInt($(window).width());
+                var lightbox_w = parseInt($('.lightbox-servicios').width());
+                
+                var left = (window_w / 2) - (lightbox_w / 2);
+                
+                left = left - (left * 20 / 100);
+                
+                $('.lightbox-servicios').css('left',left + 'px');                
+            }
+            
+            function lightbox_empresa_position()
+            {
+                
+                var window_w = parseInt($(window).width());
+                var lightbox_w = parseInt($('.lightbox-empresa').width());
+                
+                var left = (window_w / 2) - (lightbox_w / 2);
+                
+                
+                $('.lightbox-empresa').css('left',left + 'px');                
+            }
+
 
 
 function send_contact()
@@ -142,184 +308,6 @@ function send_contact()
                                 
 }
 
-function send_registro()
-{
-    
-    $('.form-required').removeClass('warning');
-    $('.form-email').removeClass('warning');
-    $('#msg_alerta').css('display','none');
-    
-    $("#email_check").val(1);      
-    
-    if ($("#email").val() != '')
-    {        
-        if (!check_email($("#email").val()))
-        {        
-            $("#email_check").val(0);      
-        }           
-    }
-    
-    
-    //validacion formulario     
-    
-    var url = app_folder + '/server/check_registro.php';
-    
-    var datos = $('#frmRegistro').serialize();
-    
-    $.ajax({
-        type: "POST",
-        url: url,
-        data: datos,   
-        dataType: "json",
-        success: function(data) {
-            
-            if (data.status == 1) 
-            {
-                //enviamos datos registro
-                                
-                $("#btn_send_registro").attr('disabled',true);
-                        
-                var url = app_folder + '/server/send_registro.php';
-                
-                $.ajax({
-                    type: "POST",
-                    url: url,
-                    data: datos,                       
-                    success: function(data) {
-
-                        $("#btn_send_registro").attr('disabled',false);
-                        $('#msg_alerta').css('display','block');
-
-                        $('#frmRegistro')[0].reset();        
-                                
-                    },
-                    error: function() {
-
-                    }
-                });
-                
-            }
-            else
-            {
-                if (data.classname != '')
-                {
-                    $('.' + data.classname).addClass('warning');
-                }
-                
-                if (data.classname == 'form-required')
-                {
-                    $('.form-required').each(function() {
-
-                        if ($(this).val() != '')
-                        {
-                            $(this).removeClass('warning');
-                        }
-
-                    });
-                }
-            }  
-                        
-            $('#msg_alerta').html(data.message);
-            $('#msg_alerta').css('display','block');
-                        
-        },
-        error: function() {
-            
-        }
-    });
-            
-                                
-}
-
-function send_login()
-{
-    $('.form-required').removeClass('warning');    
-    $('#msg_alerta').css('display','none');
-    
-    var url_area = $('#url_area').val();
-    var url = app_folder + '/server/send_login.php';
-    
-    var datos = $('#frmLogin').serialize();
-    
-    $.ajax({
-        type: "POST",
-        url: url,
-        data: datos,   
-        dataType: "json",
-        success: function(data) {
-            
-            if (data.status == 1) 
-            {
-                document.location = url_area;
-            }
-            else
-            {
-                if (data.classname != '')
-                {
-                    $('.' + data.classname).addClass('warning');
-                }
-                
-                $('.form-required').each(function() {
-            
-                    if ($(this).val() != '')
-                    {
-                        $(this).removeClass('warning');
-                    }
-
-                });
-                
-            }
-            
-            $('#msg_alerta').html(data.message);
-            $('#msg_alerta').css('display','block');
-                        
-        },
-        error: function() {
-            
-        }
-    });
-                 
-}    
-
-function send_password()
-{
-    $('.form-required').removeClass('warning');    
-    $('#msg_alerta').css('display','none');
-        
-    var url = app_folder + '/server/send_password.php';
-    
-    var datos = $('#frmPsw').serialize();
-    
-    $.ajax({
-        type: "POST",
-        url: url,
-        data: datos,   
-        dataType: "json",
-        success: function(data) {
-            
-            if (data.status == 1) 
-            {                
-                $('#frmPsw')[0].reset();    
-            }
-            else
-            {
-                if (data.classname != '')
-                {
-                    $('.' + data.classname).addClass('warning');
-                }
-                
-            }
-            
-            $('#msg_alerta').html(data.message);
-            $('#msg_alerta').css('display','block');
-                        
-        },
-        error: function() {
-            
-        }
-    });
-                 
-}    
 
 function aceptar_cookies()
 {
@@ -341,28 +329,4 @@ function aceptar_cookies()
 }   
 
 
-function autocomplete_value(elem_obj,elem_id,name_field,type)
-{
-                
-                var options = {
-                        url: function(phrase) {
-                                return app_folder + "/server/autocomplete.php?phrase=" + phrase + "&type=" + type + "&format=json";
-                        },
-                        list: {
-                                    onSelectItemEvent: function() {
-                                        
-                                        var index = $("#" + elem_obj).getSelectedItemData().id;
-
-                                        $("#" + elem_id).val(index);
-                                        
-                                    }
-                            },
-                        getValue: name_field
-                };
-
-                $("#" + elem_obj).easyAutocomplete(options);
-                    
-}
-                        
-                        
 

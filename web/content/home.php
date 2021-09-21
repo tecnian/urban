@@ -3,11 +3,11 @@
 
         <div class="row" id="home">
             
-            <div class="capa">
+            <div class="capa" >
 
                 <span> Más que oficinas </span>
                 <h1> LA EXCELENCIA<br/>HECHA REALIDAD </h1>
-                <a href="#" class="btn" title="Descubre más"> Descubre más </a>
+                <a href="#intro" class="btn" title="Descubre más" id="inicio"> Descubre más </a>
 
             </div>
                 
@@ -22,7 +22,7 @@
             
             <div class="content">
 
-                <div class="ico-down"> <a href="#"> <img src="<? echo $appFrontUrl ?>/assets/img/flecha_main_image.png" /> </a> </div>
+                <div class="ico-down"> <a href="#intro"> <img src="<? echo $appFrontUrl ?>/assets/img/flecha_main_image.png" /> </a> </div>
 
                 <div class="col_100">
                     
@@ -395,14 +395,107 @@
 
                     <div class="lightbox-servicios" id="lightbox2">
                         
-                        <div class="ico-close"> <a onclick="close_lightbox_servicios()"><img src="<? echo $appFrontUrl ?>/assets/img/close_icon.png" /></a> </div>
+                        <div class="ico-close"> <a><img src="<? echo $appFrontUrl ?>/assets/img/close_icon.png" /></a> </div>
 
-                        <div class="tit"> Gym </div>
+                        <div class="servicio-info" id="servicio_info_1">
+                            <div class="tit"> Gym </div>
 
-                        <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                        <div class="des"> Lugar donde cultivar el cuerpo sin necesidad de desplazamientos.</div>
+                            <div class="des"> Lugar donde cultivar el cuerpo sin necesidad de desplazamientos.</div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_2">
+                            <div class="tit"> Restaurante , Cocina Office </div>
 
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/restaurante_image.jpg" /> </div>
+
+                            <div class="des"> El edificio estará dotado de un restaurante en la planta baja, que ofrecerá oferta gastronómica, tanto a los usuarios de las oficinas como al público en general. Además, existirá una cocina y un office en la zona de amenities, de uso exclusivo de los usuarios, dónde podrán prepararse sus propios platos, así como una zona habilitada para vending saludable. </div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_3">
+                            <div class="tit"> Librería </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/libreria_image.jpg" /> </div>
+
+                            <div class="des"> Espacio dónde poder ocupar relajadamente, aquellos momentos de necesario asueto.</div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_4">
+                            <div class="tit"> Duchas , Vestuarios  </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/duchas_image.jpg" /> </div>
+
+                            <div class="des"> Nos desplazamos en bicicleta, hace calor, tenemos una dura jornada laboral, una cita después del trabajo; ¡nada mejor que una reponedora ducha y un cambio de camisa!.</div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_5">
+                            <div class="tit"> Terrazas </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/terraza_image.jpg" /> </div>
+
+                            <div class="des"> El inmueble dispone de unas amplias terrazas con esplendidas vistas panorámicas de uso común, dónde poder trabajar al aire libre o dónde relajarse u organizar algún aperitivo y otras privativas de uso individual en algunas oficinas.</div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_6">
+                            <div class="tit"> Auditorio </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/auditorio_image.jpg" /> </div>
+
+                            <div class="des"> Espacio polivalente de uso compartido, dónde poder celebrar una conferencia, un evento, una formación, etc., sin tener que salir del edificio y así rentabilizar el tiempo.</div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_7">
+                            <div class="tit"> Sala  de Juegos  </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/juegos_image.jpg" /> </div>
+
+                            <div class="des"> Espacio donde poder descargar adrenalina y divertirse cuando más se necesite, así como interactuar y generar sinergias entre los usuarios.</div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_8">
+                            <div class="tit"> Espacios  anti-estrés  & descanso  </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/stress_image.jpg" /> </div>
+
+                            <div class="des"> Zona enfocada a la obtención de la máxima relajación en aquellos momentos de máximo estrés.</div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_9">
+                            <div class="tit"> Salas de  Reuniones  </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/reuniones_image.jpg" /> </div>
+
+                            <div class="des"> Espacios de uso común, dónde poder ampliar su oficina por necesidades puntuales o que se necesite trabajar fuera del formato convencional habitual.</div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_10">
+                            <div class="tit"> Sala de  Lactancia  </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/lactancia_image.jpg" /> </div>
+
+                            <div class="des"> Lugar cómodamente habilitado, donde poder alimentar a los bebés de los usuarios y generar los mayores vínculos familiares y de conciliación.</div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_11">
+                            <div class="tit"> Seguridad </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/seguridad_image.jpg" /> </div>
+
+                            <div class="des"> Tienes un problema? Nuestro equipo estará atento las 24 h del día, durante 7 días a la semana velando por la Seguridad de los usuarios y del inmueble, intentando evitar intrusos, sustracciones, incivismo y velando por la salud de todos, dando aviso a los bomberos o a la ambulancia.</div>
+                        </div>
+                    
+                        <div class="servicio-info" id="servicio_info_12">
+                            <div class="tit"> Armarios  Inteligentes  </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/armarios_image.jpg" /> </div>
+
+                            <div class="des"> A través de los armarios inteligentes, los e-commerce y tiendas online pueden dejar los pedidos, ya sean de supermercados, tintorería, lavandería, platos preparados, paquetería general, etc.</div>
+                        </div>
+
+                        
+                        
+                        
                     </div>
                     
                     
@@ -417,7 +510,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Gym </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="1"></a>
                         </div>
 
                         <!-- item
@@ -429,7 +522,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Restaurante<br/>Cocina Office </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="2"></a>
                         </div>
 
                         <!-- item
@@ -441,7 +534,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Librería </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="3"></a>
                         </div>
 
                         <!-- item
@@ -453,7 +546,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Duchas<br/>Vestuarios </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="4"></a>
                         </div>
 
                         <!-- item
@@ -465,7 +558,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Terrazas </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="5"></a>
                         </div>
 
                         <!-- item
@@ -477,7 +570,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Auditorio </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="6"></a>
                         </div>
 
                         <!-- item
@@ -489,7 +582,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Sala<br/>de Juegos </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="7"></a>
                         </div>
 
                         <!-- item
@@ -501,7 +594,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Espacios<br/>anti-estres<br/>& descanso </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="8"></a>
                         </div>
 
                         <!-- item
@@ -513,7 +606,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Salas de<br/>Reuniones </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="9"></a>
                         </div>
 
                         <!-- item
@@ -525,7 +618,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Sala de<br/>Lactancia </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="10"></a>
                         </div>
 
                         <!-- item
@@ -537,7 +630,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Seguridad </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="11"></a>
                         </div>
 
                         <!-- item
@@ -549,7 +642,7 @@
                                 </div>
                             </div>
                             <div class="tit text-white"> Armarios<br/>Inteligentes </div>
-                            <a class="boton" onclick="open_lightbox_servicios()"></a>
+                            <a class="boton btn_servicio" data-item="12"></a>
                         </div>
 
                     </div>
@@ -905,19 +998,19 @@
 
                         <div class="botones">
                         
-                            <a onclick="show_planta('12')" class="btn btn-small"> Planta 8 </a>
-                            <a onclick="show_planta('11')" class="btn btn-small"> Planta 7 </a>
-                            <a onclick="show_planta('10')" class="btn btn-small"> Planta 6 </a>
-                            <a onclick="show_planta('9')" class="btn btn-small"> Planta 5 </a>
-                            <a onclick="show_planta('8')" class="btn btn-small"> Planta 4 </a>
-                            <a onclick="show_planta('7')" class="btn btn-small"> Planta 3 </a>
-                            <a onclick="show_planta('6')" class="btn btn-small"> Planta 2 </a>
-                            <a onclick="show_planta('5')" class="btn btn-small"> Planta 1 </a>
-                            <a onclick="show_planta('4')" class="btn btn-small"> Planta 0 </a>
-                            <a onclick="show_planta('3')" class="btn btn-small"> Sótano -1 </a>
-                            <a onclick="show_planta('2')" class="btn btn-small"> Sótano -2 </a>
-                            <a onclick="show_planta('1')" class="btn btn-small"> Sótano -3 </a>
-                            <a onclick="show_planta('0')" class="btn btn-small"> Sótano -4 </a>
+                            <a data-item="8" class="btn btn-small btn_planta"> Planta 8 </a>
+                            <a data-item="7" class="btn btn-small btn_planta"> Planta 7 </a>
+                            <a data-item="6" class="btn btn-small btn_planta"> Planta 6 </a>
+                            <a data-item="5" class="btn btn-small btn_planta"> Planta 5 </a>
+                            <a data-item="4" class="btn btn-small btn_planta"> Planta 4 </a>
+                            <a data-item="3" class="btn btn-small btn_planta"> Planta 3 </a>
+                            <a data-item="2" class="btn btn-small btn_planta"> Planta 2 </a>
+                            <a data-item="1" class="btn btn-small btn_planta"> Planta 1 </a>
+                            <a data-item="0" class="btn btn-small btn_planta"> Planta 0 </a>
+                            <a data-item="sot1" class="btn btn-small btn_planta"> Sótano -1 </a>
+                            <a data-item="sot2" class="btn btn-small btn_planta"> Sótano -2 </a>
+                            <a data-item="sot3" class="btn btn-small btn_planta"> Sótano -3 </a>
+                            <a data-item="sot4" class="btn btn-small btn_planta"> Sótano -4 </a>
                             <br/>
                         <div class="linea"></div>
                         <br/>
@@ -930,74 +1023,78 @@
                 </div>
 
                 <div class="imagenes">
+                    
 
                     <!-- item plano -->
-
-                    <div id="planta12">
+                    
+                    <div id="planta8" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 8 </div>
-                            <div class="metros"> 1.999,99 m<sup>2</sup> </div>
+                            
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_8.jpg" />
     
                         </div>
     
                     </div>
-                    
+
+
                     <!-- item plano -->
                     
-                    <div id="planta11" style="display: none;">
+                    <div id="planta7" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 7 </div>
-                            <div class="metros"> 1.888,88 m<sup>2</sup> </div>
+                            <div class="metros"> 2.334,07 m<sup>2</sup> </div>
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_7.jpg" />
     
                         </div>
     
                     </div>
 
+
                     <!-- item plano -->
                     
-                    <div id="planta10" style="display: none;">
+                    <div id="planta6" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 6 </div>
-                            <div class="metros"> 1.777,77 m<sup>2</sup> </div>
+                            <div class="metros"> 2.334,07 m<sup>2</sup> </div>
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_6.jpg" />
     
                         </div>
     
                     </div>
 
+
                     <!-- item plano -->
                     
-                    <div id="planta9" style="display: none;">
+                    <div id="planta5" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 5 </div>
-                            <div class="metros"> 1.666,66 m<sup>2</sup> </div>
+                            <div class="metros"> 2.442,74 m<sup>2</sup> </div>
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_5.jpg" />
     
                         </div>
     
@@ -1006,17 +1103,17 @@
 
                     <!-- item plano -->
                     
-                    <div id="planta8" style="display: none;">
+                    <div id="planta4" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 4 </div>
-                            <div class="metros"> 1.666,66 m<sup>2</sup> </div>
+                            <div class="metros"> 4.367,52 m<sup>2</sup> </div>
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_4.jpg" />
     
                         </div>
     
@@ -1025,12 +1122,12 @@
 
                     <!-- item plano -->
                     
-                    <div id="planta7" style="display: none;">
+                    <div id="planta3" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 3 </div>
-                            <div class="metros"> 1.666,66 m<sup>2</sup> </div>
+                            <div class="metros"> 4.411,72 m<sup>2</sup> </div>
                         </div>
     
                         <div class="fotos">
@@ -1044,17 +1141,17 @@
 
                     <!-- item plano -->
                     
-                    <div id="planta6" style="display: none;">
+                    <div id="planta2" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 2 </div>
-                            <div class="metros"> 1.666,66 m<sup>2</sup> </div>
+                            <div class="metros"> 5.054,84 m<sup>2</sup> </div>
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_2.jpg" />
     
                         </div>
     
@@ -1063,17 +1160,17 @@
 
                     <!-- item plano -->
                     
-                    <div id="planta5" style="display: none;">
+                    <div id="planta1" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 1 </div>
-                            <div class="metros"> 1.666,66 m<sup>2</sup> </div>
+                            <div class="metros"> 4.403,32 m<sup>2</sup> </div>
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_1.jpg" />
     
                         </div>
     
@@ -1082,93 +1179,100 @@
 
                     <!-- item plano -->
                     
-                    <div id="planta4" style="display: none;">
+                    <div id="planta0" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 0 </div>
-                            <div class="metros"> 1.666,66 m<sup>2</sup> </div>
+                            
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_0.jpg" />
     
                         </div>
     
                     </div>
-
-
-                    <!-- item plano -->
                     
-                    <div id="planta3" style="display: none;">
+                    
+                    <div id="plantasot1" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Sótano -1 </div>
-                            <div class="metros"> 1.666,66 m<sup>2</sup> </div>
+                            
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_sotano1.jpg" />
     
                         </div>
     
                     </div>
-
-
-                    <!-- item plano -->
                     
-                    <div id="planta2" style="display: none;">
+                    
+                    <div id="plantasot2" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Sótano -2 </div>
-                            <div class="metros"> 1.666,66 m<sup>2</sup> </div>
+                            
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_sotano2.jpg" />
     
                         </div>
     
                     </div>
-
-
-                    <!-- item plano -->
                     
-                    <div id="planta1" style="display: none;">
+                    
+                    <div id="plantasot3" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Sótano -3 </div>
-                            <div class="metros"> 1.666,66 m<sup>2</sup> </div>
+                            
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_sotano3.jpg" />
     
                         </div>
     
                     </div>
-
-
-                    <!-- item plano -->
                     
-                    <div id="planta0" style="display: none;">
+                    
+                    <div id="plantasot4" class="div_planta" style="display: none;">
 
                         <div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Sótano -4 </div>
-                            <div class="metros"> 1.666,66 m<sup>2</sup> </div>
+                            
                         </div>
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_sotano4.jpg" />
+    
+                        </div>
+    
+                    </div>
+                    
+                    
+                    <div id="plantaseccion" class="div_planta">
+
+                        <div class="info">
+                            
+                        </div>
+    
+                        <div class="fotos">
+    
+                            <img src="<? echo $appFrontUrl ?>/assets/img/plantas_seccion.jpg" />
     
                         </div>
     
@@ -1334,7 +1438,7 @@
 
                     <div class="logo">
                         <div class="con">
-                            <img src="<? echo $appFrontUrl ?>/assets/img/actual_logo.png" style="width: 180px" />
+                            <a href="http://actualadv.com" target="_blank"><img src="<? echo $appFrontUrl ?>/assets/img/actual_logo.png" style="width: 180px" /></a>
                         </div>
                     </div>
                     <div class="datos w2"> 
@@ -1353,136 +1457,25 @@
 
         <script>          
 
-            function menu_responsive(){
-
-                $("#menu-responsive").slideToggle('fast');
-
-            }
-
-            function open_lightbox_servicios(){
-
-                $("#lightbox2").show();
-
-            }
-
-            function close_lightbox_servicios(){
-                
-                $("#lightbox2").hide();
-
-            }
-
-            function open_lightbox_empresa(){
-
-                $("#lightbox_well").show();
-
-            }
-
-            function close_lightbox_empresa(){
-
-                $("#lightbox_well").hide();
-
-            }            
-
-            function close_lightbox_mapa(){
-                
-                $("#lightbox1").hide();
-
-            }
-
-            function open_lightbox_mapa(){
-
-                $("#lightbox1").show();
-
-            }
-
-
-            function show_planta(s){
-
-                var splanta = s;
-
-                for (p=0; p<13; p++){
-
-                    $("#planta"+p).hide();    
-                }
-                
-                $("#planta"+splanta).show();    
-
-            }
-
-            function show_mapa(i){
-
-                var imapa = i;
-
-                for (n=0; n<8; n++){
-
-                    $("#localizacion"+n).hide();    
-                    
-                    $("#tit-localizacion"+n).css({
-                        'color': 'var(--color-white)',
-                        'border-bottom': '2px solid var(--color-secundary)'
-                    });
-
-                }
-
-                $("#localizacion"+imapa).show();    
-
-                $("#tit-localizacion"+imapa).css({
-                    'color': 'var(--color-primary)',
-                    'border-bottom': '2px solid var(--color-primary)'
-                });
-
-            }
             
-            function lightbox_mapa_position()
-            {
-                
-                var window_w = parseInt($(window).width());
-                var lightbox_w = parseInt($('.lightbox-mapa').width());
-                
-                var left = (window_w / 2) - (lightbox_w / 2);
-                
-                var window_h = parseInt($(window).height());
-                var lightbox_h = parseInt($('.lightbox-mapa').height());
-                
-                var top = ((window_h / 2) - (lightbox_h / 2));
-                
-                
-                $('.lightbox-mapa').css('left',left + 'px');
-                $('.lightbox-mapa').css('top',top + 'px');
-            }
-
-
-            function lightbox_servicios_position()
-            {
-                
-                var window_w = parseInt($(window).width());
-                var lightbox_w = parseInt($('.lightbox-servicios').width());
-                
-                var left = (window_w / 2) - (lightbox_w / 2);
-                
-                left = left - (left * 20 / 100);
-                
-                $('.lightbox-servicios').css('left',left + 'px');                
-            }
-            
-            function lightbox_empresa_position()
-            {
-                
-                var window_w = parseInt($(window).width());
-                var lightbox_w = parseInt($('.lightbox-empresa').width());
-                
-                var left = (window_w / 2) - (lightbox_w / 2);
-                
-                
-                $('.lightbox-empresa').css('left',left + 'px');                
-            }
-
-
             $(document).ready(function() {
                 
                 $('#slider .gallery').flickity({
                     //fade: true,
                     autoPlay: 3000
+                });
+                
+                $('#header #menu-desktop li a').click(function() {
+
+                    $('#header #menu-desktop li a').removeClass('active');
+                    $(this).addClass('active');
+
+                });
+                
+                $('#donde').mouseout(function() {
+
+                    show_mapa(0);
+
                 });
 
                 var scroll = $(window).scrollTop();
@@ -1534,35 +1527,5 @@
         </script>
 
 
-        <script type="text/javascript">
-            
-            $(function(){
-
-                $('a[href*=\\#]').click(function() {
-
-                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-                    && location.hostname == this.hostname) {
-
-                        var $target = $(this.hash);
-
-                        $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-
-                        if ($target.length) {
-
-                            var targetOffset = $target.offset().top-90;
-
-                            $('html,body').animate({scrollTop: targetOffset}, 1000);
-
-                            return false;
-
-                        }
-
-                    }
-
-                });
-
-            });
-
-        </script>
         
 
