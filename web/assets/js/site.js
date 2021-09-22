@@ -150,6 +150,8 @@ $(document).ready(function(){
 
             function show_mapa(i){
 
+                lightbox_mapa_position();
+                
                 var imapa = i;
 
                 for (n=0; n<8; n++){
@@ -180,7 +182,7 @@ $(document).ready(function(){
                 
                 var left = (window_w / 2) - (lightbox_w / 2);
                 
-                var window_h = parseInt($('#fotos').height());
+                var window_h = parseInt($('#fotos').height()); 
                 var lightbox_h = parseInt($('.lightbox-mapa').height());
                 
                 var top = ((window_h / 2) - (lightbox_h / 2));
