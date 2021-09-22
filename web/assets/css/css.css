@@ -895,7 +895,7 @@ body {
 		/*text-align: justify;*/
 		hyphens: auto;
 		color: var(--color-white);
-                text-align: left;
+                text-align: center;
 	}
 
 
@@ -1516,7 +1516,7 @@ body {
 		font-size: 14px;
 	}
 	#footer img{
-		max-width: 135px;
+		max-width: 100px;
 		width: 80%;
 	}
 	#footer .copy{
