@@ -15,7 +15,7 @@
                     </div>
                     
                     <div class="legal">
-                        <a href="#" class="link" title="Aviso legal">Aviso legal</a> · <a href="#" class="link" title="Política de privacidad">Política de privacidad</a> · <a href="#" class="link" title="Política de cookies">Cookies</a>
+                        <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>" class="link" title="Aviso legal">Aviso legal</a>
                     </div>
                                     
                 </div>

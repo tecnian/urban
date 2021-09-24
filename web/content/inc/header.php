@@ -12,7 +12,7 @@
                                         
 
                     <ul id="menu-desktop">
-                        <li> <a href="#inicio" title="Inicio"> Inicio </a> </li>
+                        <li> <a href="#inicio" title="Inicio"> Descripción </a> </li>
                         <li> <a href="#localizacion" title="Localización"> Localización </a> </li>
                         <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>
                         <li> <a href="#tecnologia" title="Tecnología"> Tecnología </a> </li>
@@ -36,7 +36,7 @@
             <div class="col_100" id="menu-responsive">
 
                 <ul>
-                    <li> <a href="#inicio" title="Inicio"> Inicio </a> </li>
+                    <li> <a href="#inicio" title="Inicio"> Descripción </a> </li>
                     <li> <a href="#localizacion" title="Localización"> Localización </a> </li>
                     <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>
                     <li> <a href="#tecnologia" title="Tecnología"> Tecnología </a> </li>
@@ -60,13 +60,13 @@
 
                     <? if (!isset($_SESSION['INFO_COOKIES'])) { ?>
                         
-                        <!--<div id="container_cookies">
+                        <div id="container_cookies">
                             <div class="mensaje">
                                 
-                                <div class="txt">Esta web utiliza cookies propias y de terceros con la finalidad de analizar los hábitos de navegación de los usuarios y así poder proporcionar un mejor servicio en la web, de la forma descrita en la nuestra Política de Cookies. Si continua navegando, consideramos que acepta su uso. Para más información o cambiar la configuración, consulte nuestra <a href="#">Política de Cookies</a>.</div>     
+                                <div class="txt">Esta web utiliza cookies propias y de terceros con la finalidad de analizar los hábitos de navegación de los usuarios y así poder proporcionar un mejor servicio en la web, de la forma descrita en la nuestra Política de Cookies. Si continua navegando, consideramos que acepta su uso. Para más información o cambiar la configuración, consulte nuestra <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>">Política de Cookies</a>.</div>     
                                 <div class="acepto">Acepto</div>
                                                                 
                             </div>
-                        </div>  -->      
+                        </div>     
                         
                     <? } ?>

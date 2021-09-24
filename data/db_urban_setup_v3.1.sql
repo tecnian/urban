@@ -492,8 +492,10 @@ INSERT INTO `idioma` (`id`, `codigo`, `nombre`, `activo`, `defecto`, `activo_adm
 
 INSERT INTO `pagina` (`id`, `id_parent`, `nombre`, `orden`, `activo`, `php_file`, `mostrar_menu`, `referencia`) VALUES 
 (1, 0, 'Home', 1, 1, 'home.php',1,'home'),
-(2, 0, 'Error404', 1, 1, 'error404.php',0,'error404');
+(2, 0, 'Error404', 1, 1, 'error404.php',0,'error404'),
+(3, 0, 'Aviso Legal', 1, 1, 'legal.php',0,'aviso-legal');
 
 INSERT INTO `pagina_idioma` (`id_pagina`, `id_idioma`, `titulo`, `abstract`, `friendly_url`, `seo_title`, `seo_description`, `seo_keywords`, `php_file`) VALUES
 (1, 1, 'Home', '', '', '', '', '', ''),
-(2, 1, 'Error404', '', '', '', '', '', '');
+(2, 1, 'Error404', '', 'error404', '', '', '', ''),
+(3, 1, 'Aviso Legal', '', 'aviso-legal', '', '', '', '');

@@ -242,8 +242,13 @@ body {
 		-webkit-transition: all 0.3s ease;
 		-moz-transition: all 0.3s ease;		
 		z-index: 99999999999999999;
-
 	}
+        #header .col_15 {
+                width: 10%;
+        }
+        #header .col_85 {
+                width: 90%;
+        }
 	#header #logo{
 		display: inline-block;
 	}
@@ -1261,6 +1266,23 @@ body {
 	#video .btn-play .ico-play:hover span{
 		color: var(--color-primary);
 	}
+        #video .video_iframe {
+                display: none;
+        }
+        #video .embed-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+        }
+        #video .embed-container iframe, #video .embed-container object, #video .embed-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+        }
 
 
 	/* catalogo
@@ -1542,8 +1564,74 @@ body {
 
 
 
+        /* Cookies
+	------------------------------------------------------------------------------------------------------  */
 
+        #container_cookies {
+            width: 100%;
+            background-color: rgba(0,0,0,0.7);
+            text-align: center;
+            position: fixed;
+            bottom: 0px;
+            border-top: 1px solid #eee;
+            z-index: 99999;
+        }
+        #container_cookies .mensaje {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 975px;
+            text-align: left;
+            font-size: 13px;
+            color: #fff;
+            padding: 25px 50px 25px 50px;            
+        }
+        #container_cookies .mensaje .txt {
+            padding-right: 225px;
+            line-height: 18px;    
+            float: left;
+            padding-bottom: 25px;
+        }
+        #container_cookies .mensaje a {
+            color: #e8a883;
+            text-decoration: none;            
+        }
+        #container_cookies .mensaje a:hover {
+            text-decoration: underline;
+        }
+        #container_cookies .acepto {
+            float: right;            
+            padding: 8px 25px;
+            background-color: #eee;
+            cursor: pointer;                        
+            color: #000;   
+            font-size: 14px;     
+            margin-top: -80px;
+        }
+        #container_cookies .acepto:hover {
+            background-color: #bbb;
+        }
+        
 
+        
+        /* Legal
+	------------------------------------------------------------------------------------------------------  */
+
+        #legal {
+            margin-bottom: 150px;
+        }
+        #legal h2 {
+            text-align: center;
+        }
+        #legal h4 {
+            font-family: var(--font-avenir-demibold);
+        }
+        #legal .col_100 {
+            text-align: center;
+        }
+        #legal img {
+            max-width: 140px;
+            margin-bottom: 50px;
+        }
 
 
 	/* responsive

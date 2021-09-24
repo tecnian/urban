@@ -44,18 +44,11 @@
         <div class="row" id="slider">
             
             <div class="gallery">
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider3.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider4.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider5.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider6.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider7.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider8.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider9.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider10.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider11.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider12.jpg')"></div>
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_1.jpg')"></div>
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_2.jpg')"></div>
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_3.jpg')"></div>
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_4.jpg')"></div>
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_5.jpg')"></div>                
             </div>    
             
         </div>
@@ -115,31 +108,122 @@
 
                     <div class="lightbox-mapa" id="lightbox1">
                         
-                        <div class="ico-close"> <a onclick="close_lightbox_mapa()"><img src="<? echo $appFrontUrl ?>/assets/img/close_icon.png" /></a> </div>
+                        <div class="ico-close"> <a><img src="<? echo $appFrontUrl ?>/assets/img/close_icon.png" /></a> </div>
 
-                        <div class="izq">
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/glories_icon.png" /> </div>
-                        </div>
+                        <div class="mapa-info" id="mapa_info_1">
+                            <div class="izq">
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_glories.png" /> </div>
+                            </div>
 
-                        <div class="der">
-                            <div class="con-der">
-                                <div class="textos">
-                                    Glòries es más que un parque, es un motor para la transformación de la ciudad, es un ecosistema urbano, autosuficiencia energética, gestión económica de los recursos, entorno digital y eficiencia en los desplazamientos, son algunos de los factores destinados a desarrollarse más ampliamente en la ciudad. Glòries es la piedra angular de un nuevo dinamismo y del desarrollo de una estrategia ecológica a escala de la metrópolis catalana, una naturaleza confortable al servicio de los ciudadanos.
+                            <div class="der">
+                                <div class="con-der">
+                                    <div class="textos">
+                                        Glòries es más que un parque, es un motor para la transformación de la ciudad, es un ecosistema urbano, autosuficiencia energética, gestión económica de los recursos, entorno digital y eficiencia en los desplazamientos, son algunos de los factores destinados a desarrollarse más ampliamente en la ciudad. Glòries es la piedra angular de un nuevo dinamismo y del desarrollo de una estrategia ecológica a escala de la metrópolis catalana, una naturaleza confortable al servicio de los ciudadanos.                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="mapa-info" id="mapa_info_2">
+                            <div class="izq">
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_can_ricart.png" /> </div>
+                            </div>
+
+                            <div class="der">
+                                <div class="con-der">
+                                    <div class="textos">
+                                        Can Ricart, una de las primeras fábricas de estampación mecánica de tejidos de algodón en Cataluña, y referente histórico de la industrialización de la Ciudad Condal, será finalmente un espacio de ampliación de estudios de la Universidad de Barcelona. En un futuro cercano, será uno de los principales centros de formación universitaria del sector 22@ del Poble Nou.                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mapa-info" id="mapa_info_3">
+                            <div class="izq">
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_diagonal_mar.png" /> </div>
+                            </div>
+
+                            <div class="der">
+                                <div class="con-der">
+                                    <div class="textos">
+                                        Diagonal Mar es una zona cosmopolita, moderna y multicultural, muy valorada por los clientes internacionales por ofrecer apartamentos lujosos y confortables. Propiedades como Diagonal Mar ofrecen fantásticas vistas y todas las comodidades necesarias para garantizar una excelente calidad de vida a sus residentes.
+                                        La mayoría de estos proyectos han sido gestionados por el equipo de ACTUAL BCN.                             
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mapa-info" id="mapa_info_4">
+                            <div class="izq">
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ocio_mar.png" /> </div>
+                            </div>
+
+                            <div class="der">
+                                <div class="con-der">
+                                    <div class="textos">
+                                        La zona del 22@ (Poblenou), está perfectamente equipada con parques, zonas verdes, instalaciones deportivas y zonas de ocio como el Parc del Centre, situado junto a "URBAN BCN 22@", el Parc Diagonal Mar, la Rambla del Poble Nou (centro neurálgico del distrito, repleto de tiendas, bares y restaurantes), la Avenida Diagonal, el Teatro Nacional de Catalunya (TNC) o el Museo del Diseño, entre otros.
+                                        <br/>
+                                        Las mejores playas de Barcelona se encuentran cerca del URBAN BCN 22@, al igual que los puertos deportivos Port Fórum y Port Olímpic.                     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mapa-info" id="mapa_info_5">
+                            <div class="izq">
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_hoteles.png" /> </div>
+                            </div>
+
+                            <div class="der">
+                                <div class="con-der">
+                                    <div class="textos">
+                                        En el Distrito 22@, y cerca de URBAN BCN 22@, podemos encontrar algunos de los mejores hoteles de Barcelona, como Meliá Barcelona, Hilton, AC, Princess, Silken Diagonal o Four Points by Sheraton, entre otros.                  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mapa-info" id="mapa_info_6">
+                            <div class="izq">
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ejes_comerciales.png" /> </div>
+                            </div>
+
+                            <div class="der">
+                                <div class="con-der">
+                                    <div class="textos">
+                                        Alrededor de URBAN BCN 22@ podemos encontrar grandes centros comerciales, Glòries y Diagonal Mar, así como multitud de tiendas, una amplia oferta gastronómica y multicines, entre otros. Asimismo, el conocido mercado de Nous Encants, establecido hace 7 siglos, donde se comercializan artículos de segunda mano y vintage, crea un ambiente de especial singularidad para el entorno.          
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mapa-info" id="mapa_info_7">
+                            <div class="izq">
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ejes_empresariales.png" /> </div>
+                            </div>
+
+                            <div class="der">
+                                <div class="con-der">
+                                    <div class="textos">
+                                        El distrito 22@, donde se ubica Urban BCN 22@, se ha transformado en una zona de negocios, donde más de 8.800 empresas han optado por establecer sus sedes, el 30% de las cuales trabajan en tecnología o educación.
+                                        Una parte del área está formada por empresas de telecomunicaciones y nuevas tecnologías, así como universidades, centros de formación continua y centros de investigación y tecnología, como la sede de la Comisión del Mercado de las Telecomunicaciones y las oficinas de la Torre Glòries, entre otros.      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
 
                     </div>
 
 
                     <img src="<? echo $appFrontUrl ?>/assets/img/mapa_localiza.jpg" class="foto-localizacion" id="localizacion0" style="display: block;" />
-                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_glories.jpg" class="foto-localizacion" id="localizacion1" style="display: none;" />
-                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_glories2.jpg" class="foto-localizacion" id="localizacion2" style="display: none;" />
-                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_glories3.jpg" class="foto-localizacion" id="localizacion3" style="display: none;" />
-                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_glories4.jpg" class="foto-localizacion" id="localizacion4" style="display: none;" />
-                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_glories5.jpg" class="foto-localizacion" id="localizacion5" style="display: none;" />
-                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_glories6.jpg" class="foto-localizacion" id="localizacion6" style="display: none;" />
-                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_glories7.jpg" class="foto-localizacion" id="localizacion7" style="display: none;" />
+                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_localiza_glories.jpg" class="foto-localizacion" id="localizacion1" style="display: none;" />
+                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_localiza_canricart.jpg" class="foto-localizacion" id="localizacion2" style="display: none;" />
+                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_localiza_diagonalmar.jpg" class="foto-localizacion" id="localizacion3" style="display: none;" />
+                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_localiza_ocio.jpg" class="foto-localizacion" id="localizacion4" style="display: none;" />
+                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_localiza_hoteles.jpg" class="foto-localizacion" id="localizacion5" style="display: none;" />
+                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_localiza_comercio.jpg" class="foto-localizacion" id="localizacion6" style="display: none;" />
+                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_localiza_ejes.jpg" class="foto-localizacion" id="localizacion7" style="display: none;" />
                 
                 </div>
 
@@ -163,13 +247,13 @@
 
                 <div id="donde">
                         
-                    <a id="tit-localizacion1" onmouseover="show_mapa(1)" onclick="open_lightbox_mapa()" > Plaça Les Glòries </a>
-                    <a id="tit-localizacion2" onmouseover="show_mapa(2)" onclick="open_lightbox_mapa()" > Can Ricart </a>
-                    <a id="tit-localizacion3" onmouseover="show_mapa(3)" onclick="open_lightbox_mapa()" > Diagonal Mar </a>
-                    <a id="tit-localizacion4" onmouseover="show_mapa(4)" onclick="open_lightbox_mapa()" > Ocio & Mar </a>
-                    <a id="tit-localizacion5" onmouseover="show_mapa(5)" onclick="open_lightbox_mapa()" > Hoteles Área 22@ </a>
-                    <a id="tit-localizacion6" onmouseover="show_mapa(6)" onclick="open_lightbox_mapa()" > Ejes Comerciales Área 22@ </a>
-                    <a id="tit-localizacion7" onmouseover="show_mapa(7)" onclick="open_lightbox_mapa()" > Ejes Empresariales </a>
+                    <a id="tit-localizacion1" class="btn_localizacion" data-item="1"> Plaça Les Glòries </a>
+                    <a id="tit-localizacion2" class="btn_localizacion" data-item="2"> Can Ricart </a>
+                    <a id="tit-localizacion3" class="btn_localizacion" data-item="3"> Diagonal Mar </a>
+                    <a id="tit-localizacion4" class="btn_localizacion" data-item="4"> Ocio & Mar </a>
+                    <a id="tit-localizacion5" class="btn_localizacion" data-item="5"> Hoteles Área 22@ </a>
+                    <a id="tit-localizacion6" class="btn_localizacion" data-item="6"> Ejes Comerciales Área 22@ </a>
+                    <a id="tit-localizacion7" class="btn_localizacion" data-item="7"> Ejes Empresariales </a>
                 
                 </div>
 
@@ -898,18 +982,38 @@
 
             <div class="lightbox-empresa" id="lightbox_well">
                 
-                <div class="ico-close"> <a onclick="close_lightbox_empresa()"><img src="<? echo $appFrontUrl ?>/assets/img/close_icon.png" /></a> </div>
+                <div class="ico-close"> <a><img src="<? echo $appFrontUrl ?>/assets/img/close_icon.png" /></a> </div>
+                
+                <div class="certif-info" id="certif_info_1">
+                    <div class="izq">
+                        <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/leed_logo.png" /> </div>
+                        <div class="texto1"> USGBC </div>
+                        <div class="texto2"> Leed Platinum </div>                    
+                    </div>
 
-                <div class="izq">
-                    <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/well_logo.png" /> </div>
-                    <div class="texto1"> INTERNATIONAL </div>
-                    <div class="texto2"> Well Platinum </div>                    
+                    <div class="der">
+                        <div class="con-der">
+                            <div class="textos">
+                                La construcción certificada LEED reduce los efectos negativos de la construcción en el medio ambiente, reduciendo las emisiones de gases de efecto invernadero, previniendo daños adicionales en la capa de ozono, reduciendo la cantidad de residuos enviados a los vertederos, preservando así los entornos rurales y protegiendo los ecosistemas y la biodiversidad. USGBC, en los Estados Unidos, es el único organismo autorizado para otorgar la certificación LEED. 
+                                Un edificio con certificación LEED aumenta la productividad de los ocupantes ya que ha sido diseñado teniendo en cuenta la calidad de las zonas de estar, el nivel de iluminación natural, los niveles acústicos adecuados, el control de calor, la ventilación suficiente, etc. Todos estos aspectos son fundamentales para mejorar la calidad de vida y la salud de los ocupantes.
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="der">
-                    <div class="con-der">
-                        <div class="textos">
-                            LEED certified building reduces the negative effects of exist. These are LEED PLATINUM and WELL PLATINUM. construction on the environment, reducing the greenhouse gas emissions, preventing further damage on the Ozone layer, reduces amount of waste sent to waste disposal sites thus preserving rural environments, protecting ecosystems and biodiversity. USGBC, in the United States, is the only authorized body that is empowered to grant LEED certification. A certified LEED building increases occupiers productivity since it has been designed taking into account the quality of the living areas, natural lighting level, proper acoustic levels, heat control, sufficient ventilation, etc. All these aspects are fundamental to improve the quality of life and health of the occupiers.
+                <div class="certif-info" id="certif_info_2">
+                    <div class="izq">
+                        <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/well_logo.png" /> </div>
+                        <div class="texto1"> INTERNATIONAL </div>
+                        <div class="texto2"> Well Platinum </div>                    
+                    </div>
+
+                    <div class="der">
+                        <div class="con-der">
+                            <div class="textos">
+                                La certificación WELL ofrece las mejores técnicas de construcción y diseño, teniendo en cuenta la salud y el bienestar del usuario del edificio. 
+                                Las áreas certificadas por WELL™, Proyectos en conformidad con WELL Core y Shell requieren analizar los proyectos desde el punto de vista del usuario para promover un entorno que permita mejorar la productividad en el trabajo y reducir el ausentismo a través de la nutrición, la aptitud física, el estado de ánimo, los patrones de sueño y el rendimiento del usuario.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -923,7 +1027,7 @@
 
                     <div class="texto">
 
-                        It is expected that the URBAN BCN 22@ OFFICES buildings obtain the highest energy, environmental, Health and comfort efficient certificates that currently exist. These are LEED PLATINUM and WELL PLATINUM.
+                        Se espera que los edificios URBAN BCN 22@ OFFICES obtengan los más altos certificados de eficiencia energética, medioambiental, de salud y de confort que existen actualmente. Estos son LEED PLATINUM, WELL PLATINUM and BREEAM EXCELENCE.
                     
                     </div>
 
@@ -937,14 +1041,14 @@
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/leed_logo.png" />  </div>
                             <div class="tip"> USGBC </div>
                             <div class="nom"> Leed Platinum </div>
-                            <div class="boton" onclick="open_lightbox_empresa()"></div>
+                            <div class="boton btn_certif" data-item="1"></div>
                         </div>
 
                         <div class="cert">
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/well_logo.png" />  </div>
                             <div class="tip"> INTERNATIONAL </div>
                             <div class="nom"> Well Platinum </div>
-                            <div class="boton" onclick="open_lightbox_empresa()"></div>
+                            <div class="boton btn_certif" data-item="2"></div>
                         </div>
 
                     </div>
@@ -1301,8 +1405,16 @@
                 </div>
             </div>
             
+            <div class="embed-container video_iframe">
+                <iframe id="yt_video" width="560" height="315" src="https://www.youtube.com/embed/3KSvRAl7emA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             
         </div>      
+        
+        
+
+
+
 
 
         <!-- catalogo

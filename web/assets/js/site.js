@@ -65,6 +65,55 @@ $(document).ready(function(){
 
         });
         
+        $('.btn_localizacion').mouseover(function() {
+            
+            var item = $(this).attr('data-item');
+            
+            show_mapa(item);
+
+        });
+        
+        $('.btn_localizacion').click(function() {
+            
+            var item = $(this).attr('data-item');
+            
+            open_lightbox_mapa(item);
+
+        });
+        
+        $('.lightbox-mapa .ico-close a').click(function() {
+            
+            close_lightbox_mapa();
+
+        });
+        
+        $('.btn_certif').click(function() {
+            
+            var item = $(this).attr('data-item');
+            
+            open_lightbox_empresa(item);
+
+        });
+        
+        $('.lightbox-empresa .ico-close a').click(function() {
+            
+            close_lightbox_empresa();
+
+        });
+        
+        $('.btn-play').click(function(ev) {
+            
+            $('.btn-play').css('display','none');
+            $('.video_iframe').css('display','block');
+            
+            $("#video").css('background','none');
+            $("#video").css('height','auto');
+            
+            $("#yt_video")[0].src += "?autoplay=1";
+            ev.preventDefault();            
+
+        });
+        
         
         
         $('a[href*=\\#]').click(function() {
@@ -115,9 +164,12 @@ $(document).ready(function(){
 
             }
 
-            function open_lightbox_empresa(){
+            function open_lightbox_empresa(item){
 
                 $("#lightbox_well").show();
+                
+                $(".certif-info").css('display','none');
+                $("#certif_info_" + item).css('display','block');
 
             }
 
@@ -133,9 +185,12 @@ $(document).ready(function(){
 
             }
 
-            function open_lightbox_mapa(){
+            function open_lightbox_mapa(item){
 
                 $("#lightbox1").show();
+                
+                $(".mapa-info").css('display','none');
+                $("#mapa_info_" + item).css('display','block');
 
             }
 
