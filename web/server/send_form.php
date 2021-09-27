@@ -14,9 +14,9 @@
     
    
     $nombre = get_param('nombre');
-    $telefono = get_param('telefono');
+    $empresa = get_param('empresa');
     $email = get_param('email');    
-    $comentarios = get_param('comentarios');
+    $comentarios = get_param('mensaje');
     
     $comentarios = str_replace('\n','<br/>',$comentarios);
     
@@ -24,7 +24,7 @@
     
     //guardamos datos en BD
     
-    $_contacto->record["t_fecha"] = date('Y-m-d H:i');
+    /*$_contacto->record["t_fecha"] = date('Y-m-d H:i');
     $_contacto->record["t_nombre"] = $nombre;
     $_contacto->record["t_email"] = $email;
     $_contacto->record["t_telefono"] = $telefono;
@@ -32,7 +32,7 @@
     $_contacto->record["t_comentarios"] = $comentarios;
     $_contacto->record["n_gestionado"] = 0;
     
-    $_contacto->insert_record();
+    $_contacto->insert_record();*/
         
 
     
@@ -49,9 +49,9 @@
     $content = "<div style='font-family:Arial'>
                     Mensaje recibido desde el formulario de contacto:<br/><br/>
                     Nombre: ".$nombre."<br/>
-                    Telefono: ".$telefono."<br/>                    
-                    Email: ".$email."<br/>                                    
-                    Comentarios:<br/>".$comentarios."<br/>
+                    Email: ".$email."<br/>     
+                    Empresa: ".$empresa."<br/>     
+                    Mensaje:<br/>".$comentarios."<br/>
                 </div>";
     
     $content = str_replace('[#content#]',$content,$html_mail);

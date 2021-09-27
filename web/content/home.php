@@ -280,14 +280,14 @@
 
                 <div class="col_100">
 
-                    <div class="box">
+                    <div class="box images-anim">
 
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/metro_icon.png" style="width: 145px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/metro_icon.png" style="width: 145px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Metro </div>
@@ -312,7 +312,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/bus_icon.png" style="width: 80px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/bus_icon.png" style="width: 80px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Bus </div>
@@ -345,7 +345,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/tram_icon.png" style="width: 80px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/tram_icon.png" style="width: 80px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Tram </div>
@@ -366,7 +366,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/bicing_icon.png" style="width: 123px" />
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/bicing_icon.png" style="width: 123px" />
                                 </div>
                             </div>
                             <div class="tit"> Bicing </div>
@@ -383,7 +383,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/pie_icon.png" style="width: 50px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/pie_icon.png" style="width: 50px" /> 
                                 </div>
                             </div>
                             <div class="tit"> A pié </div>
@@ -416,7 +416,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/tren_icon.png" style="width: 92px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/tren_icon.png" style="width: 92px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Tren </div>
@@ -433,7 +433,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/coche_icon.png" style="width: 114px" />
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/coche_icon.png" style="width: 114px" />
                                 </div>                        
                             </div>
                             <div class="tit"> Coche </div>
@@ -583,14 +583,14 @@
                     </div>
                     
                     
-                    <div class="box">
+                    <div class="box images-anim">
 
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/gym_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/gym_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Gym </div>
@@ -602,7 +602,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/resta_icon.png" style="width: 70px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/resta_icon.png" style="width: 70px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Restaurante<br/>Cocina Office </div>
@@ -614,7 +614,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/libreria_icon.png" style="width: 98px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/libreria_icon.png" style="width: 98px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Librería </div>
@@ -626,7 +626,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/ducha_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/ducha_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Duchas<br/>Vestuarios </div>
@@ -638,7 +638,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/terraza_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/terraza_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Terrazas </div>
@@ -650,7 +650,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/auditorio_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/auditorio_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Auditorio </div>
@@ -662,7 +662,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/juegos_icon.png" style="width: 98px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/juegos_icon.png" style="width: 98px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Sala<br/>de Juegos </div>
@@ -674,7 +674,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/descanso_icon.png" style="width: 83px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/descanso_icon.png" style="width: 83px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Espacios<br/>anti-estres<br/>& descanso </div>
@@ -686,7 +686,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/reuniones_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/reuniones_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Salas de<br/>Reuniones </div>
@@ -698,7 +698,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/lactancia_icon.png" style="width: 42px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/lactancia_icon.png" style="width: 42px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Sala de<br/>Lactancia </div>
@@ -710,7 +710,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/seguridad_icon.png" style="width: 70px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/seguridad_icon.png" style="width: 70px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Seguridad </div>
@@ -722,7 +722,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/armarios_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/armarios_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Armarios<br/>Inteligentes </div>
@@ -818,14 +818,14 @@
 
                 <div class="col_100">
 
-                    <div class="box">
+                    <div class="box images-anim">
 
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/aire_icon.png" style="width: 85px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/aire_icon.png" style="width: 85px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Aire </div>
@@ -842,7 +842,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/light_icon.png" style="width: 72px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/light_icon.png" style="width: 72px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Light </div>
@@ -859,7 +859,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/agua_icon.png" style="width: 70px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/agua_icon.png" style="width: 70px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Agua </div>
@@ -876,7 +876,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/confort_icon.png" style="width: 70px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/confort_icon.png" style="width: 70px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Comfort </div>
@@ -893,7 +893,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/value_icon.png" style="width: 74px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/value_icon.png" style="width: 74px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Value </div>
@@ -910,7 +910,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/performance_icon.png" style="width: 62px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/performance_icon.png" style="width: 62px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Performance Based </div>
@@ -927,7 +927,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/materials_icon.png" style="width: 42px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/materials_icon.png" style="width: 42px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Materials </div>
@@ -944,7 +944,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/movilidad_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/movilidad_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
                             <div class="tit text-white"> Movilidad </div>
@@ -1495,18 +1495,24 @@
 
                 <div class="col_100">
 
-                    <form id="formContacto">
+                    <form id="frmContacto" method="post">
 
-                        <input type="text" name="nombre" id="nombre" class="w33" placeholder="nombre *" />
-                        <input type="text" name="nombre" id="nombre" class="w33" placeholder="correo electrónico *" />
-                        <input type="text" name="nombre" id="nombre" class="w33" placeholder="empresa *" />
-                        <textarea name="mensaje" id="mensaje" class="w100" style="margin-top:50px" placeholder="mensaje"></textarea>
+                        <input type="text" name="nombre" id="nombre" class="w33 form-required" placeholder="nombre *" />
+                        <input type="text" name="email" id="email" class="w33 form-required form-email" placeholder="correo electrónico *" />
+                        <input type="text" name="empresa" id="empresa" class="w33 form-required" placeholder="empresa *" />
+                        <textarea name="mensaje" id="mensaje" class="w100 form-required" style="margin-top:50px" placeholder="mensaje *"></textarea>
                         
-                        <a class="btn"> Enviar </a>
+                        <div class="chk">
+                            <input type="checkbox" id="acepto" name="acepto" value="1">
+                            <label for="acepto">He leído y acepto la <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>">política de privacidad</a></label>
+                        </div>
+                        
+                        <a class="btn" id="btn_send_contact"> Enviar </a>
 
-                <!--        <span class="msgs_send" style="display: block;"> Mensaje enviado correctamente </span>    -->
-                <!--        <span class="msgs_form" style="display: block;"> Ups! No se ha podido enviar el mensaje </span>    -->
-
+                        <div class="msg-alerta" id="confirm_send"></div>
+                        
+                        <input type="hidden" id="email_check" name="email_check" value="1" />
+                
                     </form>
 
                 </div>

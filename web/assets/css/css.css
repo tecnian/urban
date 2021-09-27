@@ -147,7 +147,7 @@ body {
 	.content-catalogo{
 		margin: 0 auto;
 		width: 100%;
-	    max-width: 1440px;
+                /*max-width: 1440px;*/
 	}
 	.content-contacto{
 		margin: 0 auto;
@@ -210,6 +210,33 @@ body {
 		background-color: var(--color-primary);
 		border: 1px solid var(--color-primary);
 	}
+        .warning {
+            border-bottom: 1px solid #c00 !important;
+        }
+        .msg-alerta {
+            color: #c00;
+            display: none;
+            width: 100%;
+            float: left;
+            margin-top: 30px;
+        }
+        .icon-anim {
+                transform : scale(0.3);
+                -moz-transform : scale(0.3);      
+                -webkit-transform : scale(0.3);   
+                -o-transform : scale(0.3);
+                transition: transform 1s;
+                -moz-transition: -moz-transform 1s;
+                -webkit-transition: -webkit-transform 1s;
+                -o-transition: -o-transform 1s;
+        }
+        .zoom{
+		transform : scale(1);
+                -moz-transform : scale(1);      
+                -webkit-transform : scale(1);   
+                -o-transform : scale(1);
+	}
+        
 
 
 	/* pull
@@ -644,7 +671,7 @@ body {
 	#comunicaciones .box .item .icono .con-icono{
 		display: table-cell;
 		width: 100%;
-		vertical-align: bottom;
+		vertical-align: bottom;                
 	}
 	#comunicaciones .box .item .tit{	
 		display: inline-block;
@@ -1081,6 +1108,10 @@ body {
 		background: linear-gradient(90deg, rgba(31,31,31,1) 51%, rgba(255,255,255,1) 52%);
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f1f1f",endColorstr="#ffffff",GradientType=1);
 	}
+        #planos .content {
+                width: 100%;
+                max-width: none !important;
+        }
 	#planos .list-plantas{
 		display: none;
 		width: 80%;
@@ -1121,7 +1152,7 @@ body {
 	#planos .plantas .box{
 		float: left;
 		width: 100%;
-		max-width: 345px;
+		/*max-width: 345px;*/
 		text-align: center;
 	}
 	#planos .plantas .box h2{
@@ -1477,14 +1508,14 @@ body {
 
 	/* form
 	------------------------------------------------------------------------------------------------------  */
-	form input,textarea{
+	form input,form textarea{
 		float: left;
-		font-family: var(--font-avenir-demibold);
+		font-family: var(--font-avenir-regular);
 		border: 0px;
 		padding: 0px;
 		padding-bottom: 5px;
 		outline: none;
-		font-size: 18px;
+		font-size: 16px;
 		color: var(--color-secondary);
 		border-bottom: 2px solid rgba(31,31,31, 0.2);
 	}
@@ -1504,6 +1535,26 @@ body {
 		width: 98%;
 		margin: 1%;
 	}
+        
+        form .chk {
+            margin-top: 20px;
+            font-size: 14px;   
+            float: left;
+            width: 100%;
+        }
+        form .chk a{
+		color: var(--color-primary);
+                text-decoration: none;
+	}
+        form .chk a:hover{
+		text-decoration: underline;
+	}
+        form .chk input {
+            transform: scale(1.2) !important;
+            margin-right: 10px; 
+            margin-left: 10px;
+        }
+        
 			  
 	.msgs_send{
 		float: left;

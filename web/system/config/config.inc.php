@@ -163,9 +163,9 @@
 		const HOST = '';
                 const PORT = 0;
                 
-                const ADDRESS = '';  
+                const ADDRESS = 'calbiol@actualbcn.com';  
                 const TITLE = 'Urban BCN 22@';
-                const ADMIN = '';
+                const ADMIN = 'calbiol@actualbcn.com';
                 const SMTP = false;
                 
                 const AUTH = false;

@@ -113,8 +113,7 @@ $(document).ready(function(){
             ev.preventDefault();            
 
         });
-        
-        
+                        
         
         $('a[href*=\\#]').click(function() {
 
@@ -136,6 +135,33 @@ $(document).ready(function(){
                         }
 
                 }
+
+        });
+        
+        
+        $(window).scroll(function() {
+
+                var margin = $('#comunicaciones .images-anim').offset().top - $(window).height() + 200;
+
+                if ($(window).scrollTop() >= margin)
+                {                                                                                                                    
+                    $('#comunicaciones .icon-anim').addClass('zoom');                                
+                }
+                
+                var margin = $('#servicios .images-anim').offset().top - $(window).height() + 200;
+
+                if ($(window).scrollTop() >= margin)
+                {                                                                                                                    
+                    $('#servicios .icon-anim').addClass('zoom');                                
+                }
+                
+                var margin = $('#prestaciones .images-anim').offset().top - $(window).height() + 200;
+
+                if ($(window).scrollTop() >= margin)
+                {                                                                                                                    
+                    $('#prestaciones .icon-anim').addClass('zoom');                                
+                }
+                                        
 
         });
                 
