@@ -65,6 +65,17 @@ $(document).ready(function(){
 
         });
         
+        $('#planta').change(function() {
+            
+            var item = $(this).val();
+            
+            show_planta(item);
+            
+            $('.btn_planta').removeClass('active');
+            $(this).addClass('active');
+
+        });
+        
         $('.btn_localizacion').mouseover(function() {
             
             var item = $(this).attr('data-item');
@@ -78,6 +89,19 @@ $(document).ready(function(){
             var item = $(this).attr('data-item');
             
             open_lightbox_mapa(item);
+
+        });
+        
+        $('#mapa').change(function() {
+            
+            var item = $(this).val(); 
+            
+            if (item > 0)
+            {
+                lightbox_mapa_position();
+                
+                open_lightbox_mapa(item);
+            }
 
         });
         

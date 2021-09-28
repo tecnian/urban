@@ -3,7 +3,7 @@
             <div class="content">
                 
                 <div class="col_15" id="logo">
-                    <a href="index.html" title="Urban"><img src="<? echo $appFrontUrl ?>/assets/img/logo_urban.png" alt="Urban" /></a>
+                    <a href="<? echo $app_url['home'] ?>" title="Urban"><img src="<? echo $appFrontUrl ?>/assets/img/logo_urban.png" alt="Urban" /></a>
                 </div>
 
                 <div class="col_85">
@@ -12,7 +12,7 @@
                                         
 
                     <ul id="menu-desktop">
-                        <li> <a href="#inicio" title="Inicio"> Descripción </a> </li>
+                        <li> <a href="#intro" title="Inicio"> Descripción </a> </li>
                         <li> <a href="#localizacion" title="Localización"> Localización </a> </li>
                         <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>
                         <li> <a href="#tecnologia" title="Tecnología"> Tecnología </a> </li>
@@ -36,7 +36,7 @@
             <div class="col_100" id="menu-responsive">
 
                 <ul>
-                    <li> <a href="#inicio" title="Inicio"> Descripción </a> </li>
+                    <li> <a href="#intro" title="Inicio"> Descripción </a> </li>
                     <li> <a href="#localizacion" title="Localización"> Localización </a> </li>
                     <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>
                     <li> <a href="#tecnologia" title="Tecnología"> Tecnología </a> </li>

@@ -3,11 +3,84 @@
 
         <div class="row" id="home">
             
-            <div class="capa" >
+            <div class="slider-container">
 
-                <span> Más que oficinas </span>
-                <h1> LA EXCELENCIA<br/>HECHA REALIDAD </h1>
-                <a href="#intro" class="btn" title="Descubre más" id="inicio"> Descubre más </a>
+                <div class="slider-control left inactive"></div>
+
+                <div class="slider-control right"></div>
+
+                <div class="slider">
+                    
+                    <div class="slide slide-0 active">
+
+                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_1.jpg');"></div>
+
+                        <div class="slide__content">
+
+                            <div class="slide__text">
+
+                                <div class="capa">
+
+                                    <h1> Futuro y pasado, innovación y tradición para crear nuevos espacios para ser vividos.  </h1>
+                                    <a href="#intro" class="btn" title="Descubre más" id="inicio"> Descubre más </a>
+
+                                </div>
+                                
+                            </div>
+
+                        </div>                        
+
+                    </div>
+                    
+                    <div class="slide slide-1 active">
+
+                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_2.jpg');"></div>
+
+                    </div>
+                    
+                    <div class="slide slide-2 active">
+
+                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_3.jpg');"></div>
+
+                    </div>
+                    
+                    <div class="slide slide-3 active">
+
+                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_4.jpg');"></div>
+
+                    </div>
+                    
+                    <div class="slide slide-4 active">
+
+                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_5.jpg');"></div>
+
+                    </div>
+                    
+                    <div class="slide slide-5 active">
+
+                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_6.jpg');"></div>
+
+                    </div>
+                    
+                    <div class="slide slide-6 active">
+
+                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_7.jpg');"></div>
+
+                    </div>
+                    
+                    <div class="slide slide-7 active">
+
+                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_8.jpg');"></div>
+
+                    </div>
+                    
+                    <div class="slide slide-8 active">
+
+                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_9.jpg');"></div>
+
+                    </div>
+                    
+                </div>
 
             </div>
                 
@@ -27,7 +100,24 @@
                 <div class="col_100">
                     
                     <div class="texto"> 
-                        El edifico de Oficinas de URBAN BCN 22@ se ubicará en la calle Bilbao esquina con la calle Peru de Barcelona, en el Distrito de Sant Martí, concretamente en el área del 22@; nueva zona de centralidad de la ciudad, muy próxima a la Avenida Diagonal y la Gran Via de les Corts Catalanes.
+                        
+                        <div class="col_33">
+                            <strong>Ubicación</strong>
+                            <br/><br/>
+                            El edifico de Oficinas de URBAN BCN 22@ se ubicará en la calle Bilbao esquina con la calle Peru de Barcelona, en el Distrito de Sant Martí, concretamente en el área del 22@; nueva zona de centralidad de la ciudad, muy próxima a la Avenida Diagonal y la Gran Via de les Corts Catalanes.
+                        </div>
+                        
+                        <div class="col_33">
+                            <strong>Edificio</strong>
+                            <br/><br/>
+                            El resultado final del proyecto de oficinas URBAN 22@, nace de la necesidad de combinar dos conceptos. Por un lado un edificio de última generación, innovador, tecnológico, sostenible, con los máximos requerimientos de eficiencia energética, y pensado al máximo para el bienestar de los usuarios, y por otro lado un edificio que se integre y conviva perfectamente con el entorno industrial preexistente.
+                        </div>
+                        
+                        <div class="col_33">
+                            <strong>Oficinas</strong>
+                            <br/><br/>
+                            Luminosas,  espaciosas,  diáfanas,  divisibles, modulables, anexionables, tecnológicas,  suelo técnico, aire acondicionado, generosas alturas, opción de terraza, privada, ventilación, natural,  cómodas y seguras.
+                        </div>
                     </div>
 
                 </div>
@@ -233,7 +323,8 @@
 
                 <div id="donde-select">
 
-                    <select name="mapa" id="mapa" onchange="show_mapa(2)">
+                    <select name="mapa" id="mapa">
+                        <option value="0"> - Seleccionar Zona - </option>
                         <option value="1"> Plaça Les Glòries </option>
                         <option value="2"> Can Ricart </option>
                         <option value="3"> Diagonal Mar </option>
@@ -759,7 +850,12 @@
 
                     <div class="informacion">
 
-                        <div class="foto"></div>
+                        <div class="foto">
+                            
+                            <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/tecnologia_image.jpg')"></div>
+                            <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/tecnologia_image_2.jpg')"></div>
+                            
+                        </div>
 
                         <div class="textos">
 
@@ -777,6 +873,12 @@
                                 <li> Construir un nuevo modelo de edificios ágil, eficiente, y apoyado por la tecnología (proptech). </li>
                                 <li> Gestión del parking inteligente. </li>
                             </ul>
+                            
+                            <br/>
+                            <strong>Instalaciones interiores</strong>
+                            <br/><br/>
+                            Las oficinas están dotadas de falso techo y de pavimento técnico registrables, por donde podrán discurrir las instalaciones propias necesarias de unas oficinas de alta tecnología
+                            
 
                         </div>
                     </div>
@@ -1074,20 +1176,21 @@
         
                     <div class="linea"></div>
 
-                    <select name="planta" id="planta" onchange="show_planta('10')">
-                        <option value="Planta 8">Planta 8</option>
-                        <option value="Planta 7">Planta 7</option>
-                        <option value="Planta 6">Planta 6</option>
-                        <option value="Planta 5">Planta 5</option>
-                        <option value="Planta 4">Planta 4</option>
-                        <option value="Planta 3">Planta 3</option>
-                        <option value="Planta 2">Planta 2</option>
-                        <option value="Planta 1">Planta 1</option>
-                        <option value="Planta 0">Planta 0</option>
-                        <option value="Sótano -1">Sótano -1</option>
-                        <option value="Sótano -2">Sótano -2</option>
-                        <option value="Sótano -3">Sótano -3</option>
-                        <option value="Sótano -4">Sótano -4</option>
+                    <select name="planta" id="planta">
+                        <option value="seccion"> - Seleccionar Planta - </option>
+                        <option value="8">Planta 8</option>
+                        <option value="7">Planta 7</option>
+                        <option value="6">Planta 6</option>
+                        <option value="5">Planta 5</option>
+                        <option value="4">Planta 4</option>
+                        <option value="3">Planta 3</option>
+                        <option value="2">Planta 2</option>
+                        <option value="1">Planta 1</option>
+                        <option value="0">Planta 0</option>
+                        <option value="sot1">Sótano -1</option>
+                        <option value="sot2">Sótano -2</option>
+                        <option value="sot3">Sótano -3</option>
+                        <option value="sot4">Sótano -4</option>
                       </select>
 
                 </div>
@@ -1572,14 +1675,20 @@
         </div>        
 
 
-
+        <script src="<? echo $appSystemUrl ?>/js/slider/stopExecutionOnTimeout.js"></script>        
+        <script src="<? echo $appSystemUrl ?>/js/slider/slider.js?id=<? echo uniqid() ?>"></script>                                 
+                
+                
         <script>          
 
             
             $(document).ready(function() {
                 
                 $('#slider .gallery').flickity({
-                    //fade: true,
+                    autoPlay: 3000
+                });
+                
+                $('#tecnologia .foto').flickity({
                     autoPlay: 3000
                 });
                 

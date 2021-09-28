@@ -9,19 +9,12 @@
                 <link rel="icon" type="image/png" href="<? echo $appFrontUrl ?>/assets/img/favicon.png" />
                 
                 <link rel="stylesheet" type="text/css" href="<? echo $appFrontUrl ?>/assets/css/flickity.css" />
+                <link rel="stylesheet" href="<? echo $appFrontUrl ?>/assets/css/slider.css?id=<? echo uniqid() ?>">
                 <link rel="stylesheet" href="<? echo $appFrontUrl ?>/assets/css/css.css?id=<? echo uniqid() ?>">
                 
                 <script type="text/javascript" src="<? echo $appSystemUrl ?>/js/jquery.3.6.0.js"></script>  
                 <script type="text/javascript" src="<? echo $appSystemUrl ?>/js/lib.global.2.1.js"></script>  
                 <script src='<? echo $appFrontUrl ?>/assets/js/flickity.pkgd.js'></script>
-                <!--<script src='<? echo $appFrontUrl ?>/assets/js/flickity-fade.js'></script>   -->
-                
-                <!-- CSS -->
-                <link rel="stylesheet" href="https://unpkg.com/flickity-fade@1/flickity-fade.css">
-
-                <!-- JS -->
-                <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
-
                 <script type="text/javascript" src="<? echo $appFrontUrl ?>/assets/js/site.js?id=<? echo uniqid() ?>"></script>
                 
                 <? if (!empty($app_meta_robots)) { ?>

@@ -377,19 +377,15 @@ body {
 		float: left;
 		width: 100%;
 		min-height: 720px;
-		background-image: url('../img/main_image.jpg');
+		/*background-image: url('../img/main_image.jpg');
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: cover;*/
 	}
 	#home .capa{
-		float: right;
-		width: 50%;
-		min-height: 720px;
-		padding-top: 210px;
+		padding-top: 80px;
 		padding-left: 55px;
 		box-sizing: border-box;
-		background: rgba(31,31,31, 0.7);
 		color: var(--color-white);
 	}
 	#home .capa span{
@@ -401,6 +397,10 @@ body {
 	#home .capa h1{
 		margin: 0px;
 		margin-top: 25px;
+                text-transform: uppercase;
+                font-size: 40px;
+                text-align: left;
+                padding-right: 25%;
 
 	}
 	#home .capa a{
@@ -418,13 +418,23 @@ body {
 		width: 100%;
 		text-align: center;
 		color: var(--color-black);
+                position: relative;
+                margin-top: 80px;
 	}
 	#intro .ico-down{
-		display: inline-block;
-		margin-top: -55px;
+		/*display: inline-block;*/
+		position: absolute;
+                z-index: 9999;                
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                margin-top: -125px;
+                
 	}
 	#intro .ico-down img{
-		width: 85px;
+		width: 95px;
 	}
 	#intro .ico-down img:hover{
 		opacity: 0.9;
@@ -432,10 +442,20 @@ body {
 	#intro .texto{
 		display: inline-block;
 		margin-top: -55px;
-		width: 80%;
-		max-width: 800px;
+		width: 100%;
+		max-width: 1300px;
 		padding: 55px 0px;
 	}
+        #intro .texto strong {
+                font-size: 22px;
+                font-family: var(--font-avenir-demibold);                
+        }
+        #intro .texto .col_33 {
+                text-align: left;
+                padding-left: 1.25%;
+                padding-right: 1%;
+                width: 30%;
+        }
 	
 
 
@@ -474,7 +494,13 @@ body {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-	}	
+	}
+        .foto .gallery-cell {
+		height: 510px;		
+	}
+        .foto .flickity-prev-next-button {
+                top: 50%;
+        }
 
 
 
@@ -1701,6 +1727,10 @@ body {
 		#header #menu-desktop li{
 			padding: 0px 10px;
 		}
+                #home .capa h1{
+                        font-size: 30px;    
+                        line-height: 45px;
+                }
 
 	}
 
@@ -1769,9 +1799,9 @@ body {
 		#header #logo img{
 			width: 80px;
 		}
-		#home .capa{
+		/*#home .capa{
 			width: 65%;
-		}
+		}*/
 		#tecnologia .informacion .foto{
 			width: 100%;
 			min-height: 510px;
@@ -1802,6 +1832,16 @@ body {
 			padding-bottom: 50px;
 		}
 	
+                #home .capa{
+                        padding-top: 0px;   
+                        width: 100%;
+                        padding-left: 10%;
+                        padding-right: 10%;
+                }
+                #home .capa h1{
+                        padding-right: 0px;  
+                        text-align: center;
+                }
 		
 		
 	}
@@ -1909,8 +1949,12 @@ body {
 			font-size: 16px;
 		}			
 		#home .capa{
-			padding-top: 250px;
 			width: 90%;
+                        padding-left: 5%;
+                        padding-right: 5%;
+		}
+                #home .capa a{
+			margin-top: 20px;
 		}
 		.btn{
 			padding: 10px 25px;
@@ -2028,6 +2072,11 @@ body {
 		#planos .plantas{
 			display: none;
 		}
+                
+                #home .capa h1{
+                        font-size: 25px;    
+                        line-height: 35px;
+                }
 	
 		
 	}
@@ -2038,6 +2087,12 @@ body {
 		#tecnologia .informacion .foto{
 			min-height: 310px;
 		}	
+                #intro .texto .col_33 {
+                        padding-left: 0;
+                        padding-right: 0;
+                        width: 100%;
+                        margin-bottom: 25px;
+                }
 	
 	}
 
