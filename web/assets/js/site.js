@@ -165,7 +165,7 @@ $(document).ready(function(){
         
         $(window).scroll(function() {
 
-                var margin = $('#comunicaciones .images-anim').offset().top - $(window).height() + 200;
+                /*var margin = $('#comunicaciones .images-anim').offset().top - $(window).height() + 200;
 
                 if ($(window).scrollTop() >= margin)
                 {                                                                                                                    
@@ -184,8 +184,19 @@ $(document).ready(function(){
                 if ($(window).scrollTop() >= margin)
                 {                                                                                                                    
                     $('#prestaciones .icon-anim').addClass('zoom');                                
-                }
-                                        
+                }*/
+                      
+            
+                $('.icon-anim').each(function() {
+            
+                    var margin = $(this).offset().top - $(window).height() + 100;
+                    
+                    if ($(window).scrollTop() >= margin)
+                    {                                                                                                                    
+                        $(this).addClass('zoom');                                
+                    }
+
+                });
 
         });
                 

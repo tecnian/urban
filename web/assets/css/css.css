@@ -285,6 +285,9 @@ body {
 		-webkit-transition: all 0.3s ease;
 		-moz-transition: all 0.3s ease;		
 	}
+        #header #logo img.small{
+		width: 65px;			
+	}
 	#header #menu-desktop{
 		float: right;
 		list-style: none;
@@ -451,7 +454,7 @@ body {
                 font-family: var(--font-avenir-demibold);                
         }
         #intro .texto .col_33 {
-                text-align: left;
+                text-align: center;
                 padding-left: 1.25%;
                 padding-right: 1%;
                 width: 30%;
@@ -1730,6 +1733,7 @@ body {
                 #home .capa h1{
                         font-size: 30px;    
                         line-height: 45px;
+                        margin-top: 100px;
                 }
 
 	}
@@ -1753,6 +1757,9 @@ body {
 			width: 32%;
 			margin-bottom: 40px;
 		}
+                #header #logo img {
+                    width: 100px;			
+                }
 
 	}
 

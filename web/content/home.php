@@ -21,8 +21,7 @@
 
                                 <div class="capa">
 
-                                    <h1> Futuro y pasado, innovación y tradición para crear nuevos espacios para ser vividos.  </h1>
-                                    <a href="#intro" class="btn" title="Descubre más" id="inicio"> Descubre más </a>
+                                    <h1> Futuro y pasado, innovación y tradición para crear nuevos espacios para ser vividos.  </h1>                                    
 
                                 </div>
                                 
@@ -1718,10 +1717,8 @@
                             background: 'rgba(0,0,0,0.9)',
                             padding: '10px 0px'
                         });
-
-                        $('#logo img').css({
-                            width: '65px'
-                        });
+                        
+                        $('#logo img').addClass('small');
 
                     } else {
 
@@ -1729,11 +1726,8 @@
                             background: 'rgba(0,0,0,0)',
                             padding: '30px 0px'
                         });
-
-                        $('#logo img').css({
-                            width: '140px'
-                        });
-
+                        
+                        $('#logo img').removeClass('small');
                     }
                 });
                 
@@ -1748,6 +1742,15 @@
                 lightbox_mapa_position();
                 lightbox_servicios_position();
                 lightbox_empresa_position();
+                
+                
+                
+                setTimeout(function(){ 
+                    $('.slide__text').css('transition','transform 0.8s 0.8s, opacity 0.8s 0.8s');
+                    $('.slide__text').css('transform','translateY(-250%)');
+                }, 3000);
+                
+                
                 
             });
 
