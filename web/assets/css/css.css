@@ -1850,6 +1850,9 @@ body {
                         text-align: center;
                 }
 		
+                #container_cookies .acepto {
+                    margin-right: 75px;
+                }
 		
 	}
 
@@ -1900,6 +1903,10 @@ body {
 			max-width: 25%;
 			padding: 5px 0px;
 		}
+                
+                #servicios .lightbox-servicios {
+                    margin-left: -5%;
+                }
 	
 	}
 
@@ -2083,6 +2090,14 @@ body {
                 #home .capa h1{
                         font-size: 25px;    
                         line-height: 35px;
+                }
+                
+                #container_cookies .acepto {
+                    margin-right: 100px;
+                }
+                #servicios .lightbox-servicios {
+                    margin-left: -12%;
+                    width: 100%;
                 }
 	
 		

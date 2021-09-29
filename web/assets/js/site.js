@@ -9,6 +9,12 @@ $(document).ready(function(){
 
         });
         
+        $('#menu-responsive li a').click(function() {
+            
+            menu_responsive();
+
+        });
+        
         $('#btn_send_contact').click(function() {
             
             send_contact();
@@ -49,6 +55,8 @@ $(document).ready(function(){
         $('.btn_servicio').click(function() {
             
             var item = $(this).attr('data-item');
+            
+            lightbox_servicios_position();
             
             open_lightbox_servicios(item);
 
@@ -165,28 +173,6 @@ $(document).ready(function(){
         
         $(window).scroll(function() {
 
-                /*var margin = $('#comunicaciones .images-anim').offset().top - $(window).height() + 200;
-
-                if ($(window).scrollTop() >= margin)
-                {                                                                                                                    
-                    $('#comunicaciones .icon-anim').addClass('zoom');                                
-                }
-                
-                var margin = $('#servicios .images-anim').offset().top - $(window).height() + 200;
-
-                if ($(window).scrollTop() >= margin)
-                {                                                                                                                    
-                    $('#servicios .icon-anim').addClass('zoom');                                
-                }
-                
-                var margin = $('#prestaciones .images-anim').offset().top - $(window).height() + 200;
-
-                if ($(window).scrollTop() >= margin)
-                {                                                                                                                    
-                    $('#prestaciones .icon-anim').addClass('zoom');                                
-                }*/
-                      
-            
                 $('.icon-anim').each(function() {
             
                     var margin = $(this).offset().top - $(window).height() + 100;
@@ -305,7 +291,11 @@ $(document).ready(function(){
                 
                 
                 $('.lightbox-mapa').css('left',left + 'px');
-                $('.lightbox-mapa').css('top',top + 'px');
+                
+                if (window_w > 1060)
+                {
+                    $('.lightbox-mapa').css('top',top + 'px');
+                }
             }
 
 
@@ -319,7 +309,14 @@ $(document).ready(function(){
                 
                 left = left - (left * 20 / 100);
                 
-                $('.lightbox-servicios').css('left',left + 'px');                
+                $('.lightbox-servicios').css('left',left + 'px');  
+                
+                if (window_w <= 1060)
+                {
+                    var top = parseInt($(window).scrollTop()) + 100;
+                    
+                    $('.lightbox-servicios').css('top',top + 'px');  
+                }
             }
             
             function lightbox_empresa_position()

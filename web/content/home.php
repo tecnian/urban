@@ -580,7 +580,7 @@
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_2">
-                            <div class="tit"> Restaurante , Cocina Office </div>
+                            <div class="tit"> Restaurante, Cocina Office </div>
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/restaurante_image.jpg" /> </div>
 
@@ -596,7 +596,7 @@
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_4">
-                            <div class="tit"> Duchas , Vestuarios  </div>
+                            <div class="tit"> Duchas, Vestuarios  </div>
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/duchas_image.jpg" /> </div>
 
@@ -620,7 +620,7 @@
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_7">
-                            <div class="tit"> Sala  de Juegos  </div>
+                            <div class="tit"> Sala de Juegos  </div>
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/juegos_image.jpg" /> </div>
 
@@ -628,7 +628,7 @@
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_8">
-                            <div class="tit"> Espacios  anti-estrés  & descanso  </div>
+                            <div class="tit"> Espacios anti-estrés & descanso  </div>
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/stress_image.jpg" /> </div>
 
@@ -636,7 +636,7 @@
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_9">
-                            <div class="tit"> Salas de  Reuniones  </div>
+                            <div class="tit"> Salas de Reuniones  </div>
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/reuniones_image.jpg" /> </div>
 
@@ -644,7 +644,7 @@
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_10">
-                            <div class="tit"> Sala de  Lactancia  </div>
+                            <div class="tit"> Sala de Lactancia  </div>
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/lactancia_image.jpg" /> </div>
 
@@ -660,7 +660,7 @@
                         </div>
                     
                         <div class="servicio-info" id="servicio_info_12">
-                            <div class="tit"> Armarios  Inteligentes  </div>
+                            <div class="tit"> Armarios Inteligentes  </div>
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/armarios_image.jpg" /> </div>
 
