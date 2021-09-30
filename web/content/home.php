@@ -21,7 +21,9 @@
 
                                 <div class="capa">
 
-                                    <h1> Futuro y pasado, innovación y tradición para crear nuevos espacios para ser vividos.  </h1>                                    
+                                    <h1> Futuro y pasado, innovación y tradición para crear nuevos espacios para ser vividos.  </h1> 
+                                    <h5> Artur Fuster </h5>
+                                    <h6> Arquitecto</h6>
 
                                 </div>
                                 
@@ -72,21 +74,14 @@
                         <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_8.jpg');"></div>
 
                     </div>
-                    
-                    <div class="slide slide-8 active">
-
-                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_9.jpg');"></div>
-
-                    </div>
-                    
+                                        
                 </div>
 
             </div>
                 
         </div>
-
-
-
+        
+        
         <!-- nuevo
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
@@ -851,8 +846,8 @@
 
                         <div class="foto">
                             
-                            <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/tecnologia_image.jpg')"></div>
                             <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/tecnologia_image_2.jpg')"></div>
+                            <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/tecnologia_image.jpg')"></div>
                             
                         </div>
 
@@ -946,7 +941,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/light_icon.png" style="width: 72px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Light </div>
+                            <div class="tit text-white"> Luz </div>
                             <table>
                                 <tr>
                                     <td class="descr-full"> Se proporcionan pautas que minimizan la interrupción del sistema circadiano del cuerpo, mejoran la productividad, respaldan la buena calidad del sueño y brindan una agudeza visual adecuada, así como sistemas de reducción del consumo eléctrico.</td>
@@ -980,7 +975,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/confort_icon.png" style="width: 70px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Comfort </div>
+                            <div class="tit text-white"> Confort </div>
                             <table>
                                 <tr>
                                     <td class="descr-full"> Se establecen requisitos diseñados para crear ambientes interiores cómodos, productivos y sin distracciones.</td>
@@ -997,7 +992,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/value_icon.png" style="width: 74px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Value </div>
+                            <div class="tit text-white"> Valor </div>
                             <table>
                                 <tr>
                                     <td class="descr-full"> Los edificios Urban Bcn22@, cuestan menos de operar y aumentan la productividad y retención de los empleados.</td>
@@ -1014,7 +1009,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/performance_icon.png" style="width: 62px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Performance Based </div>
+                            <div class="tit text-white"> Durabilidad </div>
                             <table>
                                 <tr>
                                     <td class="descr-full"> Se utiliza un enfoque más sólido y basado en el rendimiento para la calidad del ambiente interior, para una mejor comodidad de los ocupantes.</td>
@@ -1031,7 +1026,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/materials_icon.png" style="width: 42px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Materials </div>
+                            <div class="tit text-white"> Materiales </div>
                             <table>
                                 <tr>
                                     <td class="descr-full"> Nos hemos centrado en los materiales, para comprender mejor su contenido y el efecto que tienen sus componentes en la salud humana y el medio ambiente.</td>
@@ -1128,7 +1123,7 @@
 
                     <div class="texto">
 
-                        Se espera que los edificios URBAN BCN 22@ OFFICES obtengan los más altos certificados de eficiencia energética, medioambiental, de salud y de confort que existen actualmente. Estos son LEED PLATINUM, WELL PLATINUM and BREEAM EXCELENCE.
+                        Se espera que los edificios URBAN BCN 22@ OFFICES obtengan los más altos certificados de eficiencia energética, medioambiental, de salud y de confort que existen actualmente.<br/>Estos son LEED PLATINUM y WELL PLATINUM.
                     
                     </div>
 
@@ -1176,7 +1171,7 @@
                     <div class="linea"></div>
 
                     <select name="planta" id="planta">
-                        <option value="seccion"> - Seleccionar Planta - </option>
+                        <option value="seccion">Sección</option>
                         <option value="8">Planta 8</option>
                         <option value="7">Planta 7</option>
                         <option value="6">Planta 6</option>
@@ -1217,6 +1212,7 @@
                             <a data-item="sot2" class="btn btn-small btn_planta"> Sótano -2 </a>
                             <a data-item="sot3" class="btn btn-small btn_planta"> Sótano -3 </a>
                             <a data-item="sot4" class="btn btn-small btn_planta"> Sótano -4 </a>
+                            <a data-item="seccion" class="btn btn-small btn_planta active"> Sección </a>
                             <br/>
                         <div class="linea"></div>
                         <br/>
@@ -1508,7 +1504,7 @@
             </div>
             
             <div class="embed-container video_iframe">
-                <iframe id="yt_video" width="560" height="315" src="https://www.youtube.com/embed/3KSvRAl7emA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="yt_video" width="560" height="315" src="https://www.youtube.com/embed/3KSvRAl7emA?rel=0&showinfo=0&modestbranding=1&wmode=transparent" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             
         </div>      
@@ -1559,7 +1555,7 @@
                                 </div>
 
                                 <div class="boton">
-                                    <a class="btn btn-catalogo"> Ver Catálogo </a>
+                                    <a class="btn btn-catalogo" href="<? echo $appContentUrl ?>/pageflip/index.html" target="_blank"> Ver Catálogo </a>
                                 </div>
 
                             </div>                    

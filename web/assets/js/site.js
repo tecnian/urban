@@ -141,7 +141,7 @@ $(document).ready(function(){
             $("#video").css('background','none');
             $("#video").css('height','auto');
             
-            $("#yt_video")[0].src += "?autoplay=1";
+            $("#yt_video")[0].src += "&autoplay=1";
             ev.preventDefault();            
 
         });
@@ -152,14 +152,23 @@ $(document).ready(function(){
                 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
                     && location.hostname == this.hostname) {
 
-                        var $target = $(this.hash);
+                        var $target = $(this.hash);  
 
                         $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
 
                         if ($target.length) {
 
-                            var targetOffset = $target.offset().top-90;
-
+                            var targetOffset = $target.offset().top - 90; 
+                            
+                            if (this.hash.slice(1) == 'intro')
+                            {
+                                targetOffset = $target.offset().top - 160; 
+                            }
+                            if (this.hash.slice(1) == 'sostenibilidad')
+                            {
+                                targetOffset = $target.offset().top - 150; 
+                            }
+                            
                             $('html,body').animate({scrollTop: targetOffset}, 1000);
 
                             return false;
