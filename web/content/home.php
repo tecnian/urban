@@ -1216,7 +1216,7 @@
                             <br/>
                         <div class="linea"></div>
                         <br/>
-                            <a class="btn btn-small btn-planos" style="width: 100%;"> Descargar Planos </a>
+                            <a class="btn btn-small btn-planos" style="width: 100%;" href="<? echo $appFrontUrl ?>/assets/pdf/urban_planos_es.pdf" target="_blank"> Descargar Planos </a>
 
                         </div>
 

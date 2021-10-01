@@ -1280,7 +1280,7 @@ body {
 	#planos .imagenes .fotos{
 		float: left;
 		width: 100%;
-		margin-top: 50px;
+		/*margin-top: 50px;*/
 	}
 	#planos .imagenes .fotos img{
 		float: left;
@@ -1728,6 +1728,28 @@ body {
 	/* responsive
 	------------------------------------------------------------------------------------------------------  */
         
+        
+        
+        
+        @media only screen and (max-width: 1475px) {
+
+		#planos .imagenes .fotos{
+                    margin-top: 50px;
+            }
+        
+	}
+        
+        @media only screen and (max-width: 1360px) {
+
+		#planos .plantas .box .botones .btn-small{
+			max-width: 200px;
+			padding: 5px 0px;
+			font-size: 13px;
+			margin-bottom: 10px;
+		}
+        
+	}
+        
         @media only screen and (max-width: 1260px) {
 
 		#header #menu-desktop li{
@@ -1749,6 +1771,13 @@ body {
 
 	}
 
+        @media only screen and (max-width: 1160px) {
+
+		#planos .imagenes .fotos{
+                        margin-top: 100px;
+                }	
+		
+	}
 
 	@media only screen and (max-width: 1140px) {
 
@@ -2109,6 +2138,23 @@ body {
                 #servicios .lightbox-servicios {
                     margin-left: -12%;
                     width: 100%;
+                }
+                
+                #planos .imagenes .info{
+                        margin-top: -25px;
+                }
+                #planos .imagenes .info .tit{
+                        font-size: 18px;                        
+                }
+                #planos .imagenes .info .num{
+                        font-size: 16x;
+                }
+                #planos .imagenes .info .metros{
+                        font-size: 18px; 
+                        margin-top: 8px;
+                }
+                #planos .imagenes .info .metros sup{
+                        font-size: 10px;
                 }
 	
 		
