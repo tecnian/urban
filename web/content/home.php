@@ -21,7 +21,7 @@
 
                                 <div class="capa">
 
-                                    <h1> Futuro y pasado, innovación y tradición para crear nuevos espacios para ser vividos.  </h1> 
+                                    <h1> "Futuro y pasado, innovación y tradición para crear nuevos espacios para ser vividos"  </h1> 
                                     <h5> Artur Fuster </h5>
                                     <h6> Arquitecto</h6>
 

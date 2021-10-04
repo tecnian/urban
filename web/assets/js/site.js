@@ -97,6 +97,8 @@ $(document).ready(function(){
             var item = $(this).attr('data-item');
             
             open_lightbox_mapa(item);
+            
+            lightbox_mapa_position();
 
         });
         
