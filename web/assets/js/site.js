@@ -99,6 +99,9 @@ $(document).ready(function(){
             open_lightbox_mapa(item);
             
             lightbox_mapa_position();
+            
+            $(".btn_localizacion").removeClass('active');
+            $(this).addClass('active');
 
         });
         
@@ -240,6 +243,13 @@ $(document).ready(function(){
             function close_lightbox_mapa(){
                 
                 $("#lightbox1").hide();
+                
+                $(".btn_localizacion").removeClass('active');
+                
+                $(".btn_localizacion").css({
+                    'color': 'var(--color-white)',
+                    'border-bottom': '2px solid var(--color-secundary)'
+                });  
 
             }
 
@@ -265,16 +275,19 @@ $(document).ready(function(){
 
                 lightbox_mapa_position();
                 
-                var imapa = i;
-
+                var imapa = i;                                              
+                
                 for (n=0; n<8; n++){
 
                     $("#localizacion"+n).hide();    
                     
-                    $("#tit-localizacion"+n).css({
-                        'color': 'var(--color-white)',
-                        'border-bottom': '2px solid var(--color-secundary)'
-                    });
+                    if (!$("#tit-localizacion"+n).hasClass('active'))
+                    {
+                        $("#tit-localizacion"+n).css({
+                            'color': 'var(--color-white)',
+                            'border-bottom': '2px solid var(--color-secundary)'
+                        });         
+                    }
 
                 }
 

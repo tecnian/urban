@@ -668,7 +668,9 @@ body {
 		text-align: justify;
 		color: var(--color-white);
 	}	
-        
+        #mapas #fotos .lightbox-mapa .mapa-info {
+                display: none;
+        }
         
 
 

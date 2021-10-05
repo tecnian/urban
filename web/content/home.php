@@ -194,7 +194,7 @@
                         
                         <div class="ico-close"> <a><img src="<? echo $appFrontUrl ?>/assets/img/close_icon.png" /></a> </div>
 
-                        <div class="mapa-info" id="mapa_info_1">
+                        <div class="mapa-info" id="mapa_info_1" data-item="1">
                             <div class="izq">
                                 <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_glories.png" /> </div>
                             </div>
@@ -208,7 +208,7 @@
                             </div>
                         </div>
                         
-                        <div class="mapa-info" id="mapa_info_2">
+                        <div class="mapa-info" id="mapa_info_2" data-item="2">
                             <div class="izq">
                                 <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_can_ricart.png" /> </div>
                             </div>
@@ -222,7 +222,7 @@
                             </div>
                         </div>
                         
-                        <div class="mapa-info" id="mapa_info_3">
+                        <div class="mapa-info" id="mapa_info_3" data-item="3">
                             <div class="izq">
                                 <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_diagonal_mar.png" /> </div>
                             </div>
@@ -237,7 +237,7 @@
                             </div>
                         </div>
                         
-                        <div class="mapa-info" id="mapa_info_4">
+                        <div class="mapa-info" id="mapa_info_4" data-item="4">
                             <div class="izq">
                                 <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ocio_mar.png" /> </div>
                             </div>
@@ -253,7 +253,7 @@
                             </div>
                         </div>
                         
-                        <div class="mapa-info" id="mapa_info_5">
+                        <div class="mapa-info" id="mapa_info_5" data-item="5">
                             <div class="izq">
                                 <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_hoteles.png" /> </div>
                             </div>
@@ -267,7 +267,7 @@
                             </div>
                         </div>
                         
-                        <div class="mapa-info" id="mapa_info_6">
+                        <div class="mapa-info" id="mapa_info_6" data-item="6">
                             <div class="izq">
                                 <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ejes_comerciales.png" /> </div>
                             </div>
@@ -281,7 +281,7 @@
                             </div>
                         </div>
                         
-                        <div class="mapa-info" id="mapa_info_7">
+                        <div class="mapa-info" id="mapa_info_7" data-item="7">
                             <div class="izq">
                                 <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ejes_empresariales.png" /> </div>
                             </div>
