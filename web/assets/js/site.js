@@ -285,7 +285,7 @@ $(document).ready(function(){
                     {
                         $("#tit-localizacion"+n).css({
                             'color': 'var(--color-white)',
-                            'border-bottom': '2px solid var(--color-secundary)'
+                            'border-bottom': 'none'
                         });         
                     }
 
@@ -294,8 +294,8 @@ $(document).ready(function(){
                 $("#localizacion"+imapa).show();    
 
                 $("#tit-localizacion"+imapa).css({
-                    'color': 'var(--color-primary)',
-                    'border-bottom': '2px solid var(--color-primary)'
+                    'color': 'var(--color-secondary)',
+                    'border-bottom': '2px solid var(--color-secondary)'
                 });
 
             }

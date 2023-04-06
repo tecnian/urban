@@ -84,8 +84,9 @@
 	/* colores */
 
 	--color-primary: #b72f12;
-	--color-secondary: #1f1f1f; 
-	--color-terciary: #b98d58; 
+	--color-secondary: #beaa88; 
+        /*--color-secondary: #1f1f1f; */
+	--color-terciary: #2e343a; 
 	--color-black: #000; 
 	--color-white: #fff; 
 	--color-lightgrey: #ebebeb; 
@@ -318,9 +319,9 @@ body {
 	#header .idiomas{
 		/*float: right;
 		margin-left: 40px;*/
-                position: absolute;
+                /*position: absolute;
                 right: 20px;
-                top: 40px;
+                top: 40px;*/
 	}
 	#header .idiomas a{
 		color: var(--color-white);
@@ -387,36 +388,31 @@ body {
 		background-size: cover;*/
 	}
 	#home .capa{
-		padding-top: 100px;
-		padding-left: 55px;
+		padding-top: 60px;
+		padding-left: 75px;
 		box-sizing: border-box;
 		color: var(--color-white);
-                text-align: right;
-                padding-right: 28%;
-	}
-	#home .capa span{
-		display: inline-block;
-		width: 100%;
-		font-size: 18px;
-		font-family: var(--font-avenir-demibold);
+                text-align: left !important;
+                padding-right: 20%;
 	}
 	#home .capa h1{
 		margin: 0px;
-		margin-top: 25px;                
+		margin-top: 20px;                
                 font-size: 40px;
-                text-align: right;                
+                text-align: left;                
                 line-height: 45px;
 	}
-        #home .capa h5{
-		font-size: 18px;
-                margin-bottom: 0;
+        #home .capa h1.color{
+		color: var(--color-secondary);                         
 	}
-        #home .capa h6{
-		font-size: 15px;
-                margin-top: -5px;
-                font-weight: 400;
-                font-style: italic;
+        #home .capa span{
+		display: inline-block;
+		width: 100%;
+		font-family: var(--font-avenir-demibold);
+                margin-top: 25px;  
+                color: var(--color-secondary);
 	}
+	
 	#home .capa a{
 		display: inline-block;
 		margin-top: 45px;
@@ -456,9 +452,8 @@ body {
 	#intro .texto{
 		display: inline-block;
 		margin-top: -55px;
-		width: 100%;
 		max-width: 1300px;
-		padding: 55px 0px;
+		padding: 55px 15%;                
 	}
         #intro .texto strong {
                 font-size: 22px;
@@ -526,10 +521,10 @@ body {
 		background-color: var(--color-secondary);
 		color: var(--color-white);
 		padding: 50px 0px;
-		background-image: url('../img/lineas_localizacion.png');
+		/*background-image: url('../img/lineas_localizacion.png');
 		background-position: left center;
 		background-repeat: no-repeat;
-		background-size: 230px;
+		background-size: 230px;*/
 	}
 	#localizacion .col_40, #localizacion .col_60{
 		padding: 0px 30px;
@@ -588,7 +583,7 @@ body {
 	#mapas #donde{
 		float: left;
 		width: 100%;
-		background-color: var(--color-secondary);
+		background-color: var(--color-terciary);
 		text-align: center;
 		padding-top: 30px;
 		padding-bottom: 27px;
@@ -600,15 +595,15 @@ body {
 		color: var(--color-white);
 		margin: 0px 10px;
 		padding-bottom: 2px;
-		border-bottom: 2px solid var(--color-secondary);
+		/*border-bottom: 2px solid var(--color-secondary);*/
 	}
 	#mapas #donde a:hover{
-		color: var(--color-primary);
+		color: var(--color-secondary);
 		border-bottom: 2px solid var(--color-secondary);
 	}
 	#mapas #donde a.active{
-		color: var(--color-primary);
-		border-bottom: 2px solid var(--color-primary);
+		color: var(--color-secondary);
+		border-bottom: 2px solid var(--secondary);
 	}
 	
 	/* lightbox*/
@@ -682,6 +677,7 @@ body {
 		width: 100%;
 		padding: 50px 0px;
 		text-align: center;
+                padding-bottom: 0;
 	}
 	#comunicaciones h2{
 		margin: 0px;
@@ -733,6 +729,12 @@ body {
 		color: #999;
 	}
 	#comunicaciones .box .item .detalle .descr-full{
+		width: 100%;
+	}
+        #comunicaciones .mapa-com{
+		margin-top: 20px;
+	}
+        #comunicaciones .mapa-com img{
 		width: 100%;
 	}
 
@@ -854,32 +856,32 @@ body {
 
 
 
-	/* tecnologia
+	/* calidades
 	------------------------------------------------------------------------------------------------------  */
-	#tecnologia{
+	#calidades{
 		float: left;
 		width: 100%;
 		padding: 50px 0px;
 		text-align: center;
 	}
-	#tecnologia h2{
+	#calidades h2{
 		margin: 0px;
 	}
-	#tecnologia .linea{
+	#calidades .linea{
 		display: inline-block;
 		width: 85px;
 		height: 1px;
 		border-bottom: 2px solid var(--color-primary);
 		margin-top: 20px;
 	}
-	#tecnologia .informacion{
+	#calidades .informacion{
 		float: left;
 		width: 100%;
 		margin-top: 25px;
 		padding: 30px 0px;
 		padding-bottom: 80px;
 	}	
-	#tecnologia .informacion .foto{
+	#calidades .informacion .foto{
 		float: left;
 		width: 55%;
 		min-height: 510px;
@@ -888,28 +890,28 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 	}	
-	#tecnologia .informacion .textos{
+	#calidades .informacion .textos{
 		float: left;
 		width: 40%;
 		padding-left: 5%;
 		text-align: justify;
 	}	
-	#tecnologia .informacion .textos strong{
+	#calidades .informacion .textos strong{
 		font-size: 22px;
 		font-family: var(--font-avenir-demibold);
 	}
         
-	#tecnologia .informacion .textos ul{
+	#calidades .informacion .textos ul{
 		margin-left: -20px;
 	}
-	#tecnologia .imagen-sostenibilidad{
+	#calidades .imagen-sostenibilidad{
 		float: left;
 		position: relative;
 		width: 100%;
 		margin-top: 40px;
 		z-index: 1;
 	}
-	#tecnologia .imagen-sostenibilidad img{
+	#calidades .imagen-sostenibilidad img{
 		width: 100%;
 	}
 

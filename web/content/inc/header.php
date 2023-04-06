@@ -3,7 +3,7 @@
             <div class="content">
                 
                 <div class="col_15" id="logo">
-                    <a href="<? echo $app_url['home'] ?>" title="Urban"><img src="<? echo $appFrontUrl ?>/assets/img/logo_urban.png" alt="Urban" /></a>
+                    <a href="<? echo $app_url['home'] ?>" title="Urban"><img src="<? echo $appFrontUrl ?>/assets/img/logo_urban_header.png" alt="Urban" /></a>
                 </div>
 
                 <div class="col_85">
@@ -12,20 +12,26 @@
                                         
 
                     <ul id="menu-desktop">
-                        <li> <a href="#intro" title="Inicio"> Descripción </a> </li>
-                        <li> <a href="#localizacion" title="Localización"> Localización </a> </li>
-                        <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>
-                        <li> <a href="#tecnologia" title="Tecnología"> Tecnología </a> </li>
-                        <li> <a href="#sostenibilidad" title="Sostenibilidad"> Sostenibilidad </a> </li>
+                        <li> <a href="#home" title="Inicio"> Inicio </a> </li>
+                        <li> <a href="#localizacion" title="Localización"> Localización </a> </li>                        
+                        <li> <a href="#comunicaciones" title="Comunicaciones"> Comunicaciones </a> </li>         
+                        <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>        
+                        <li> <a href="#calidades" title="Calidades"> Calidades </a> </li>                        
                         <li> <a href="#planos" title="Planos"> Planos </a> </li>
                         <li> <a href="#video" title="Vídeo"> Vídeo </a> </li>
-                        <li> <a href="#catalogo" title="Catálogo"> Catálogo </a> </li>
                         <li> <a href="#contacto" title="Contacto"> Contacto </a> </li>
+                        
+                        <li> 
+                            <div class="idiomas">
+                                <a href="#" title="Català"> CAT </a>
+                                <a href="#" title="English"> EN </a>
+                            </div>
+                        </li>
 
-                        <div class="idiomas">
+                        <!--<div class="idiomas">
                             <a href="#" title="Català"> CAT </a>
                             <a href="#" title="English"> EN </a>
-                        </div>
+                        </div>-->
 
                     </ul>
                     
@@ -36,14 +42,13 @@
             <div class="col_100" id="menu-responsive">
 
                 <ul>
-                    <li> <a href="#intro" title="Inicio"> Descripción </a> </li>
+                    <li> <a href="#home" title="Inicio"> Inicio </a> </li>
                     <li> <a href="#localizacion" title="Localización"> Localización </a> </li>
-                    <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>
-                    <li> <a href="#tecnologia" title="Tecnología"> Tecnología </a> </li>
-                    <li> <a href="#sostenibilidad" title="Sostenibilidad"> Sostenibilidad </a> </li>
+                    <li> <a href="#comunicaciones" title="Comunicaciones"> Comunicaciones </a> </li>
+                    <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>   
+                    <li> <a href="#calidades" title="Calidades"> Calidades </a> </li>                    
                     <li> <a href="#planos" title="Planos"> Planos </a> </li>
                     <li> <a href="#video" title="Vídeo"> Vídeo </a> </li>
-                    <li> <a href="#catalogo" title="Catálogo"> Catálogo </a> </li>
                     <li> <a href="#contacto" title="Contacto"> Contacto </a> </li>
 
                     <div class="idiomas">

@@ -21,9 +21,21 @@
 
                                 <div class="capa">
 
-                                    <h1> "Futuro y pasado, innovación y tradición para crear nuevos espacios para ser vividos"  </h1> 
-                                    <h5> Artur Fuster </h5>
-                                    <h6> Arquitecto</h6>
+                                    <h1> 
+                                        25 viviendas tipo loft en alquiler.<br/>
+                                        Espacios diáfanos, abiertos, funcionales y con luz,<br/>
+                                        sobre todo, con mucha luz.
+                                    </h1> 
+                                    
+                                    <h1 class="color"> 
+                                        Todo empieza ahora.<br/>
+                                        Un nuevo proyecto, una nueva vida.
+                                    </h1> 
+                                    
+                                    <h1> 
+                                        <span>¡VIVE TU PROYECTO DE VIDA!</span>
+                                    </h1> 
+                                    
 
                                 </div>
                                 
@@ -33,7 +45,7 @@
 
                     </div>
                     
-                    <div class="slide slide-1 active">
+                    <!--div class="slide slide-1 active">
 
                         <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_2.jpg');"></div>
 
@@ -73,7 +85,7 @@
 
                         <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_8.jpg');"></div>
 
-                    </div>
+                    </div>-->
                                         
                 </div>
 
@@ -94,24 +106,11 @@
                 <div class="col_100">
                     
                     <div class="texto"> 
-                        
-                        <div class="col_33">
-                            <strong>Ubicación</strong>
-                            <br/><br/>
-                            El edifico de Oficinas de URBAN BCN 22@ se ubicará en la calle Bilbao esquina con la calle Peru de Barcelona, en el Distrito de Sant Martí, concretamente en el área del 22@; nueva zona de centralidad de la ciudad, muy próxima a la Avenida Diagonal y la Gran Via de les Corts Catalanes.
-                        </div>
-                        
-                        <div class="col_33">
-                            <strong>Edificio</strong>
-                            <br/><br/>
-                            El resultado final del proyecto de oficinas URBAN 22@, nace de la necesidad de combinar dos conceptos. Por un lado un edificio de última generación, innovador, tecnológico, sostenible, con los máximos requerimientos de eficiencia energética, y pensado al máximo para el bienestar de los usuarios, y por otro lado un edificio que se integre y conviva perfectamente con el entorno industrial preexistente.
-                        </div>
-                        
-                        <div class="col_33">
-                            <strong>Oficinas</strong>
-                            <br/><br/>
-                            Luminosas,  espaciosas,  diáfanas,  divisibles, modulables, anexionables, tecnológicas,  suelo técnico, aire acondicionado, generosas alturas, opción de terraza, privada, ventilación, natural,  cómodas y seguras.
-                        </div>
+                                                
+                            <p>URBAN BCN Lofts es un proyecto de promoción de viviendas tipo lofts que se ubica en el Distrito de Sant Martí de Barcelona y forma parte del Área 22@.</p>
+                            <p>La parcela en que se ubica, en la confluencia de la Calle Perú con la Calle Bilbao, está próxima a la Avenida Diagonal, la Gran Vía de les Corts Catalanes.</p>
+                            <p>Esta nueva promoción forma parte de un conjunto mayor que integrará nuevos edificios de oficinas, un hotel y nuevas zonas verdes y de servicios. Una vez consolidado constituirá un nuevo eje de centralidad del Área 22@ y de la ciudad de Barcelona en su conjunto.</p>                        
+                                                
                     </div>
 
                 </div>
@@ -531,8 +530,12 @@
 
                     </div>
 
-                </div>
-    
+                </div>    
+                
+            </div>
+            
+            <div class="col_100 mapa-com">
+                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_comunicaciones.jpg" alt="" />                    
             </div>
 
         </div>
@@ -825,63 +828,16 @@
 
 
 
-        <!-- tecnologia
+        <!-- calidades
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-        <div class="row" id="tecnologia">
+        <div class="row" id="calidades">
             
             <div class="content">
-
-                <div class="col_100">
-
-                    <h2> TECNOLOGÍA </h2>
-
-                    <div class="linea"></div>
-
-                </div>
-
-                <div class="col_100">
-
-                    <div class="informacion">
-
-                        <div class="foto">
-                            
-                            <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/tecnologia_image_2.jpg')"></div>
-                            <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/tecnologia_image.jpg')"></div>
-                            
-                        </div>
-
-                        <div class="textos">
-
-                            <strong>Control de accesos</strong>
-                            <br/><br/>
-                            Sistemas de control de accesos con conectividad en la nube. Ofrecen a los usuarios la posibilidad de poder controlar todas sus necesidades de acceso y seguridad del edificio.
-                            
-                            <br/><br/><br/>
-                            <strong>Smart Building</strong>
-                            <br/><br/>
-                            Gestión avanzada por smatphone, una solución digital integral que permite:
-                            <ul>
-                                <li> Gestionar de manera inteligente los modelos innovadores de edificios smart y todos los servicios relacionados (smart buildings). </li>
-                                <li> Hacer realidad las nuevas estrategias de hospitality para el sector Real Estate (community building). </li>
-                                <li> Construir un nuevo modelo de edificios ágil, eficiente, y apoyado por la tecnología (proptech). </li>
-                                <li> Gestión del parking inteligente. </li>
-                            </ul>
-                            
-                            <br/>
-                            <strong>Instalaciones interiores</strong>
-                            <br/><br/>
-                            Las oficinas están dotadas de falso techo y de pavimento técnico registrables, por donde podrán discurrir las instalaciones propias necesarias de unas oficinas de alta tecnología
-                            
-
-                        </div>
-                    </div>
-
-                </div>
-
+                
                 <div class="col_100" id="sostenibilidad">
 
-                    <h2> SOSTENIBILIDAD Y CERTIFICACIONES </h2>
+                    <h2> MEMORIA DE CALIDADES </h2>
 
                     <div class="linea"></div>
 
@@ -1061,101 +1017,7 @@
         </div>
 
 
-        <!-- franja-foto
-        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-        <div class="row" id="franja-foto"></div>
-
-
-        <!-- certifica
-        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-        <div class="row" id="certifica">
-
-
-            <!-- lightbox well
-            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-            <div class="lightbox-empresa" id="lightbox_well">
-                
-                <div class="ico-close"> <a><img src="<? echo $appFrontUrl ?>/assets/img/close_icon.png" /></a> </div>
-                
-                <div class="certif-info" id="certif_info_1">
-                    <div class="izq">
-                        <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/leed_logo.png" /> </div>
-                        <div class="texto1"> USGBC </div>
-                        <div class="texto2"> Leed Platinum </div>                    
-                    </div>
-
-                    <div class="der">
-                        <div class="con-der">
-                            <div class="textos">
-                                La construcción certificada LEED reduce los efectos negativos de la construcción en el medio ambiente, reduciendo las emisiones de gases de efecto invernadero, previniendo daños adicionales en la capa de ozono, reduciendo la cantidad de residuos enviados a los vertederos, preservando así los entornos rurales y protegiendo los ecosistemas y la biodiversidad. USGBC, en los Estados Unidos, es el único organismo autorizado para otorgar la certificación LEED. 
-                                Un edificio con certificación LEED aumenta la productividad de los ocupantes ya que ha sido diseñado teniendo en cuenta la calidad de las zonas de estar, el nivel de iluminación natural, los niveles acústicos adecuados, el control de calor, la ventilación suficiente, etc. Todos estos aspectos son fundamentales para mejorar la calidad de vida y la salud de los ocupantes.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="certif-info" id="certif_info_2">
-                    <div class="izq">
-                        <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/well_logo.png" /> </div>
-                        <div class="texto1"> INTERNATIONAL </div>
-                        <div class="texto2"> Well Platinum </div>                    
-                    </div>
-
-                    <div class="der">
-                        <div class="con-der">
-                            <div class="textos">
-                                La certificación WELL ofrece las mejores técnicas de construcción y diseño, teniendo en cuenta la salud y el bienestar del usuario del edificio. 
-                                Las áreas certificadas por WELL™, Proyectos en conformidad con WELL Core y Shell requieren analizar los proyectos desde el punto de vista del usuario para promover un entorno que permita mejorar la productividad en el trabajo y reducir el ausentismo a través de la nutrición, la aptitud física, el estado de ánimo, los patrones de sueño y el rendimiento del usuario.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>   
-
-            
-            <div class="content">
-
-                <div class="col_100">
-
-                    <div class="texto">
-
-                        Se espera que los edificios URBAN BCN 22@ OFFICES obtengan los más altos certificados de eficiencia energética, medioambiental, de salud y de confort que existen actualmente.<br/>Estos son LEED PLATINUM y WELL PLATINUM.
-                    
-                    </div>
-
-                </div>
-
-                <div class="col_100">
-
-                    <div class="box">
-
-                        <div class="cert">
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/leed_logo.png" />  </div>
-                            <div class="tip"> USGBC </div>
-                            <div class="nom"> Leed Platinum </div>
-                            <div class="boton btn_certif" data-item="1"></div>
-                        </div>
-
-                        <div class="cert">
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/well_logo.png" />  </div>
-                            <div class="tip"> INTERNATIONAL </div>
-                            <div class="nom"> Well Platinum </div>
-                            <div class="boton btn_certif" data-item="2"></div>
-                        </div>
-
-                    </div>
-
-                </div>
-    
-            </div>
-
-        </div>        
-
-
+        
 
         <!-- planos
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1514,65 +1376,6 @@
 
 
 
-
-        <!-- catalogo
-        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-        <div class="row" id="catalogo">
-            
-            <div class="content-catalogo">
-
-                <div id="back-catalogo">
-                     
-                    <div class="content">
-                            
-                        <div class="col_100">
-
-                            <div class="box-h2">
-
-                                <h2> CATÁLOGO </h2>
-                                <div class="linea"></div>
-
-                            </div>
-
-                        </div>
-
-                        <div class="col_50">
-
-                            <div class="texto">
-
-                                <div class="comillas"> " </div>
-                                
-                                <div class="comen">
-                                    Futuro y pasado, innovación<br/>
-                                    y tradición para crear nuevos<br/>
-                                    espacios para ser vividos.       
-                                </div>
-
-                                <div class="autor">
-                                    <span>Artur Fuster</span><br/>
-                                    Arquitecto        
-                                </div>
-
-                                <div class="boton">
-                                    <a class="btn btn-catalogo" href="<? echo $appContentUrl ?>/pageflip/index.html" target="_blank"> Ver Catálogo </a>
-                                </div>
-
-                            </div>                    
-
-                        </div>
-                    
-                    </div>
-
-                </div>
-    
-                
-            </div>
-
-        </div>       
-        
-        
-
         <!-- contacto
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
@@ -1680,12 +1483,12 @@
             $(document).ready(function() {
                 
                 $('#slider .gallery').flickity({
-                    autoPlay: 3000
+                    //autoPlay: 3000
                 });
                 
-                $('#tecnologia .foto').flickity({
+                /*$('#tecnologia .foto').flickity({
                     autoPlay: 3000
-                });
+                });*/
                 
                 $('#header #menu-desktop li a').click(function() {
 
@@ -1741,11 +1544,12 @@
                 
                 
                 
-                setTimeout(function(){ 
+                /*setTimeout(function(){ 
                     $('.slide__text').css('transition','transform 0.8s 0.8s, opacity 0.8s 0.8s');
                     $('.slide__text').css('transform','translateY(-250%)');
-                }, 3000);
+                }, 3000);*/
                 
+                $('.slider-control').css('display','none');
                 
                 
             });
