@@ -23,7 +23,7 @@
 
                                     <h1> 
                                         25 viviendas tipo loft en alquiler.<br/>
-                                        Espacios diáfanos, abiertos, funcionales y con luz,<br/>
+                                        Espacios diáfanos, abiertos,<br/>funcionales y con luz,<br/>
                                         sobre todo, con mucha luz.
                                     </h1> 
                                     
@@ -553,7 +553,7 @@
 
                 <div class="col_100">
 
-                    <h2 class="text-white"> SERVICIOS </h2>
+                    <h2 class="text-white"> SERVICIOS COMUNES </h2>
 
                     <div class="linea"></div>
 
@@ -570,6 +570,14 @@
                         <div class="ico-close"> <a><img src="<? echo $appFrontUrl ?>/assets/img/close_icon.png" /></a> </div>
 
                         <div class="servicio-info" id="servicio_info_1">
+                            <div class="tit"> Conserjería, Vídeo-vigilancia </div>
+
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+
+                            <div class="des">  </div>
+                        </div>
+                        
+                        <div class="servicio-info" id="servicio_info_2">
                             <div class="tit"> Gym </div>
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
@@ -577,96 +585,85 @@
                             <div class="des"> Lugar donde cultivar el cuerpo sin necesidad de desplazamientos.</div>
                         </div>
                         
-                        <div class="servicio-info" id="servicio_info_2">
-                            <div class="tit"> Restaurante, Cocina Office </div>
-
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/restaurante_image.jpg" /> </div>
-
-                            <div class="des"> El edificio estará dotado de un restaurante en la planta baja, que ofrecerá oferta gastronómica, tanto a los usuarios de las oficinas como al público en general. Además, existirá una cocina y un office en la zona de amenities, de uso exclusivo de los usuarios, dónde podrán prepararse sus propios platos, así como una zona habilitada para vending saludable. </div>
-                        </div>
-                        
                         <div class="servicio-info" id="servicio_info_3">
-                            <div class="tit"> Librería </div>
+                            <div class="tit"> Vestuarios </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/libreria_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> Espacio dónde poder ocupar relajadamente, aquellos momentos de necesario asueto.</div>
+                            <div class="des"> </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_4">
-                            <div class="tit"> Duchas, Vestuarios  </div>
+                            <div class="tit"> Lavandería </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/duchas_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> Nos desplazamos en bicicleta, hace calor, tenemos una dura jornada laboral, una cita después del trabajo; ¡nada mejor que una reponedora ducha y un cambio de camisa!.</div>
+                            <div class="des"> </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_5">
-                            <div class="tit"> Terrazas </div>
+                            <div class="tit"> Vestíbulo, Zona relax </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/terraza_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> El inmueble dispone de unas amplias terrazas con esplendidas vistas panorámicas de uso común, dónde poder trabajar al aire libre o dónde relajarse u organizar algún aperitivo y otras privativas de uso individual en algunas oficinas.</div>
+                            <div class="des"> </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_6">
-                            <div class="tit"> Auditorio </div>
+                            <div class="tit"> Sala polivalente </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/auditorio_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> Espacio polivalente de uso compartido, dónde poder celebrar una conferencia, un evento, una formación, etc., sin tener que salir del edificio y así rentabilizar el tiempo.</div>
+                            <div class="des"> </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_7">
-                            <div class="tit"> Sala de Juegos  </div>
+                            <div class="tit"> Espacio Aparca bicis </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/juegos_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> Espacio donde poder descargar adrenalina y divertirse cuando más se necesite, así como interactuar y generar sinergias entre los usuarios.</div>
+                            <div class="des"> </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_8">
-                            <div class="tit"> Espacios anti-estrés & descanso  </div>
+                            <div class="tit"> Taquillas Inteligentes </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/stress_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> Zona enfocada a la obtención de la máxima relajación en aquellos momentos de máximo estrés.</div>
+                            <div class="des"> </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_9">
-                            <div class="tit"> Salas de Reuniones  </div>
+                            <div class="tit"> WI-FI </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/reuniones_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> Espacios de uso común, dónde poder ampliar su oficina por necesidades puntuales o que se necesite trabajar fuera del formato convencional habitual.</div>
+                            <div class="des"> </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_10">
-                            <div class="tit"> Sala de Lactancia  </div>
+                            <div class="tit"> Solarium </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/lactancia_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> Lugar cómodamente habilitado, donde poder alimentar a los bebés de los usuarios y generar los mayores vínculos familiares y de conciliación.</div>
+                            <div class="des"> </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_11">
-                            <div class="tit"> Seguridad </div>
+                            <div class="tit"> Piscinas </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/seguridad_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> Tienes un problema? Nuestro equipo estará atento las 24 h del día, durante 7 días a la semana velando por la Seguridad de los usuarios y del inmueble, intentando evitar intrusos, sustracciones, incivismo y velando por la salud de todos, dando aviso a los bomberos o a la ambulancia.</div>
+                            <div class="des"> </div>
                         </div>
-                    
+                        
                         <div class="servicio-info" id="servicio_info_12">
-                            <div class="tit"> Armarios Inteligentes  </div>
+                            <div class="tit"> Chill-out </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/armarios_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> A través de los armarios inteligentes, los e-commerce y tiendas online pueden dejar los pedidos, ya sean de supermercados, tintorería, lavandería, platos preparados, paquetería general, etc.</div>
-                        </div>
-
-                        
-                        
+                            <div class="des"> </div>
+                        </div>                                                
                         
                     </div>
                     
@@ -678,22 +675,22 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/gym_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/video_vigila_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Gym </div>
+                            <div class="tit text-white"> Conserjería<br/>Vídeo-vigilancia </div>
                             <a class="boton btn_servicio" data-item="1"></a>
                         </div>
-
+                                                                                                                                                
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/resta_icon.png" style="width: 70px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/gym_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Restaurante<br/>Cocina Office </div>
+                            <div class="tit text-white"> Gym </div>
                             <a class="boton btn_servicio" data-item="2"></a>
                         </div>
 
@@ -702,127 +699,134 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/libreria_icon.png" style="width: 98px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/vestuario_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Librería </div>
+                            <div class="tit text-white"> Vestuarios </div>
                             <a class="boton btn_servicio" data-item="3"></a>
                         </div>
-
+                        
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/ducha_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/lavanderia_icon.png" style="width: 80px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Duchas<br/>Vestuarios </div>
+                            <div class="tit text-white"> Lavandería </div>
                             <a class="boton btn_servicio" data-item="4"></a>
                         </div>
-
+                                                
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/terraza_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/vestibulo_icon.png" style="width: 80px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Terrazas </div>
+                            <div class="tit text-white"> Vestíbulo<br/>Zona relax </div>
                             <a class="boton btn_servicio" data-item="5"></a>
                         </div>
-
+                                                
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/auditorio_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/polivalent_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Auditorio </div>
+                            <div class="tit text-white"> Sala polivalente </div>
                             <a class="boton btn_servicio" data-item="6"></a>
                         </div>
-
+                        
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/juegos_icon.png" style="width: 98px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/bicipark_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Sala<br/>de Juegos </div>
+                            <div class="tit text-white"> Espacio<br/>Aparca bicis </div>
                             <a class="boton btn_servicio" data-item="7"></a>
                         </div>
-
+                        
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/descanso_icon.png" style="width: 83px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/taquillas_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Espacios<br/>anti-estres<br/>& descanso </div>
+                            <div class="tit text-white"> Taquillas Inteligentes </div>
                             <a class="boton btn_servicio" data-item="8"></a>
                         </div>
-
+                        
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/reuniones_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/wi-fi_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Salas de<br/>Reuniones </div>
+                            <div class="tit text-white"> WI-FI </div>
                             <a class="boton btn_servicio" data-item="9"></a>
                         </div>
-
+                        
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/lactancia_icon.png" style="width: 42px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/solarium_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Sala de<br/>Lactancia </div>
+                            <div class="tit text-white"> Solarium </div>
                             <a class="boton btn_servicio" data-item="10"></a>
                         </div>
-
+                        
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/seguridad_icon.png" style="width: 70px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/piscina_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Seguridad </div>
+                            <div class="tit text-white"> Piscinas </div>
                             <a class="boton btn_servicio" data-item="11"></a>
                         </div>
-
+                        
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/armarios_icon.png" style="width: 100px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/chill_icon.png" style="width: 80px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Armarios<br/>Inteligentes </div>
+                            <div class="tit text-white"> Chill-out </div>
                             <a class="boton btn_servicio" data-item="12"></a>
                         </div>
-
+                                                                                                
                     </div>
-
+                    
+                    
                 </div>
-
+                                
             </div>
 
+        </div>
+        
+        <div class="row servicios-banner">
+            
+            <img src="<? echo $appFrontUrl ?>/assets/img/servicios_img.jpg" />
+            
         </div>
 
 
@@ -847,7 +851,7 @@
 
                     <div class="imagen-sostenibilidad">
 
-                        <img src="<? echo $appFrontUrl ?>/assets/img/sostenibilidad_image.jpg" />
+                        <img src="<? echo $appFrontUrl ?>/assets/img/calidades_slider_1.jpg" />
 
                     </div>
 
@@ -868,147 +872,24 @@
             
             <div class="content">
 
-                <div class="col_100">
+                <div class="col_100 box">
 
-                    <div class="box images-anim">
-
-                        <!-- item
-                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item">
-                            <div class="icono"> 
-                                <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/aire_icon.png" style="width: 85px" /> 
-                                </div>
-                            </div>
-                            <div class="tit text-white"> Aire </div>
-                            <table>
-                                <tr>
-                                    <td class="descr-full"> Se establecen requisitos que promueven el aire limpio y reducen o minimizan las fuentes de contaminación del aire interior.</td>
-                                </tr>
-                            </table>
-                            
-                        </div>
-
-                        <!-- item
-                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item">
-                            <div class="icono"> 
-                                <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/light_icon.png" style="width: 72px" /> 
-                                </div>
-                            </div>
-                            <div class="tit text-white"> Luz </div>
-                            <table>
-                                <tr>
-                                    <td class="descr-full"> Se proporcionan pautas que minimizan la interrupción del sistema circadiano del cuerpo, mejoran la productividad, respaldan la buena calidad del sueño y brindan una agudeza visual adecuada, así como sistemas de reducción del consumo eléctrico.</td>
-                                </tr>
-                            </table>
-                            
-                        </div>
-
-                        <!-- item
-                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item">
-                            <div class="icono"> 
-                                <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/agua_icon.png" style="width: 70px" /> 
-                                </div>
-                            </div>
-                            <div class="tit text-white"> Agua </div>
-                            <table>
-                                <tr>
-                                    <td class="descr-full"> Se promueve el agua potable y limpia, mediante la implementación de técnicas de filtración adecuadas y pruebas periódicas para que los ocupantes del edificio reciban agua de calidad óptima, así como sistemas de reducción y evaluación del consumo.</td>
-                                </tr>
-                            </table>
-                            
-                        </div>
-
-                        <!-- item
-                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item">
-                            <div class="icono"> 
-                                <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/confort_icon.png" style="width: 70px" /> 
-                                </div>
-                            </div>
-                            <div class="tit text-white"> Confort </div>
-                            <table>
-                                <tr>
-                                    <td class="descr-full"> Se establecen requisitos diseñados para crear ambientes interiores cómodos, productivos y sin distracciones.</td>
-                                </tr>
-                            </table>
-                            
-                        </div>
-
-                        <!-- item
-                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item">
-                            <div class="icono"> 
-                                <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/value_icon.png" style="width: 74px" /> 
-                                </div>
-                            </div>
-                            <div class="tit text-white"> Valor </div>
-                            <table>
-                                <tr>
-                                    <td class="descr-full"> Los edificios Urban Bcn22@, cuestan menos de operar y aumentan la productividad y retención de los empleados.</td>
-                                </tr>
-                            </table>
-                            
-                        </div>
-
-                        <!-- item
-                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item">
-                            <div class="icono"> 
-                                <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/performance_icon.png" style="width: 62px" /> 
-                                </div>
-                            </div>
-                            <div class="tit text-white"> Durabilidad </div>
-                            <table>
-                                <tr>
-                                    <td class="descr-full"> Se utiliza un enfoque más sólido y basado en el rendimiento para la calidad del ambiente interior, para una mejor comodidad de los ocupantes.</td>
-                                </tr>
-                            </table>
-                            
-                        </div>
-
-                        <!-- item
-                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item">
-                            <div class="icono"> 
-                                <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/materials_icon.png" style="width: 42px" /> 
-                                </div>
-                            </div>
-                            <div class="tit text-white"> Materiales </div>
-                            <table>
-                                <tr>
-                                    <td class="descr-full"> Nos hemos centrado en los materiales, para comprender mejor su contenido y el efecto que tienen sus componentes en la salud humana y el medio ambiente.</td>
-                                </tr>
-                            </table>
-                            
-                        </div>
-
-                        <!-- item
-                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item">
-                            <div class="icono"> 
-                                <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/movilidad_icon.png" style="width: 100px" /> 
-                                </div>
-                            </div>
-                            <div class="tit text-white"> Movilidad </div>
-                            <table>
-                                <tr>
-                                    <td class="descr-full"> Una oferta completa de opciones de movilidad en el edificio: patinetes, bicicletas, vehículos eléctricos disponibles bajo demanda.</td>
-                                </tr>
-                            </table>
-                            
-                        </div>
-
+                    <div class="col_25">
+                        &nbsp;
                     </div>
+                    
+                    <div class="col_25">
+                        <a href="#" class="btn">Ver Tour 360º</a>
+                    </div>
+                    
+                    <div class="col_25">
+                        <a href="#" class="btn">Descargar Memoria Calidades</a>
+                    </div>
+                    
+                    <div class="col_25">
+                        &nbsp;
+                    </div>
+                    
 
                 </div>
 
@@ -1034,19 +915,7 @@
 
                     <select name="planta" id="planta">
                         <option value="seccion">Sección</option>
-                        <option value="8">Planta 8</option>
-                        <option value="7">Planta 7</option>
-                        <option value="6">Planta 6</option>
-                        <option value="5">Planta 5</option>
-                        <option value="4">Planta 4</option>
-                        <option value="3">Planta 3</option>
-                        <option value="2">Planta 2</option>
-                        <option value="1">Planta 1</option>
-                        <option value="0">Planta 0</option>
-                        <option value="sot1">Sótano -1</option>
-                        <option value="sot2">Sótano -2</option>
-                        <option value="sot3">Sótano -3</option>
-                        <option value="sot4">Sótano -4</option>
+                        <!--<option value="8">Planta 8</option>-->                        
                       </select>
 
                 </div>
@@ -1060,25 +929,15 @@
                         <div class="linea"></div>
 
                         <div class="botones">
-                        
-                            <a data-item="8" class="btn btn-small btn_planta"> Planta 8 </a>
-                            <a data-item="7" class="btn btn-small btn_planta"> Planta 7 </a>
-                            <a data-item="6" class="btn btn-small btn_planta"> Planta 6 </a>
-                            <a data-item="5" class="btn btn-small btn_planta"> Planta 5 </a>
-                            <a data-item="4" class="btn btn-small btn_planta"> Planta 4 </a>
-                            <a data-item="3" class="btn btn-small btn_planta"> Planta 3 </a>
-                            <a data-item="2" class="btn btn-small btn_planta"> Planta 2 </a>
-                            <a data-item="1" class="btn btn-small btn_planta"> Planta 1 </a>
-                            <a data-item="0" class="btn btn-small btn_planta"> Planta 0 </a>
-                            <a data-item="sot1" class="btn btn-small btn_planta"> Sótano -1 </a>
-                            <a data-item="sot2" class="btn btn-small btn_planta"> Sótano -2 </a>
-                            <a data-item="sot3" class="btn btn-small btn_planta"> Sótano -3 </a>
-                            <a data-item="sot4" class="btn btn-small btn_planta"> Sótano -4 </a>
-                            <a data-item="seccion" class="btn btn-small btn_planta active"> Sección </a>
+                                                    
+                            <a data-item="2" class="btn btn-small btn_planta"> Planta Segunda </a>
+                            <a data-item="1" class="btn btn-small btn_planta"> Planta Primera </a>
+                            <a data-item="0" class="btn btn-small btn_planta"> Planta Baja </a>                                                        
                             <br/>
-                        <div class="linea"></div>
-                        <br/>
-                            <a class="btn btn-small btn-planos" style="width: 100%;" href="<? echo $appFrontUrl ?>/assets/pdf/urban_planos_es.pdf" target="_blank"> Descargar Planos </a>
+                        
+                            <br/>
+                            <!--<a class="btn btn-small btn-planos" style="width: 100%;" href="<? echo $appFrontUrl ?>/assets/pdf/urban_planos_es.pdf" target="_blank"> Descargar Planos </a>-->
+                            <a class="btn btn-small btn-planos" style="width: 100%;" href="#"> Descargar Planos </a>
 
                         </div>
 
@@ -1089,133 +948,20 @@
                 <div class="imagenes">
                     
 
-                    <!-- item plano -->
                     
-                    <div id="planta8" class="div_planta" style="display: none;">
-
-                        <div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Planta 8 </div>
-                            
-                        </div>
-    
-                        <div class="fotos">
-    
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_8.jpg" />
-    
-                        </div>
-    
-                    </div>
-
-
-                    <!-- item plano -->
-                    
-                    <div id="planta7" class="div_planta" style="display: none;">
-
-                        <div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Planta 7 </div>
-                            <div class="metros"> 2.334,07 m<sup>2</sup> </div>
-                        </div>
-    
-                        <div class="fotos">
-    
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_7.jpg" />
-    
-                        </div>
-    
-                    </div>
-
-
-                    <!-- item plano -->
-                    
-                    <div id="planta6" class="div_planta" style="display: none;">
-
-                        <div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Planta 6 </div>
-                            <div class="metros"> 2.334,07 m<sup>2</sup> </div>
-                        </div>
-    
-                        <div class="fotos">
-    
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_6.jpg" />
-    
-                        </div>
-    
-                    </div>
-
-
-                    <!-- item plano -->
-                    
-                    <div id="planta5" class="div_planta" style="display: none;">
-
-                        <div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Planta 5 </div>
-                            <div class="metros"> 2.442,74 m<sup>2</sup> </div>
-                        </div>
-    
-                        <div class="fotos">
-    
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_5.jpg" />
-    
-                        </div>
-    
-                    </div>
-
-
-                    <!-- item plano -->
-                    
-                    <div id="planta4" class="div_planta" style="display: none;">
-
-                        <div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Planta 4 </div>
-                            <div class="metros"> 4.367,52 m<sup>2</sup> </div>
-                        </div>
-    
-                        <div class="fotos">
-    
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_4.jpg" />
-    
-                        </div>
-    
-                    </div>
-
-
-                    <!-- item plano -->
-                    
-                    <div id="planta3" class="div_planta" style="display: none;">
-
-                        <div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Planta 3 </div>
-                            <div class="metros"> 4.411,72 m<sup>2</sup> </div>
-                        </div>
-    
-                        <div class="fotos">
-    
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_3.jpg" />
-    
-                        </div>
-    
-                    </div>
-
-
                     <!-- item plano -->
                     
                     <div id="planta2" class="div_planta" style="display: none;">
 
-                        <div class="info">
+                        <!--<div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 2 </div>
                             <div class="metros"> 5.054,84 m<sup>2</sup> </div>
-                        </div>
+                        </div>-->
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_2.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_1.jpg" />
     
                         </div>
     
@@ -1226,11 +972,11 @@
                     
                     <div id="planta1" class="div_planta" style="display: none;">
 
-                        <div class="info">
+                        <!--<div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 1 </div>
                             <div class="metros"> 4.403,32 m<sup>2</sup> </div>
-                        </div>
+                        </div>-->
     
                         <div class="fotos">
     
@@ -1245,98 +991,31 @@
                     
                     <div id="planta0" class="div_planta" style="display: none;">
 
-                        <div class="info">
+                        <!--<div class="info">
                             <div class="tit"> PLANO DE PLANTA </div>
                             <div class="num"> Planta 0 </div>
                             
-                        </div>
+                        </div>-->
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_0.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_1.jpg" />
     
                         </div>
     
                     </div>
                     
-                    
-                    <div id="plantasot1" class="div_planta" style="display: none;">
-
-                        <div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Sótano -1 </div>
-                            
-                        </div>
-    
-                        <div class="fotos">
-    
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_sotano1.jpg" />
-    
-                        </div>
-    
-                    </div>
-                    
-                    
-                    <div id="plantasot2" class="div_planta" style="display: none;">
-
-                        <div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Sótano -2 </div>
-                            
-                        </div>
-    
-                        <div class="fotos">
-    
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_sotano2.jpg" />
-    
-                        </div>
-    
-                    </div>
-                    
-                    
-                    <div id="plantasot3" class="div_planta" style="display: none;">
-
-                        <div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Sótano -3 </div>
-                            
-                        </div>
-    
-                        <div class="fotos">
-    
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_sotano3.jpg" />
-    
-                        </div>
-    
-                    </div>
-                    
-                    
-                    <div id="plantasot4" class="div_planta" style="display: none;">
-
-                        <div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Sótano -4 </div>
-                            
-                        </div>
-    
-                        <div class="fotos">
-    
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_sotano4.jpg" />
-    
-                        </div>
-    
-                    </div>
                     
                     
                     <div id="plantaseccion" class="div_planta">
 
-                        <div class="info">
+                        <!--<div class="info">
                             
-                        </div>
+                        </div>-->
     
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/plantas_seccion.jpg" />
+                            <img src="<? echo $appFrontUrl ?>/assets/img/fachada_planos.jpg" />
     
                         </div>
     
@@ -1439,11 +1118,11 @@
 
                     <div class="logo">
                         <div class="con">
-                            <img src="<? echo $appFrontUrl ?>/assets/img/jll_logo.png" style="width: 130px" />
+                            <!--<img src="<? echo $appFrontUrl ?>/assets/img/jll_logo.png" style="width: 130px" />-->
                         </div>                    
                     </div>
                     <div class="datos w1">
-                        +34 93 318 53 53 
+                        +34 93 XXX XX XX 
                     </div>
 
                 </div>

@@ -208,8 +208,8 @@ body {
 		font-family: var(--font-avenir-demibold);
 	}
 	.btn:hover{
-		background-color: var(--color-primary);
-		border: 1px solid var(--color-primary);
+		background-color: var(--color-secondary);
+		border: 1px solid var(--color-secondary);
 	}
         .warning {
             border-bottom: 1px solid #c00 !important;
@@ -393,14 +393,14 @@ body {
 		box-sizing: border-box;
 		color: var(--color-white);
                 text-align: left !important;
-                padding-right: 20%;
+                padding-right: 10%;
 	}
 	#home .capa h1{
 		margin: 0px;
 		margin-top: 20px;                
-                font-size: 40px;
+                font-size: 34px;
                 text-align: left;                
-                line-height: 45px;
+                line-height: 38px;
 	}
         #home .capa h1.color{
 		color: var(--color-secondary);                         
@@ -761,7 +761,7 @@ body {
 		display: inline-block;
 		width: 85px;
 		height: 1px;
-		border-bottom: 2px solid var(--color-primary);
+		border-bottom: 2px solid var(--color-secondary);
 		margin-top: 20px;
 	}
 	#servicios .box{
@@ -852,6 +852,10 @@ body {
 		width: 100%;
 		padding: 10px 0px;
 	}
+        .servicios-banner img{
+		width: 100%;	
+                margin-bottom: 30px;
+	}
 
 
 
@@ -871,7 +875,7 @@ body {
 		display: inline-block;
 		width: 85px;
 		height: 1px;
-		border-bottom: 2px solid var(--color-primary);
+		border-bottom: 2px solid var(--color-secondary);
 		margin-top: 20px;
 	}
 	#calidades .informacion{
@@ -924,7 +928,7 @@ body {
 		width: 100%;
 		padding: 50px 0px;
 		text-align: center;
-		background-color: var(--color-secondary);
+		background-color: var(--color-terciary);
 		padding-top: 225px;
 		margin-top: -290px;
 		z-index: 0;
@@ -932,7 +936,7 @@ body {
 	#prestaciones .box{
 		display: inline-block;
 		width: 100%;
-		margin-top: 25px;
+		margin-top: 90px;
 		margin-bottom: 30px;
 	}
 	#prestaciones .box .item{
@@ -971,6 +975,19 @@ body {
 		hyphens: auto;
 		color: var(--color-white);
                 text-align: center;
+	}
+        
+        #prestaciones .box .btn{
+		display: inline-block;
+		width: 300px;		
+		box-sizing: border-box;
+		padding: 7px 15px;
+		margin-bottom: 12px;
+                font-size: 18px;
+	}
+	#prestaciones .box .btn:hover{
+		background-color: var(--color-secondary);
+		border: 1px solid var(--color-secondary);
 	}
 
 
@@ -1145,11 +1162,12 @@ body {
 	#planos{
 		float: left;
 		width: 100%;
-		background: rgb(31,31,31);
+		/*background: rgb(31,31,31);
 		background: -moz-linear-gradient(90deg, rgba(31,31,31,1) 51%, rgba(255,255,255,1) 52%);
 		background: -webkit-linear-gradient(90deg, rgba(31,31,31,1) 51%, rgba(255,255,255,1) 52%);
 		background: linear-gradient(90deg, rgba(31,31,31,1) 51%, rgba(255,255,255,1) 52%);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f1f1f",endColorstr="#ffffff",GradientType=1);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1f1f1f",endColorstr="#ffffff",GradientType=1);*/
+                background-color: var(--color-secondary);
 	}
         #planos .content {
                 width: 100%;
@@ -1205,41 +1223,45 @@ body {
 		display: inline-block;
 		width: 85px;
 		height: 1px;
-		border-bottom: 2px solid var(--color-primary);
+		border-bottom: 2px solid var(--color-white);
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}	
 	#planos .plantas .box .botones {
-		display: inline-block;
-		width: 100%;
+		display: block;
 		text-align: center;
+                margin: 0 auto;
+                margin-top: 50px;
+                width: 200px;                
 	}
 	#planos .plantas .box .botones .btn-small{
-		display: inline-block;
-		width: 35%;
+		display: block;		
 		max-width: 210px;
 		box-sizing: border-box;
 		padding: 7px 0px;
-		margin-bottom: 12px;
+		margin-bottom: 25px;
 	}
 	#planos .plantas .box .botones .btn-small:hover{
-		color: var(--color-primary);
-		background-color: var(--color-white);
-		border: 1px solid var(--color-white);
+		color: var(--color-white);
+		background-color: var(--color-terciary);
+		border: 1px solid var(--color-terciary);
 	}
         #planos .plantas .box .botones .btn-small.active{
-		color: var(--color-primary);
-		background-color: var(--color-white);
-		border: 1px solid var(--color-white);
+		color: var(--color-white);
+		background-color: var(--color-terciary);
+		border: 1px solid var(--color-terciary);
 	}
 	#planos .plantas .box .botones .btn-planos{
-		margin-top: 10px;
-		color: var(--color-primary);
-		border: 1px solid var(--color-primary);
-		margin-bottom: 0px;
+		margin-top: 80px;
+		color: var(--color-white);
+		border: 1px solid var(--color-white);
+                background-color: var(--color-secondary);
+		margin-bottom: 50px;
 	}
 	#planos .plantas .box .botones .btn-planos:hover{
-		border: 1px solid var(--color-white);
+		color: var(--color-white);
+		background-color: var(--color-terciary);
+		border: 1px solid var(--color-terciary);
 	}
 	#planos .imagenes{
 		float: left;
@@ -1338,7 +1360,7 @@ body {
 		background-image: url('../img/video_icon_on.png');
 	}
 	#video .btn-play .ico-play:hover span{
-		color: var(--color-primary);
+		color: var(--color-secondary);
 	}
         #video .video_iframe {
                 display: none;
@@ -1465,7 +1487,7 @@ body {
 		display: inline-block;
 		width: 85px;
 		height: 1px;
-		border-bottom: 2px solid var(--color-primary);
+		border-bottom: 2px solid var(--color-secondary);
 		margin-top: 20px;
 	}	
 	#contacto form{
@@ -1477,13 +1499,13 @@ body {
 		float: left;
 		margin-top: 30px;
 		font-family: var(--font-avenir-demibold);
-		color: var(--color-secondary);
-		border-color: var(--color-secondary);
+		color: #000;
+		border-color: #000;
 		padding: 5px 25px;
 	}
 	#contacto .btn:hover{
 		color: var(--color-white);
-		border-color: var(--color-primary);
+		border-color: var(--color-secondary);
 	}
 
 
@@ -1559,11 +1581,11 @@ body {
 		padding-bottom: 5px;
 		outline: none;
 		font-size: 16px;
-		color: var(--color-secondary);
+		color: #000;
 		border-bottom: 2px solid rgba(31,31,31, 0.2);
 	}
 	form input:focus, form textarea:focus{
-		border-bottom: 2px solid var(--color-secondary);
+		border-bottom: 2px solid #000;
 	}
 	form input::placeholder, form textarea::placeholder {
 		color: rgba(31,31,31, 0.2);
@@ -1586,7 +1608,7 @@ body {
             width: 100%;
         }
         form .chk a{
-		color: var(--color-primary);
+		color: var(--color-secondary);
                 text-decoration: none;
 	}
         form .chk a:hover{

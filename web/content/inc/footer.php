@@ -11,7 +11,7 @@
                 <div class="col_45">
 
                     <div class="copy">
-                        <strong>© 2021 Copyright urban bcn22 @ | All rights reserved.</strong>
+                        <strong>© <? echo date('Y')?> Copyright urban bcn @ | All rights reserved.</strong>
                     </div>
                     
                     <div class="legal">
