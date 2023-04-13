@@ -393,7 +393,7 @@ body {
 		box-sizing: border-box;
 		color: var(--color-white);
                 text-align: left !important;
-                padding-right: 10%;
+                padding-right: 30%;
 	}
 	#home .capa h1{
 		margin: 0px;
@@ -1238,8 +1238,8 @@ body {
 		display: block;		
 		max-width: 210px;
 		box-sizing: border-box;
-		padding: 7px 0px;
-		margin-bottom: 25px;
+		padding: 15px 10px;
+		margin-bottom: 40px;
 	}
 	#planos .plantas .box .botones .btn-small:hover{
 		color: var(--color-white);
@@ -1309,9 +1309,26 @@ body {
 	}
 	#planos .imagenes .fotos img{
 		float: left;
-		width: 100%;
+		width: 100%;                
 	}
-
+        #planos .imagenes .boton {
+		float: left;
+		width: 100%;   
+                margin-top: 20px;
+                margin-bottom: 50px;
+                text-align: center;
+	}
+        #planos .imagenes .boton .btn-planos{
+		color: var(--color-white);
+		background-color: var(--color-terciary);
+		border: 1px solid var(--color-terciary);
+                padding: 10px 25px;
+	}
+	#planos .imagenes .boton .btn-planos:hover{
+		color: var(--color-white);
+		background-color: var(--color-secondary);
+		border: 1px solid var(--color-secondary);
+	}
 
 
 
@@ -1760,7 +1777,16 @@ body {
 
 		#planos .imagenes .fotos{
                     margin-top: 50px;
-            }
+                }
+                
+        
+	}
+        
+        @media only screen and (max-width: 1400px) {
+
+		#home .capa{
+                    padding-right: 10%;
+                }
         
 	}
         
@@ -1772,6 +1798,9 @@ body {
 			font-size: 13px;
 			margin-bottom: 10px;
 		}
+                #home .capa{
+                    padding-right: 10%;
+                }
         
 	}
         
@@ -1788,12 +1817,7 @@ body {
 		#header #menu-desktop li{
 			padding: 0px 10px;
 		}
-                #home .capa h1{
-                        font-size: 30px;    
-                        line-height: 45px;
-                        margin-top: 100px;
-                }
-
+                
 	}
 
         @media only screen and (max-width: 1160px) {
@@ -1824,6 +1848,17 @@ body {
 		}
                 #header #logo img {
                     width: 140px;			
+                }
+
+	}
+        
+        @media only screen and (max-width: 1100px) {
+
+		#prestaciones .col_20{
+			display: none;
+		}
+                #prestaciones .col_30{
+                    width: 50%;			
                 }
 
 	}
@@ -1913,7 +1948,11 @@ body {
                 #home .capa h1{
                         padding-right: 0px;  
                         text-align: center;
+                        font-size: 25px;    
+                        line-height: 30px;
                 }
+                
+
 		
                 #container_cookies .acepto {
                     margin-right: 75px;
@@ -2130,7 +2169,13 @@ body {
 		}
 		#certifica .lightbox-empresa .der .con-der .textos{
 			height: auto;
-		}			
+		}	
+                
+                
+                #prestaciones .col_30{
+                    width: 100%;			
+                }
+
 
 	}
 
@@ -2154,9 +2199,13 @@ body {
                 
                 #home .capa h1{
                         font-size: 25px;    
-                        line-height: 35px;
+                        line-height: 30px;
                 }
-                
+                #home .capa span{
+                        margin-top: 10px;    
+                        font-size: 28px;    
+                }
+        
                 #container_cookies .acepto {
                     margin-right: 100px;
                 }

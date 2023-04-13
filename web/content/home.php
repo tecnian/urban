@@ -23,8 +23,7 @@
 
                                     <h1> 
                                         25 viviendas tipo loft en alquiler.<br/>
-                                        Espacios diáfanos, abiertos,<br/>funcionales y con luz,<br/>
-                                        sobre todo, con mucha luz.
+                                        Espacios diáfanos, abiertos, funcionales y con luz, sobre todo, con mucha luz.
                                     </h1> 
                                     
                                     <h1 class="color"> 
@@ -128,10 +127,10 @@
             
             <div class="gallery">
                 <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_1.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_2.jpg')"></div>
+                <!--<div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_2.jpg')"></div>
                 <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_3.jpg')"></div>
                 <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_4.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_5.jpg')"></div>                
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_5.jpg')"></div>   -->             
             </div>    
             
         </div>
@@ -874,19 +873,19 @@
 
                 <div class="col_100 box">
 
-                    <div class="col_25">
+                    <div class="col_20">
                         &nbsp;
                     </div>
                     
-                    <div class="col_25">
+                    <div class="col_30">
                         <a href="#" class="btn">Ver Tour 360º</a>
                     </div>
                     
-                    <div class="col_25">
+                    <div class="col_30">
                         <a href="#" class="btn">Descargar Memoria Calidades</a>
                     </div>
                     
-                    <div class="col_25">
+                    <div class="col_20">
                         &nbsp;
                     </div>
                     
@@ -914,8 +913,10 @@
                     <div class="linea"></div>
 
                     <select name="planta" id="planta">
-                        <option value="seccion">Sección</option>
-                        <!--<option value="8">Planta 8</option>-->                        
+                        <option value="-1">Seleccionar planta</option>
+                        <option value="0">Planta Baja</option>       
+                        <option value="1">Planta Primera</option>    
+                        <option value="2">Planta Segunda</option>       
                       </select>
 
                 </div>
@@ -935,10 +936,6 @@
                             <a data-item="0" class="btn btn-small btn_planta"> Planta Baja </a>                                                        
                             <br/>
                         
-                            <br/>
-                            <!--<a class="btn btn-small btn-planos" style="width: 100%;" href="<? echo $appFrontUrl ?>/assets/pdf/urban_planos_es.pdf" target="_blank"> Descargar Planos </a>-->
-                            <a class="btn btn-small btn-planos" style="width: 100%;" href="#"> Descargar Planos </a>
-
                         </div>
 
                     </div>                                    
@@ -953,18 +950,16 @@
                     
                     <div id="planta2" class="div_planta" style="display: none;">
 
-                        <!--<div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Planta 2 </div>
-                            <div class="metros"> 5.054,84 m<sup>2</sup> </div>
-                        </div>-->
-    
                         <div class="fotos">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_1.jpg" />
-    
+                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_1.jpg" />      
+                                                               
                         </div>
-    
+                        
+                        <div class="boton">
+                            <a class="btn btn-small btn-planos" style="width: 100%;" href="#"> Descargar Planos </a> 
+                        </div>
+                        
                     </div>
 
 
@@ -972,17 +967,16 @@
                     
                     <div id="planta1" class="div_planta" style="display: none;">
 
-                        <!--<div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Planta 1 </div>
-                            <div class="metros"> 4.403,32 m<sup>2</sup> </div>
-                        </div>-->
-    
                         <div class="fotos">
     
                             <img src="<? echo $appFrontUrl ?>/assets/img/planta_1.jpg" />
-    
+                            
                         </div>
+                        
+                        <div class="boton">
+                            <a class="btn btn-small btn-planos" style="width: 100%;" href="#"> Descargar Planos </a> 
+                        </div>
+                        
     
                     </div>
 
@@ -991,17 +985,16 @@
                     
                     <div id="planta0" class="div_planta" style="display: none;">
 
-                        <!--<div class="info">
-                            <div class="tit"> PLANO DE PLANTA </div>
-                            <div class="num"> Planta 0 </div>
-                            
-                        </div>-->
-    
                         <div class="fotos">
     
                             <img src="<? echo $appFrontUrl ?>/assets/img/planta_1.jpg" />
-    
+                            
                         </div>
+                        
+                        <div class="boton">
+                            <a class="btn btn-small btn-planos" style="width: 100%;" href="#"> Descargar Planos </a> 
+                        </div>
+                        
     
                     </div>
                     
