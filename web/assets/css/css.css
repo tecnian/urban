@@ -686,8 +686,13 @@ body {
 		display: inline-block;
 		width: 85px;
 		height: 1px;
-		border-bottom: 2px solid var(--color-primary);
+		border-bottom: 2px solid var(--color-secondary);
 		margin-top: 20px;
+	}
+        #comunicaciones .texto{
+		padding-right: 100px;
+                padding-left: 100px;
+                margin-top: 60px;
 	}
 	#comunicaciones .box{
 		display: inline-block;
@@ -740,6 +745,32 @@ body {
 
 
 
+        /* edificio
+	------------------------------------------------------------------------------------------------------  */
+	#edificio{
+		float: left;
+		width: 100%;
+		padding: 50px 0px;
+		text-align: center;
+                padding-bottom: 0;
+	}
+	#edificio h2{
+		margin: 0px;
+	}
+	#edificio .linea{
+		display: inline-block;
+		width: 85px;
+		height: 1px;
+		border-bottom: 2px solid var(--color-secondary);
+		margin-top: 20px;
+	}
+        #edificio .texto{
+		padding-right: 100px;
+                padding-left: 100px;
+                margin-top: 60px;
+                margin-bottom: 80px;
+	}
+        
 
 
 	/* servicios
@@ -933,11 +964,18 @@ body {
 		margin-top: -290px;
 		z-index: 0;
 	}
+        #prestaciones .texto{
+		padding-right: 100px;
+                padding-left: 100px;
+                margin-top: 60px;
+                margin-bottom: 80px;
+                color: #fff;
+	}
 	#prestaciones .box{
 		display: inline-block;
 		width: 100%;
-		margin-top: 90px;
-		margin-bottom: 30px;
+		margin-top: 30px;
+		margin-bottom: 50px;
 	}
 	#prestaciones .box .item{
 		display: inline-block;
@@ -2177,6 +2215,10 @@ body {
                 }
 
 
+                #comunicaciones .texto{
+                        padding-right: 25px;
+                        padding-left: 25px;
+                }
 	}
 
 

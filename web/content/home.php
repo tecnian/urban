@@ -120,23 +120,7 @@
     
 
 
-        <!-- slider
-        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-
-        <div class="row" id="slider">
-            
-            <div class="gallery">
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_1.jpg')"></div>
-                <!--<div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_2.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_3.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_4.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_5.jpg')"></div>   -->             
-            </div>    
-            
-        </div>
-
-
-
+        
         <!-- localizacion
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
@@ -360,6 +344,17 @@
                     <div class="linea"></div>
 
                 </div>
+                
+                <div class="col_100">
+                    
+                    <div class="texto"> 
+                                                
+                            <p>URBAN LOFT BCN está ubicado entre dos de las mayores arterias de comunicación de Barcelona, la Avenida Diagonal y la Gran Via de les Corts Catalanes, por lo que está perfectamente conectado por transporte público.</p>
+                            <p>Además, se encuentra muy cerca de la Ronda de Dalt y la Ronda Litoral, las principales vías rápidas de acceso y salida de la ciudad.</p>                        
+                                                
+                    </div>
+
+                </div>
 
                 <div class="col_100">
 
@@ -469,7 +464,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/pie_icon.png" style="width: 50px" /> 
                                 </div>
                             </div>
-                            <div class="tit"> A pié </div>
+                            <div class="tit"> A pie </div>
                             <table>
                                 <tr>
                                     <td class="dato text-right"> 6 min. </td>
@@ -522,7 +517,7 @@
                             <div class="tit"> Coche </div>
                             <table>
                                 <tr>
-                                    <td class="descr descr-full text-center"> La proximidad a estas rondas, Ronda de Dalt y Ronda Litoral, permite una rápida conexión con las principales calles, autopistas y el aeropuerto.<br/><br/>(20 minutos). </td>
+                                    <td class="descr descr-full text-center"> La proximidad a la Ronda de Dalt y Ronda Litoral, permite una rápida conexión con las principales calles, autopistas y el aeropuerto.<br/><br/>(20 minutos). </td>
                                 </tr>
                             </table>
                         </div>                        
@@ -538,6 +533,51 @@
             </div>
 
         </div>
+
+
+        
+        <!-- Edificio
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+        
+        <div class="row" id="edificio">
+            
+            <div class="content">
+                
+                <div class="col_100">
+
+                    <h2> EL EDIFICIO </h2>
+
+                    <div class="linea"></div>
+
+                </div>
+                
+                <div class="col_100">
+                    
+                    <div class="texto"> 
+                                                
+                            <p>URBAN LOFT BCN, localizado en el número 92 de la calle Perú, lo forman dos edificios conectados por un patio central y tres núcleos de comunicaciones verticales. El conjunto ha sido objeto de una rehabilitación integral en la que se han respetado el sistema compositivo, el lenguaje arquitectónico y los materiales de la facha original para preservar ese antiguo espíritu industrial de la zona.</p>
+                            <p>Se trata de una construcción moderna, actual, con una amplia variedad de servicios y prestaciones, además de diversos espacios comunes en planta baja y en cubierta diseñados para la comodidad y el disfrute de sus residentes.</p>                        
+                            <p>Todas las viviendas tienen la opción de poder disponer, además, de plaza de parking y trastero en las plantas sótano del edificio.</p>                    
+                    </div>
+
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <div class="row" id="slider">
+            
+            <div class="gallery">
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_1.jpg')"></div>
+                <!--<div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_2.jpg')"></div>
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_3.jpg')"></div>
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_4.jpg')"></div>
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_5.jpg')"></div>   -->             
+            </div>    
+            
+        </div>
+
 
 
 
@@ -822,11 +862,11 @@
 
         </div>
         
-        <div class="row servicios-banner">
+        <!--<div class="row servicios-banner">
             
             <img src="<? echo $appFrontUrl ?>/assets/img/servicios_img.jpg" />
             
-        </div>
+        </div>-->
 
 
 
@@ -840,7 +880,7 @@
                 
                 <div class="col_100" id="sostenibilidad">
 
-                    <h2> MEMORIA DE CALIDADES </h2>
+                    <h2> LOFTS </h2>
 
                     <div class="linea"></div>
 
@@ -870,6 +910,22 @@
         <div class="row" id="prestaciones">
             
             <div class="content">
+                
+                <div class="col_100">
+                    
+                    <div class="texto"> 
+                                                
+                            <p>El proyecto cuenta con 25 viviendas tipo loft, de 1 o 2 dormitorios, distribuidas en planta baja, primera y segunda planta, y con orientación o hacia la calle Perú o hacia el interior de la manzana.</p>
+                            <p>La superficie de los lofts varía entre los 100 y los 126 m2 construidos. Las plantas bajas, además, disponen de unas amplias terrazas</p>
+                            <p>Las viviendas disponen de grandes ventanales que proporcionan luminosidad, calidez y confort a todas las estancias. Y la distribución de cada loft se ha diseñado para tratar de conseguir el máximo aprovechamiento de los espacios.</p>
+                            <p>Detalles como la potenciación de las jácenas de los techos o el tubo de ventilación visto aportan ese aire industrial tan característico del interior de este tipo de viviendas.</p>
+                            <p>Los lofts con 2 dormitorios tienen un núcleo central de 2 baños y una cocina abierta con un amplio salón comedor. Los de 1 dormitorio disponen de un amplio espacio abierto de cocina comedor y un baño completo, con bañera y ducha.</p>
+                            <p>Todas las viviendas están listas para entrar a vivir. Disponen de cocina totalmente equipada, incluyendo nevera y lavavajillas, luminarias en todas las dependencias, armarios empotrados forrados y completamente preparados con barras, estantes y cajones, y baños completos con mueble bajo lavabo y todos los accesorios necesarios ya instalados, como toalleros, portarrollos, etc.</p>
+                                
+                    </div>
+
+                </div>
+                
 
                 <div class="col_100 box">
 

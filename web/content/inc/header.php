@@ -15,9 +15,8 @@
                         <li> <a href="#home" title="Inicio"> Inicio </a> </li>
                         <li> <a href="#localizacion" title="Localización"> Localización </a> </li>                        
                         <li> <a href="#comunicaciones" title="Comunicaciones"> Comunicaciones </a> </li>         
-                        <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>        
-                        <li> <a href="#calidades" title="Calidades"> Calidades </a> </li>                        
-                        <li> <a href="#planos" title="Planos"> Planos </a> </li>
+                        <li> <a href="#edificio" title="El Edificio"> El Edificio </a> </li>        
+                        <li> <a href="#calidades" title="Calidades"> Lofts </a> </li>                        
                         <li> <a href="#video" title="Vídeo"> Vídeo </a> </li>
                         <li> <a href="#contacto" title="Contacto"> Contacto </a> </li>
                         
@@ -45,9 +44,8 @@
                     <li> <a href="#home" title="Inicio"> Inicio </a> </li>
                     <li> <a href="#localizacion" title="Localización"> Localización </a> </li>
                     <li> <a href="#comunicaciones" title="Comunicaciones"> Comunicaciones </a> </li>
-                    <li> <a href="#servicios" title="Servicios"> Servicios </a> </li>   
-                    <li> <a href="#calidades" title="Calidades"> Calidades </a> </li>                    
-                    <li> <a href="#planos" title="Planos"> Planos </a> </li>
+                    <li> <a href="#edificio" title="El Edificio"> El Edificio </a> </li>        
+                    <li> <a href="#calidades" title="Calidades"> Lofts </a> </li>           
                     <li> <a href="#video" title="Vídeo"> Vídeo </a> </li>
                     <li> <a href="#contacto" title="Contacto"> Contacto </a> </li>
 

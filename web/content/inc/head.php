@@ -6,7 +6,7 @@
                 <meta name="apple-mobile-web-app-capable" content="yes" />
                 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
                        
-                <link rel="icon" type="image/png" href="<? echo $appFrontUrl ?>/assets/img/favicon.png" />
+                <link rel="icon" type="image/png" href="<? echo $appFrontUrl ?>/assets/img/favicon_urban.png" />
                 
                 <link rel="stylesheet" type="text/css" href="<? echo $appFrontUrl ?>/assets/css/flickity.css" />
                 <link rel="stylesheet" href="<? echo $appFrontUrl ?>/assets/css/slider.css?id=<? echo uniqid() ?>">
