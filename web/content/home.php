@@ -613,7 +613,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des">  </div>
+                            <div class="des"> Conserjería en acceso principal. Video vigilancia en accesos de planta sótano, planta baja y cubierta. </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_2">
@@ -621,7 +621,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> Lugar donde cultivar el cuerpo sin necesidad de desplazamientos.</div>
+                            <div class="des"> Gimnasio en planta baja, equipado con máquinas de fitness.  Clear your mind, stay in good shape.</div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_3">
@@ -629,7 +629,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> </div>
+                            <div class="des"> Taquillas y duchas en planta baja. Después de tu sesión de ejercicio podrás ducharte y guardar todas tus pertenencias.</div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_4">
@@ -637,7 +637,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> </div>
+                            <div class="des"> Sala de lavandería con seis lavadoras y seis secadoras de la marca Bosch. Haz tu colada, mientras haces ejercicio o desconectas en la zona relax.</div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_5">
@@ -645,7 +645,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> </div>
+                            <div class="des"> Vestíbulo con sofá y grada con asientos. Para descansar. Para charlar. Para compartir.</div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_6">
@@ -653,7 +653,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> </div>
+                            <div class="des"> Sala polivalente en planta baja destinada a diferentes usos (yoga, etc.)</div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_7">
@@ -661,7 +661,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> </div>
+                            <div class="des"> Espacio cerrado disponible en planta sótano para bicicletas, patinetes, etc.</div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_8">
@@ -669,7 +669,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> </div>
+                            <div class="des"> Taquillas inteligentes para que puedas recibir tu paquetería. Sin horarios ni esperas.</div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_9">
@@ -677,7 +677,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> </div>
+                            <div class="des"> Conexión wifi disponible en planta baja y cubierta.</div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_10">
@@ -685,7 +685,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> </div>
+                            <div class="des"> Zona de hamacas en cubierta para tomar el sol y recargar energía.</div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_11">
@@ -693,7 +693,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> </div>
+                            <div class="des"> Dos piscinas en la cubierta, una de ellas apta para el uso de los más pequeños.</div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_12">
@@ -701,7 +701,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> </div>
+                            <div class="des"> Zona chill-out con mesas y sillas en la cubierta del edificio. Disfruta de grandes momentos al aire libre. </div>
                         </div>                                                
                         
                     </div>
