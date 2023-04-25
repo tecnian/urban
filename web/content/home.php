@@ -349,8 +349,8 @@
                     
                     <div class="texto"> 
                                                 
-                            <p>URBAN LOFT BCN está ubicado entre dos de las mayores arterias de comunicación de Barcelona, la Avenida Diagonal y la Gran Via de les Corts Catalanes, por lo que está perfectamente conectado por transporte público.</p>
-                            <p>Además, se encuentra muy cerca de la Ronda de Dalt y la Ronda Litoral, las principales vías rápidas de acceso y salida de la ciudad.</p>                        
+                            <p>Urban Lofts BCN está ubicado entre dos de las mayores arterias de comunicación de Barcelona, la Avenida Diagonal y la Gran Via de les Corts Catalanes, por lo que está perfectamente conectado por transporte público. Además, se encuentra muy cerca de la Ronda de Dalt y la Ronda Litoral, las principales vías rápidas de acceso y salida de la ciudad.</p>
+                            <p>(Tiempo estimado hasta el aeropuerto: 20 minutos).</p>                        
                                                 
                     </div>
 
@@ -553,11 +553,16 @@
                 
                 <div class="col_100">
                     
-                    <div class="texto"> 
-                                                
-                            <p>URBAN LOFT BCN, localizado en el número 92 de la calle Perú, lo forman dos edificios conectados por un patio central y tres núcleos de comunicaciones verticales. El conjunto ha sido objeto de una rehabilitación integral en la que se han respetado el sistema compositivo, el lenguaje arquitectónico y los materiales de la facha original para preservar ese antiguo espíritu industrial de la zona.</p>
+                    <div class="texto colx2"> 
+                                            
+                        <div class="col_50">
+                            <p>Urban Lofts BCN, localizado en el número 92 de la calle Perú, lo forman dos edificios conectados a través de tres núcleos de comunicaciones verticales. El conjunto ha sido objeto de una rehabilitación integral en la que se han respetado el sistema compositivo, el lenguaje arquitectónico y los materiales de la fachada original para preservar ese antiguo espíritu industrial.</p>
+                        </div>  
+                        <div class="col_50">
                             <p>Se trata de una construcción moderna, actual, con una amplia variedad de servicios y prestaciones, además de diversos espacios comunes en planta baja y en cubierta diseñados para la comodidad y el disfrute de sus residentes.</p>                        
-                            <p>Todas las viviendas tienen la opción de poder disponer, además, de plaza de parking y trastero en las plantas sótano del edificio.</p>                    
+                            <p>Todas las viviendas tienen la opción de disponer, además, de plazas de parking y trastero en las plantas sótano del edificio.</p>                    
+                        </div>
+                                               
                     </div>
 
                 </div>
@@ -629,7 +634,7 @@
 
                             <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
 
-                            <div class="des"> Taquillas y duchas en planta baja. Después de tu sesión de ejercicio podrás ducharte y guardar todas tus pertenencias.</div>
+                            <div class="des"> Taquillas y duchas en planta baja para tus sesiones de gimnasio </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_4">
@@ -888,9 +893,13 @@
 
                 <div class="col_100">
 
-                    <div class="imagen-sostenibilidad">
+                    <div id="slider_lofts" class="imagen-sostenibilidad">
 
-                        <img src="<? echo $appFrontUrl ?>/assets/img/calidades_slider_1.jpg" />
+                        <div class="gallery">
+                            <? for ($s = 1; $s <= 18; $s++) { ?>
+                            <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/lofts_slider_<? echo $s ?>.jpg')"></div>
+                            <? } ?>
+                        </div>  
 
                     </div>
 
@@ -913,15 +922,18 @@
                 
                 <div class="col_100">
                     
-                    <div class="texto"> 
+                    <div class="texto colx2"> 
                                                 
-                            <p>El proyecto cuenta con 25 viviendas tipo loft, de 1 o 2 dormitorios, distribuidas en planta baja, primera y segunda planta, y con orientación o hacia la calle Perú o hacia el interior de la manzana.</p>
-                            <p>La superficie de los lofts varía entre los 100 y los 126 m2 construidos. Las plantas bajas, además, disponen de unas amplias terrazas</p>
-                            <p>Las viviendas disponen de grandes ventanales que proporcionan luminosidad, calidez y confort a todas las estancias. Y la distribución de cada loft se ha diseñado para tratar de conseguir el máximo aprovechamiento de los espacios.</p>
-                            <p>Detalles como la potenciación de las jácenas de los techos o el tubo de ventilación visto aportan ese aire industrial tan característico del interior de este tipo de viviendas.</p>
+                        <div class="col_50">
+                            <p>El proyecto cuenta con 25 viviendas tipo loft, de 1 o 2 dormitorios, distribuidas en planta baja, primera y segunda planta, y con orientación a la calle Perú o al interior de la manzana.</p>
+                            <p>La superficie de los lofts varía entre los 100 y los 126 m2 construidos. Las plantas bajas, además, disponen de unas amplias terrazas ajardinadas. </p>
+                            <p>Las viviendas disponen de grandes ventanales que proporcionan luminosidad, calidez y confort a todas las estancias. Y la distribución de cada loft se ha diseñado para conseguir el máximo aprovechamiento de los espacios. </p>
+                            <p>Detalles como la potenciación de las jácenas de los techos o el tubo de ventilación aportan ese aire industrial tan característico en el interior de este tipo de viviendas.</p>
+                        </div>    
+                        <div class="col_50">
                             <p>Los lofts con 2 dormitorios tienen un núcleo central de 2 baños y una cocina abierta con un amplio salón comedor. Los de 1 dormitorio disponen de un amplio espacio abierto de cocina comedor y un baño completo, con bañera y ducha.</p>
-                            <p>Todas las viviendas están listas para entrar a vivir. Disponen de cocina totalmente equipada, incluyendo nevera y lavavajillas, luminarias en todas las dependencias, armarios empotrados forrados y completamente preparados con barras, estantes y cajones, y baños completos con mueble bajo lavabo y todos los accesorios necesarios ya instalados, como toalleros, portarrollos, etc.</p>
-                                
+                            <p>Todas las viviendas están listas para entrar a vivir. Disponen de cocina totalmente equipada, incluyendo frigorífico-combi y lavavajillas, luminarias en todas las dependencias, armarios empotrados forrados, iluminados y completamente preparados con barras, estantes y cajones, y baños completos con mueble bajo lavabo y todos los accesorios necesarios ya instalados, como toalleros, portarrollos, etc.</p>
+                        </div>        
                     </div>
 
                 </div>
@@ -934,7 +946,7 @@
                     </div>
                     
                     <div class="col_30">
-                        <a href="#" class="btn">Ver Tour 360º</a>
+                        <a id="btn_ver_tour" class="btn">Ver Tour 360º</a>
                     </div>
                     
                     <div class="col_30">
@@ -1199,7 +1211,15 @@
             </div>
 
         </div>        
-
+        
+        
+        <div id="tour360">
+            <div class="close_tour"><img src="<? echo $appFrontUrl ?>/assets/img/cruz.png" alt=""></div>
+            <div class="frame_tour">
+                <iframe id="frameTour" src="https://my.matterport.com/show/?m=sPyzqhGvwBc" frameborder="0" allowfullscreen allow="xr-spatial-tracking" style="width:100%;height:100%"></iframe>
+            </div>
+        </div>
+ 
 
         <script src="<? echo $appSystemUrl ?>/js/slider/stopExecutionOnTimeout.js"></script>        
         <script src="<? echo $appSystemUrl ?>/js/slider/slider.js?id=<? echo uniqid() ?>"></script>                                 
@@ -1214,9 +1234,9 @@
                     //autoPlay: 3000
                 });
                 
-                /*$('#tecnologia .foto').flickity({
-                    autoPlay: 3000
-                });*/
+                $('#slider_lofts .gallery').flickity({
+                    //autoPlay: 3000
+                });
                 
                 $('#header #menu-desktop li a').click(function() {
 

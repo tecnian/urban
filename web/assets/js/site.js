@@ -150,6 +150,18 @@ $(document).ready(function(){
             ev.preventDefault();            
 
         });
+        
+        $('#btn_ver_tour').click(function() {
+            
+            open_tour_360();
+
+        });
+        
+        $('#tour360 .close_tour').click(function() {
+            
+            $("#tour360").css('display','none');  
+
+        });
                         
         
         $('a[href*=\\#]').click(function() {
@@ -466,6 +478,12 @@ function aceptar_cookies()
             });
 
 }   
+
+function open_tour_360()
+{
+    $("#tour360").css('display','block');    
+    
+}
 
 
 
