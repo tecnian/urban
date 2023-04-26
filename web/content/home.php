@@ -946,7 +946,7 @@
                     </div>
                     
                     <div class="col_30">
-                        <a id="btn_ver_tour" class="btn">Ver Tour 360º</a>
+                        <a href="<? echo $app_url['tour-360'] ?>" target="_blank" class="btn">Ver Tour 360º</a>
                     </div>
                     
                     <div class="col_30">
@@ -1018,14 +1018,53 @@
                     
                     <div id="planta2" class="div_planta" style="display: none;">
 
-                        <div class="fotos">
+                        <div class="fotos" style="position:relative">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_1.jpg" />      
+                            <img id="p2" class="piso_sel piso_def" src="<? echo $appFrontUrl ?>/assets/img/planos/segunda.jpg" /> 
+                            <img id="p2_e1_p1" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P2_esc_1_p1.jpg" /> 
+                            <img id="p2_e1_p2" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P2_esc_1_p2.jpg" /> 
+                            <img id="p2_e1_p3" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P2_esc_1_p3.jpg" /> 
+                            <img id="p2_e1_p4" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P2_esc_1_p4.jpg" /> 
+                            <img id="p2_e2_p1" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P2_esc_2_p1.jpg" /> 
+                            <img id="p2_e2_p2" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P2_esc_2_p2.jpg" /> 
+                            <img id="p2_e3_p1" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P2_esc_3_p1.jpg" /> 
+                            <img id="p2_e3_p2" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P2_esc_3_p2.jpg" />
+                            <img id="p2_e3_p3" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P2_esc_3_p3.jpg" /> 
+                            <img id="p2_e3_p4" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P2_esc_3_p4.jpg" /> 
+                            
+                            <div class="template">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p2_esc1_puerta2.pdf" target="_blank"><img data-id="p2_e1_p2" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p2_esc1_puerta1.pdf" target="_blank"><img data-id="p2_e1_p1" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p2_esc2_puerta1.pdf" target="_blank"><img data-id="p2_e2_p1" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p2_esc3_puerta1.pdf" target="_blank"><img data-id="p2_e3_p1" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p2_esc3_puerta2.pdf" target="_blank"><img data-id="p2_e3_p2" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans0.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans0.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans0.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans0.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans0.png" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p2_esc1_puerta3.pdf" target="_blank"><img data-id="p2_e1_p3" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p2_esc1_puerta4.pdf" target="_blank"><img data-id="p2_e1_p4" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p2_esc2_puerta2.pdf" target="_blank"><img data-id="p2_e2_p2" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p2_esc3_puerta4.pdf" target="_blank"><img data-id="p2_e3_p4" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p2_esc3_puerta3.pdf" target="_blank"><img data-id="p2_e3_p3" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                    </tr>
+                                </table>
+                            </div>
                                                                
                         </div>
                         
+                        
+    
+                        
                         <div class="boton">
-                            <a class="btn btn-small btn-planos" style="width: 100%;" href="#"> Descargar Planos </a> 
+                            <a class="btn btn-small btn-planos" href="#"> Descargar Planos Planta Segunda</a> 
                         </div>
                         
                     </div>
@@ -1035,14 +1074,50 @@
                     
                     <div id="planta1" class="div_planta" style="display: none;">
 
-                        <div class="fotos">
+                        <div class="fotos" style="position:relative">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_1.jpg" />
+                            <img id="p1" class="piso_sel piso_def" src="<? echo $appFrontUrl ?>/assets/img/planos/primera.jpg" /> 
+                            <img id="p1_e1_p1" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P1_esc_1_p1.jpg" /> 
+                            <img id="p1_e1_p2" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P1_esc_1_p2.jpg" /> 
+                            <img id="p1_e1_p3" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P1_esc_1_p3.jpg" /> 
+                            <img id="p1_e1_p4" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P1_esc_1_p4.jpg" /> 
+                            <img id="p1_e2_p1" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P1_esc_2_p1.jpg" /> 
+                            <img id="p1_e2_p2" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P1_esc_2_p2.jpg" /> 
+                            <img id="p1_e3_p1" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P1_esc_3_p1.jpg" /> 
+                            <img id="p1_e3_p2" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P1_esc_3_p2.jpg" />
+                            <img id="p1_e3_p3" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P1_esc_3_p3.jpg" /> 
+                            <img id="p1_e3_p4" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/P1_esc_3_p4.jpg" /> 
+                            
+                            <div class="template">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p1_esc1_puerta2.pdf" target="_blank"><img data-id="p1_e1_p2" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p1_esc1_puerta1.pdf" target="_blank"><img data-id="p1_e1_p1" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p1_esc2_puerta1.pdf" target="_blank"><img data-id="p1_e2_p1" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p1_esc3_puerta1.pdf" target="_blank"><img data-id="p1_e3_p1" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p1_esc3_puerta2.pdf" target="_blank"><img data-id="p1_e3_p2" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans0.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans0.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans0.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans0.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans0.png" /></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p1_esc1_puerta3.pdf" target="_blank"><img data-id="p1_e1_p3" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p1_esc1_puerta4.pdf" target="_blank"><img data-id="p1_e1_p4" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p1_esc2_puerta2.pdf" target="_blank"><img data-id="p1_e2_p2" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p1_esc3_puerta4.pdf" target="_blank"><img data-id="p1_e3_p4" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/p1_esc3_puerta3.pdf" target="_blank"><img data-id="p1_e3_p3" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans.png" /></a></td>
+                                    </tr>
+                                </table>
+                            </div>
                             
                         </div>
                         
                         <div class="boton">
-                            <a class="btn btn-small btn-planos" style="width: 100%;" href="#"> Descargar Planos </a> 
+                            <a class="btn btn-small btn-planos" href="#"> Descargar Planos Planta Primera </a> 
                         </div>
                         
     
@@ -1053,14 +1128,38 @@
                     
                     <div id="planta0" class="div_planta" style="display: none;">
 
-                        <div class="fotos">
+                        <div class="fotos" style="position:relative">
     
-                            <img src="<? echo $appFrontUrl ?>/assets/img/planta_1.jpg" />
+                            <img id="pb" class="piso_sel piso_def" src="<? echo $appFrontUrl ?>/assets/img/planos/baixa.jpg" /> 
+                            <img id="pb_e1_p1" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/PB_esc_1_p1.jpg" /> 
+                            <img id="pb_e1_p2" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/PB_esc_1_p2.jpg" /> 
+                            <img id="pb_e2_p1" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/PB_esc_2_p1.jpg" /> 
+                            <img id="pb_e3_p1" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/PB_esc_3_p1.jpg" /> 
+                            <img id="pb_e3_p2" class="piso_sel" src="<? echo $appFrontUrl ?>/assets/img/planos/PB_esc_3_p2.jpg" />
+                            
+                            <div class="template">
+                                <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/PB_esc1_puerta2.pdf" target="_blank"><img data-id="pb_e1_p2" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans_b.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/PB_esc1_puerta1.pdf" target="_blank"><img data-id="pb_e1_p1" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans_b.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/PB_esc2_puerta1.pdf" target="_blank"><img data-id="pb_e2_p1" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans_b.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/PB_esc3_puerta1.pdf" target="_blank"><img data-id="pb_e3_p1" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans_b.png" /></a></td>
+                                        <td><a href="<? echo $appFrontUrl ?>/assets/pdf/PB_esc3_puerta2.pdf" target="_blank"><img data-id="pb_e3_p2" class="piso" src="<? echo $appFrontUrl ?>/assets/img/plano_trans_b.png" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans_b.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans_b.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans_b.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans_b.png" /></td>
+                                        <td><img src="<? echo $appFrontUrl ?>/assets/img/plano_trans_b.png" /></td>
+                                    </tr>                                    
+                                </table>
+                            </div>
                             
                         </div>
                         
                         <div class="boton">
-                            <a class="btn btn-small btn-planos" style="width: 100%;" href="#"> Descargar Planos </a> 
+                            <a class="btn btn-small btn-planos" href="#"> Descargar Planos Planta Baja </a> 
                         </div>
                         
     
@@ -1079,7 +1178,8 @@
                             <img src="<? echo $appFrontUrl ?>/assets/img/fachada_planos.jpg" />
     
                         </div>
-    
+                        
+                        
                     </div>
 
 
@@ -1212,15 +1312,7 @@
 
         </div>        
         
-        
-        <div id="tour360">
-            <div class="close_tour"><img src="<? echo $appFrontUrl ?>/assets/img/cruz.png" alt=""></div>
-            <div class="frame_tour">
-                <iframe id="frameTour" src="https://my.matterport.com/show/?m=sPyzqhGvwBc" frameborder="0" allowfullscreen allow="xr-spatial-tracking" style="width:100%;height:100%"></iframe>
-            </div>
-        </div>
- 
-
+                
         <script src="<? echo $appSystemUrl ?>/js/slider/stopExecutionOnTimeout.js"></script>        
         <script src="<? echo $appSystemUrl ?>/js/slider/slider.js?id=<? echo uniqid() ?>"></script>                                 
                 

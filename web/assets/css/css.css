@@ -1379,6 +1379,9 @@ body {
 		background-color: var(--color-terciary);
 		border: 1px solid var(--color-terciary);
                 padding: 10px 25px;
+                display: inline-block;
+                margin-top: 30px;
+                width: auto;
 	}
 	#planos .imagenes .boton .btn-planos:hover{
 		color: var(--color-white);
@@ -1387,6 +1390,33 @@ body {
 	}
 
 
+        #planos .template {
+            width: 100%;
+            position: absolute;
+            top: 8%;
+            left: 0;
+        }
+        #planos #planta0 .template {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #planos .template table {
+            width: 100%;
+        }
+        #planos .template table td img {
+            width: 100%;            
+        }
+        #planos .template table td img.piso {
+            cursor: pointer;      
+        }
+        #planos .div_planta .piso_sel {
+            display: none;
+        }
+        #planos .div_planta .piso_def {
+            display: block;
+        }
 
 	/* video
 	------------------------------------------------------------------------------------------------------  */
@@ -1878,12 +1908,12 @@ body {
         
         @media only screen and (max-width: 1360px) {
 
-		#planos .plantas .box .botones .btn-small{
+		/*#planos .plantas .box .botones .btn-small{
 			max-width: 200px;
 			padding: 5px 0px;
 			font-size: 13px;
 			margin-bottom: 10px;
-		}
+		}*/
                 #home .capa{
                     padding-right: 10%;
                 }
@@ -2089,8 +2119,7 @@ body {
 		}
 		#planos .plantas .box .botones .btn-small{
 			display: inline-block;
-			width: 15%;
-			max-width: 25%;
+			width: 100%;
 			padding: 5px 0px;
 		}
                 

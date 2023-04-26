@@ -151,17 +151,24 @@ $(document).ready(function(){
 
         });
         
-        $('#btn_ver_tour').click(function() {
+        $('#planos .piso').mouseover(function() {
             
-            open_tour_360();
+            var id = $(this).attr('data-id');
+            
+            $('#planos .piso_sel').css('display','none');
+            
+            $('#' + id).css('display','block');
 
         });
         
-        $('#tour360 .close_tour').click(function() {
+        $('#planos .template').mouseout(function() {
             
-            $("#tour360").css('display','none');  
+            $('#planos .div_planta .piso_sel').css('display','none');
+            $('#planos .div_planta .piso_def').css('display','block');
 
         });
+        
+        
                         
         
         $('a[href*=\\#]').click(function() {
