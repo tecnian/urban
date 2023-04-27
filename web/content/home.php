@@ -1064,6 +1064,7 @@
     
                         
                         <div class="boton">
+                            <div class="txtinfo">Pasar por encima de la imagen para seleccionar el piso</div>                            
                             <a class="btn btn-small btn-planos" href="#"> Descargar Planos Planta Segunda</a> 
                         </div>
                         
@@ -1117,6 +1118,7 @@
                         </div>
                         
                         <div class="boton">
+                            <div class="txtinfo">Pasar por encima de la imagen para seleccionar el piso</div>
                             <a class="btn btn-small btn-planos" href="#"> Descargar Planos Planta Primera </a> 
                         </div>
                         
@@ -1159,6 +1161,7 @@
                         </div>
                         
                         <div class="boton">
+                            <div class="txtinfo">Pasar por encima de la imagen para seleccionar el piso</div>                            
                             <a class="btn btn-small btn-planos" href="#"> Descargar Planos Planta Baja </a> 
                         </div>
                         
