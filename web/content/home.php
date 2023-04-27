@@ -44,48 +44,7 @@
 
                     </div>
                     
-                    <!--div class="slide slide-1 active">
-
-                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_2.jpg');"></div>
-
-                    </div>
-                    
-                    <div class="slide slide-2 active">
-
-                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_3.jpg');"></div>
-
-                    </div>
-                    
-                    <div class="slide slide-3 active">
-
-                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_4.jpg');"></div>
-
-                    </div>
-                    
-                    <div class="slide slide-4 active">
-
-                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_5.jpg');"></div>
-
-                    </div>
-                    
-                    <div class="slide slide-5 active">
-
-                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_6.jpg');"></div>
-
-                    </div>
-                    
-                    <div class="slide slide-6 active">
-
-                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_7.jpg');"></div>
-
-                    </div>
-                    
-                    <div class="slide slide-7 active">
-
-                        <div class="slide__bg" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider1_8.jpg');"></div>
-
-                    </div>-->
-                                        
+                             
                 </div>
 
             </div>
@@ -106,7 +65,7 @@
                     
                     <div class="texto"> 
                                                 
-                            <p>URBAN BCN Lofts es un proyecto de promoción de viviendas tipo lofts que se ubica en el Distrito de Sant Martí de Barcelona y forma parte del Área 22@.</p>
+                            <p>Urban Lofts BCN es un proyecto de promoción de viviendas tipo lofts que se ubica en el Distrito de Sant Martí de Barcelona y forma parte del Área 22@.</p>
                             <p>La parcela en que se ubica, en la confluencia de la Calle Perú con la Calle Bilbao, está próxima a la Avenida Diagonal, la Gran Vía de les Corts Catalanes.</p>
                             <p>Esta nueva promoción forma parte de un conjunto mayor que integrará nuevos edificios de oficinas, un hotel y nuevas zonas verdes y de servicios. Una vez consolidado constituirá un nuevo eje de centralidad del Área 22@ y de la ciudad de Barcelona en su conjunto.</p>                        
                                                 
@@ -1065,7 +1024,7 @@
                         
                         <div class="boton">
                             <div class="txtinfo">Pasar por encima de la imagen para seleccionar el piso</div>                            
-                            <a class="btn btn-small btn-planos" href="#"> Descargar Planos Planta Segunda</a> 
+                            <a class="btn btn-small btn-planos" href="<? echo $appFrontUrl ?>/assets/pdf/planos_urban_P2.pdf" target="_blank"> Descargar Planos Planta Segunda</a> 
                         </div>
                         
                     </div>
@@ -1119,7 +1078,7 @@
                         
                         <div class="boton">
                             <div class="txtinfo">Pasar por encima de la imagen para seleccionar el piso</div>
-                            <a class="btn btn-small btn-planos" href="#"> Descargar Planos Planta Primera </a> 
+                            <a class="btn btn-small btn-planos" href="<? echo $appFrontUrl ?>/assets/pdf/planos_urban_P1.pdf" target="_blank"> Descargar Planos Planta Primera </a> 
                         </div>
                         
     
@@ -1162,7 +1121,7 @@
                         
                         <div class="boton">
                             <div class="txtinfo">Pasar por encima de la imagen para seleccionar el piso</div>                            
-                            <a class="btn btn-small btn-planos" href="#"> Descargar Planos Planta Baja </a> 
+                            <a class="btn btn-small btn-planos" href="<? echo $appFrontUrl ?>/assets/pdf/planos_urban_PB.pdf" target="_blank"> Descargar Planos Planta Baja </a> 
                         </div>
                         
     
