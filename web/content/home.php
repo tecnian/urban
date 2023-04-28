@@ -533,11 +533,9 @@
         <div class="row" id="slider">
             
             <div class="gallery">
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_1.jpg')"></div>
-                <!--<div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_2.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_3.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_4.jpg')"></div>
-                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider2_5.jpg')"></div>   -->             
+                <? for ($x = 1; $x <= 11; $x++) { ?>
+                <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider_<? echo $x ?>_edificio.jpg')"></div>
+                <? } ?>       
             </div>    
             
         </div>
