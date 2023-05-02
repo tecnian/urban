@@ -51,7 +51,7 @@
         
         <p>Esta web, no podrá copiarse, reproducirse, modificarse, distribuirse o comunicarse a terceras partes por ningún medio, en su totalidad o en parte, sin el consentimiento previo por escrito de PERU 84-102 BARCELONA S.L</p>
         <p>PERU 84-102 BARCELONA S.L no se obliga a facilitar a los destinatarios información adicional, a actualizar la web, o a corregir los errores que pueda contener.</p>
-        <p>Si bien la información contenida en esta web se considera precisa por PERU 84-102 BARCELONA S.L, ésta no será responsable por su precisión, o las omisiones, de esta web o de cualquier otra comunicación, escrita u oral, hecha al destinatario o terceras personas durante la evaluación de las transacciones relativas al proyecto “URBAN BCN 22@OFFICES”.</p>
+        <p>Si bien la información contenida en esta web se considera precisa por PERU 84-102 BARCELONA S.L, ésta no será responsable por su precisión, o las omisiones, de esta web o de cualquier otra comunicación, escrita u oral, hecha al destinatario o terceras personas durante la evaluación de las transacciones relativas al proyecto “Urban Lofts BCN”.</p>
         <p>Las imágenes contenidas en la presente web, son de archivo o virtuales meramente orientativas, no siendo en ningún caso informativas ni contractuales, estando sujetas a posibles variaciones.</p>
         <p>Los planos, las superficies y las alturas reflejadas en la presente web son aproximadas, quedando sujetas al proyecto ejecutivo y a la evolución y finalización de las obras, así como a la licencia de obras y actividades.</p>
 

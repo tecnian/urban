@@ -186,9 +186,9 @@
                             <div class="der">
                                 <div class="con-der">
                                     <div class="textos">
-                                        La zona del 22@ (Poblenou), está perfectamente equipada con parques, zonas verdes, instalaciones deportivas y zonas de ocio como el Parc del Centre, situado junto a "URBAN BCN 22@", el Parc Diagonal Mar, la Rambla del Poble Nou (centro neurálgico del distrito, repleto de tiendas, bares y restaurantes), la Avenida Diagonal, el Teatro Nacional de Catalunya (TNC) o el Museo del Diseño, entre otros.
+                                        La zona del 22@ (Poblenou), está perfectamente equipada con parques, zonas verdes, instalaciones deportivas y zonas de ocio como el Parc del Centre, situado junto a "Urban Lofts BCN", el Parc Diagonal Mar, la Rambla del Poble Nou (centro neurálgico del distrito, repleto de tiendas, bares y restaurantes), la Avenida Diagonal, el Teatro Nacional de Catalunya (TNC) o el Museo del Diseño, entre otros.
                                         <br/>
-                                        Las mejores playas de Barcelona se encuentran cerca del URBAN BCN 22@, al igual que los puertos deportivos Port Fórum y Port Olímpic.                     
+                                        Las mejores playas de Barcelona se encuentran cerca del Urban Lofts BCN, al igual que los puertos deportivos Port Fórum y Port Olímpic.                     
                                     </div>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                             <div class="der">
                                 <div class="con-der">
                                     <div class="textos">
-                                        En el Distrito 22@, y cerca de URBAN BCN 22@, podemos encontrar algunos de los mejores hoteles de Barcelona, como Meliá Barcelona, Hilton, AC, Princess, Silken Diagonal o Four Points by Sheraton, entre otros.                  
+                                        En el Distrito 22@, y cerca de Urban Lofts BCN, podemos encontrar algunos de los mejores hoteles de Barcelona, como Meliá Barcelona, Hilton, AC, Princess, Silken Diagonal o Four Points by Sheraton, entre otros.                  
                                     </div>
                                 </div>
                             </div>
@@ -216,7 +216,7 @@
                             <div class="der">
                                 <div class="con-der">
                                     <div class="textos">
-                                        Alrededor de URBAN BCN 22@ podemos encontrar grandes centros comerciales, Glòries y Diagonal Mar, así como multitud de tiendas, una amplia oferta gastronómica y multicines, entre otros. Asimismo, el conocido mercado de Nous Encants, establecido hace 7 siglos, donde se comercializan artículos de segunda mano y vintage, crea un ambiente de especial singularidad para el entorno.          
+                                        Alrededor de Urban Lofts BCN podemos encontrar grandes centros comerciales, Glòries y Diagonal Mar, así como multitud de tiendas, una amplia oferta gastronómica y multicines, entre otros. Asimismo, el conocido mercado de Nous Encants, establecido hace 7 siglos, donde se comercializan artículos de segunda mano y vintage, crea un ambiente de especial singularidad para el entorno.          
                                     </div>
                                 </div>
                             </div>
@@ -230,7 +230,7 @@
                             <div class="der">
                                 <div class="con-der">
                                     <div class="textos">
-                                        El distrito 22@, donde se ubica Urban BCN 22@, se ha transformado en una zona de negocios, donde más de 8.800 empresas han optado por establecer sus sedes, el 30% de las cuales trabajan en tecnología o educación.
+                                        El distrito 22@, donde se ubica Urban Lofts BCN, se ha transformado en una zona de negocios, donde más de 8.800 empresas han optado por establecer sus sedes, el 30% de las cuales trabajan en tecnología o educación.
                                         Una parte del área está formada por empresas de telecomunicaciones y nuevas tecnologías, así como universidades, centros de formación continua y centros de investigación y tecnología, como la sede de la Comisión del Mercado de las Telecomunicaciones y las oficinas de la Torre Glòries, entre otros.      
                                     </div>
                                 </div>
@@ -533,7 +533,7 @@
         <div class="row" id="slider">
             
             <div class="gallery">
-                <? for ($x = 1; $x <= 11; $x++) { ?>
+                <? for ($x = 1; $x <= 12; $x++) { ?>
                 <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider_<? echo $x ?>_edificio.jpg')"></div>
                 <? } ?>       
             </div>    

@@ -164,7 +164,7 @@
                 const PORT = 0;
                 
                 const ADDRESS = 'calbiol@actualbcn.com';  
-                const TITLE = 'Urban BCN 22@';
+                const TITLE = 'Urban Lofts BCN';
                 const ADMIN = 'calbiol@actualbcn.com';
                 const SMTP = false;
                 
