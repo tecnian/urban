@@ -77,8 +77,6 @@
         $_SESSION['APP_ID_LANG'] = $app_id_lang;
                 
         
-        
-        
         //fichero traducciones   
         
         include("$appLangPath/frontend.lang.php");

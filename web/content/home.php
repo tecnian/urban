@@ -89,7 +89,7 @@
 
                 <div class="col_40 text-right">
 
-                    <h2> LOCALIZACIÓN </h2>
+                    <h2 style="text-transform:uppercase"> <? echo $app_lang['localizacion'] ?> </h2>
 
                     <div class="abstract"> 
                         <strong>El Área 22@:</strong>
@@ -259,27 +259,27 @@
                 <div id="donde-select">
 
                     <select name="mapa" id="mapa">
-                        <option value="0"> - Seleccionar Zona - </option>
-                        <option value="1"> Plaça Les Glòries </option>
-                        <option value="2"> Can Ricart </option>
-                        <option value="3"> Diagonal Mar </option>
-                        <option value="4"> Ocio & Mar </option>
-                        <option value="5"> Hoteles Área 22@ </option>
-                        <option value="6"> Ejes Comerciales Área 22@ </option>
-                        <option value="7"> Ejes Empresariales </option>
+                        <option value="0"> - <? echo $app_lang['seleccionar_zona'] ?> - </option>
+                        <option value="1"> <? echo $app_lang['placa_les_glories'] ?> </option>
+                        <option value="2"> <? echo $app_lang['can_ricart'] ?> </option>
+                        <option value="3"> <? echo $app_lang['diagonal_mar'] ?> </option>
+                        <option value="4"> <? echo $app_lang['ocio_mar'] ?> </option>
+                        <option value="5"> <? echo $app_lang['hoteles_area_22'] ?> </option>
+                        <option value="6"> <? echo $app_lang['ejes_comerciales_area_22'] ?> </option>
+                        <option value="7"> <? echo $app_lang['ejes_empresariales'] ?> </option>
                     </select>
 
                 </div>
 
                 <div id="donde">
                         
-                    <a id="tit-localizacion1" class="btn_localizacion" data-item="1"> Plaça Les Glòries </a>
-                    <a id="tit-localizacion2" class="btn_localizacion" data-item="2"> Can Ricart </a>
-                    <a id="tit-localizacion3" class="btn_localizacion" data-item="3"> Diagonal Mar </a>
-                    <a id="tit-localizacion4" class="btn_localizacion" data-item="4"> Ocio & Mar </a>
-                    <a id="tit-localizacion5" class="btn_localizacion" data-item="5"> Hoteles Área 22@ </a>
-                    <a id="tit-localizacion6" class="btn_localizacion" data-item="6"> Ejes Comerciales Área 22@ </a>
-                    <a id="tit-localizacion7" class="btn_localizacion" data-item="7"> Ejes Empresariales </a>
+                    <a id="tit-localizacion1" class="btn_localizacion" data-item="1"> <? echo $app_lang['placa_les_glories'] ?> </a>
+                    <a id="tit-localizacion2" class="btn_localizacion" data-item="2"> <? echo $app_lang['can_ricart'] ?> </a>
+                    <a id="tit-localizacion3" class="btn_localizacion" data-item="3"> <? echo $app_lang['diagonal_mar'] ?> </a>
+                    <a id="tit-localizacion4" class="btn_localizacion" data-item="4"> <? echo $app_lang['ocio_mar'] ?> </a>
+                    <a id="tit-localizacion5" class="btn_localizacion" data-item="5"> <? echo $app_lang['hoteles_area_22'] ?> </a>
+                    <a id="tit-localizacion6" class="btn_localizacion" data-item="6"> <? echo $app_lang['ejes_comerciales_area_22'] ?> </a>
+                    <a id="tit-localizacion7" class="btn_localizacion" data-item="7"> <? echo $app_lang['ejes_empresariales'] ?> </a>
                 
                 </div>
 
@@ -298,7 +298,7 @@
 
                 <div class="col_100">
 
-                    <h2> COMUNICACIONES </h2>
+                    <h2 style="text-transform:uppercase"> <? echo $app_lang['comunicaciones'] ?> </h2>
 
                     <div class="linea"></div>
 
@@ -504,7 +504,7 @@
                 
                 <div class="col_100">
 
-                    <h2> EL EDIFICIO </h2>
+                    <h2 style="text-transform:uppercase"> <? echo $app_lang['el_edificio'] ?> </h2>
 
                     <div class="linea"></div>
 
@@ -533,7 +533,7 @@
         <div class="row" id="slider">
             
             <div class="gallery">
-                <? for ($x = 1; $x <= 12; $x++) { ?>
+                <? for ($x = 1; $x <= 13; $x++) { ?>
                 <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider_<? echo $x ?>_edificio.jpg')"></div>
                 <? } ?>       
             </div>    
@@ -554,7 +554,7 @@
 
                 <div class="col_100">
 
-                    <h2 class="text-white"> SERVICIOS COMUNES </h2>
+                    <h2 class="text-white" style="text-transform:uppercase"> <? echo $app_lang['servicios_comunes'] ?> </h2>
 
                     <div class="linea"></div>
 
@@ -571,99 +571,99 @@
                         <div class="ico-close"> <a><img src="<? echo $appFrontUrl ?>/assets/img/close_icon.png" /></a> </div>
 
                         <div class="servicio-info" id="servicio_info_1">
-                            <div class="tit"> Conserjería, Vídeo-vigilancia </div>
+                            <div class="tit"> <? echo $app_lang['serv_conserjeria_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_conserjeria.jpg" /> </div>
 
-                            <div class="des"> Conserjería en acceso principal. Video vigilancia en accesos de planta sótano, planta baja y cubierta. </div>
+                            <div class="des"> <? echo $app_lang['serv_conserjeria_txt'] ?> </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_2">
-                            <div class="tit"> Gym </div>
+                            <div class="tit"> <? echo $app_lang['serv_gym_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_gym.jpg" /> </div>
 
-                            <div class="des"> Gimnasio en planta baja, equipado con máquinas de fitness.  Clear your mind, stay in good shape.</div>
+                            <div class="des"> <? echo $app_lang['serv_gym_txt'] ?></div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_3">
-                            <div class="tit"> Vestuarios </div>
+                            <div class="tit"> <? echo $app_lang['serv_vestuarios_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_vestuarios.jpg" /> </div>
 
-                            <div class="des"> Taquillas y duchas en planta baja para tus sesiones de gimnasio </div>
+                            <div class="des"> <? echo $app_lang['serv_vestuarios_txt'] ?> </div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_4">
-                            <div class="tit"> Lavandería </div>
+                            <div class="tit"> <? echo $app_lang['serv_lavanderia_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_lavanderia.jpg" /> </div>
 
-                            <div class="des"> Sala de lavandería con seis lavadoras y seis secadoras de la marca Bosch. Haz tu colada, mientras haces ejercicio o desconectas en la zona relax.</div>
+                            <div class="des"> <? echo $app_lang['serv_lavanderia_txt'] ?></div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_5">
-                            <div class="tit"> Vestíbulo, Zona relax </div>
+                            <div class="tit"> <? echo $app_lang['serv_vestibulo_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_vestibulo.jpg" /> </div>
 
-                            <div class="des"> Vestíbulo con sofá y grada con asientos. Para descansar. Para charlar. Para compartir.</div>
+                            <div class="des"> <? echo $app_lang['serv_vestibulo_txt'] ?></div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_6">
-                            <div class="tit"> Sala polivalente </div>
+                            <div class="tit"> <? echo $app_lang['serv_sala_polivalente_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_polivalente.jpg" /> </div>
 
-                            <div class="des"> Sala polivalente en planta baja destinada a diferentes usos (yoga, etc.)</div>
+                            <div class="des"> <? echo $app_lang['serv_sala_polivalente_txt'] ?></div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_7">
-                            <div class="tit"> Espacio Aparca bicis </div>
+                            <div class="tit"> <? echo $app_lang['serv_bicis_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_bicis.jpg" /> </div>
 
-                            <div class="des"> Espacio cerrado disponible en planta sótano para bicicletas, patinetes, etc.</div>
+                            <div class="des"> <? echo $app_lang['serv_bicis_txt'] ?></div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_8">
-                            <div class="tit"> Taquillas Inteligentes </div>
+                            <div class="tit"> <? echo $app_lang['serv_taquillas_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_taquillas_inteligentes.jpg" /> </div>
 
-                            <div class="des"> Taquillas inteligentes para que puedas recibir tu paquetería. Sin horarios ni esperas.</div>
+                            <div class="des"> <? echo $app_lang['serv_taquillas_txt'] ?></div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_9">
-                            <div class="tit"> WI-FI </div>
+                            <div class="tit"> <? echo $app_lang['serv_wifi_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_wifi.jpg" /> </div>
 
-                            <div class="des"> Conexión wifi disponible en planta baja y cubierta.</div>
+                            <div class="des"> <? echo $app_lang['serv_wifi_txt'] ?></div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_10">
-                            <div class="tit"> Solarium </div>
+                            <div class="tit"> <? echo $app_lang['serv_solarium_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_solarium.jpg" /> </div>
 
-                            <div class="des"> Zona de hamacas en cubierta para tomar el sol y recargar energía.</div>
+                            <div class="des"> <? echo $app_lang['serv_solarium_txt'] ?></div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_11">
-                            <div class="tit"> Piscinas </div>
+                            <div class="tit"> <? echo $app_lang['serv_piscinas_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_piscinas.jpg" /> </div>
 
-                            <div class="des"> Dos piscinas en la cubierta, una de ellas apta para el uso de los más pequeños.</div>
+                            <div class="des"> <? echo $app_lang['serv_piscinas_txt'] ?></div>
                         </div>
                         
                         <div class="servicio-info" id="servicio_info_12">
-                            <div class="tit"> Chill-out </div>
+                            <div class="tit"> <? echo $app_lang['serv_chill_out_tit'] ?> </div>
 
-                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/gym_image.jpg" /> </div>
+                            <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/serv_cill_out.jpg" /> </div>
 
-                            <div class="des"> Zona chill-out con mesas y sillas en la cubierta del edificio. Disfruta de grandes momentos al aire libre. </div>
+                            <div class="des"> <? echo $app_lang['serv_chill_out_tit'] ?></div>
                         </div>                                                
                         
                     </div>
@@ -679,7 +679,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/video_vigila_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Conserjería<br/>Vídeo-vigilancia </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_conserjeria'] ?> </div>
                             <a class="boton btn_servicio" data-item="1"></a>
                         </div>
                                                                                                                                                 
@@ -691,7 +691,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/gym_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Gym </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_gym'] ?> </div>
                             <a class="boton btn_servicio" data-item="2"></a>
                         </div>
 
@@ -703,7 +703,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/vestuario_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Vestuarios </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_vestuarios'] ?> </div>
                             <a class="boton btn_servicio" data-item="3"></a>
                         </div>
                         
@@ -715,7 +715,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/lavanderia_icon.png" style="width: 80px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Lavandería </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_lavanderia'] ?> </div>
                             <a class="boton btn_servicio" data-item="4"></a>
                         </div>
                                                 
@@ -727,7 +727,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/vestibulo_icon.png" style="width: 80px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Vestíbulo<br/>Zona relax </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_vestibulo'] ?> </div>
                             <a class="boton btn_servicio" data-item="5"></a>
                         </div>
                                                 
@@ -739,7 +739,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/polivalent_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Sala polivalente </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_sala_polivalente'] ?> </div>
                             <a class="boton btn_servicio" data-item="6"></a>
                         </div>
                         
@@ -751,7 +751,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/bicipark_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Espacio<br/>Aparca bicis </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_bicis'] ?> </div>
                             <a class="boton btn_servicio" data-item="7"></a>
                         </div>
                         
@@ -763,7 +763,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/taquillas_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Taquillas Inteligentes </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_taquillas'] ?> </div>
                             <a class="boton btn_servicio" data-item="8"></a>
                         </div>
                         
@@ -775,7 +775,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/wi-fi_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> WI-FI </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_wifi'] ?> </div>
                             <a class="boton btn_servicio" data-item="9"></a>
                         </div>
                         
@@ -787,7 +787,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/solarium_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Solarium </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_solarium'] ?> </div>
                             <a class="boton btn_servicio" data-item="10"></a>
                         </div>
                         
@@ -799,7 +799,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/piscina_icon.png" style="width: 100px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Piscinas </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_piscinas'] ?> </div>
                             <a class="boton btn_servicio" data-item="11"></a>
                         </div>
                         
@@ -811,7 +811,7 @@
                                     <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/chill_icon.png" style="width: 80px" /> 
                                 </div>
                             </div>
-                            <div class="tit text-white"> Chill-out </div>
+                            <div class="tit text-white"> <? echo $app_lang['serv_chill_out'] ?> </div>
                             <a class="boton btn_servicio" data-item="12"></a>
                         </div>
                                                                                                 
@@ -824,14 +824,7 @@
 
         </div>
         
-        <!--<div class="row servicios-banner">
-            
-            <img src="<? echo $appFrontUrl ?>/assets/img/servicios_img.jpg" />
-            
-        </div>-->
-
-
-
+        
 
         <!-- calidades
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -842,7 +835,7 @@
                 
                 <div class="col_100" id="sostenibilidad">
 
-                    <h2> LOFTS </h2>
+                    <h2 style="text-transform:uppercase"> <? echo $app_lang['lofts'] ?> </h2>
 
                     <div class="linea"></div>
 
@@ -903,11 +896,11 @@
                     </div>
                     
                     <div class="col_30">
-                        <a href="<? echo $app_url['tour-360'] ?>" target="_blank" class="btn">Ver Tour 360º</a>
+                        <a href="<? echo $app_url['tour-360'] ?>" target="_blank" class="btn"><? echo $app_lang['ver_tour_360'] ?></a>
                     </div>
                     
                     <div class="col_30">
-                        <a href="#" class="btn">Descargar Memoria Calidades</a>
+                        <a href="#" class="btn"><? echo $app_lang['descargar_memoria'] ?></a>
                     </div>
                     
                     <div class="col_20">
@@ -933,15 +926,15 @@
 
                 <div class="list-plantas">
 
-                    <h2 class="text-white"> PLANOS </h2>
+                    <h2 class="text-white" style="text-transform:uppercase"> <? echo $app_lang['planos'] ?> </h2>
         
                     <div class="linea"></div>
 
                     <select name="planta" id="planta">
-                        <option value="-1">Seleccionar planta</option>
-                        <option value="0">Planta Baja</option>       
-                        <option value="1">Planta Primera</option>    
-                        <option value="2">Planta Segunda</option>       
+                        <option value="-1"><? echo $app_lang['seleccionar_planta'] ?></option>
+                        <option value="0"><? echo $app_lang['planta_baja'] ?></option>       
+                        <option value="1"><? echo $app_lang['planta_primera'] ?></option>    
+                        <option value="2"><? echo $app_lang['planta_segunda'] ?></option>       
                       </select>
 
                 </div>
@@ -950,15 +943,15 @@
 
                     <div class="box">
 
-                        <h2 class="text-white"> PLANOS </h2>
+                        <h2 class="text-white" style="text-transform:uppercase"> <? echo $app_lang['planos'] ?> </h2>
         
                         <div class="linea"></div>
 
                         <div class="botones">
                                                     
-                            <a data-item="2" class="btn btn-small btn_planta"> Planta Segunda </a>
-                            <a data-item="1" class="btn btn-small btn_planta"> Planta Primera </a>
-                            <a data-item="0" class="btn btn-small btn_planta"> Planta Baja </a>                                                        
+                            <a data-item="2" class="btn btn-small btn_planta"> <? echo $app_lang['planta_segunda'] ?> </a>
+                            <a data-item="1" class="btn btn-small btn_planta"> <? echo $app_lang['planta_primera'] ?> </a>
+                            <a data-item="0" class="btn btn-small btn_planta"> <? echo $app_lang['planta_baja'] ?> </a>                                                        
                             <br/>
                         
                         </div>
@@ -1021,8 +1014,8 @@
     
                         
                         <div class="boton">
-                            <div class="txtinfo">Pasar por encima de la imagen para seleccionar el piso</div>                            
-                            <a class="btn btn-small btn-planos" href="<? echo $appFrontUrl ?>/assets/pdf/planos_urban_P2.pdf" target="_blank"> Descargar Planos Planta Segunda</a> 
+                            <div class="txtinfo"><? echo $app_lang['pasar_encima_imagen'] ?></div>                            
+                            <a class="btn btn-small btn-planos" href="<? echo $appFrontUrl ?>/assets/pdf/planos_urban_P2.pdf" target="_blank"> <? echo $app_lang['descargar_planos'] ?> <? echo $app_lang['planta_segunda'] ?></a> 
                         </div>
                         
                     </div>
@@ -1075,8 +1068,8 @@
                         </div>
                         
                         <div class="boton">
-                            <div class="txtinfo">Pasar por encima de la imagen para seleccionar el piso</div>
-                            <a class="btn btn-small btn-planos" href="<? echo $appFrontUrl ?>/assets/pdf/planos_urban_P1.pdf" target="_blank"> Descargar Planos Planta Primera </a> 
+                            <div class="txtinfo"><? echo $app_lang['pasar_encima_imagen'] ?></div>
+                            <a class="btn btn-small btn-planos" href="<? echo $appFrontUrl ?>/assets/pdf/planos_urban_P1.pdf" target="_blank"> <? echo $app_lang['descargar_planos'] ?> <? echo $app_lang['planta_primera'] ?> </a> 
                         </div>
                         
     
@@ -1118,8 +1111,8 @@
                         </div>
                         
                         <div class="boton">
-                            <div class="txtinfo">Pasar por encima de la imagen para seleccionar el piso</div>                            
-                            <a class="btn btn-small btn-planos" href="<? echo $appFrontUrl ?>/assets/pdf/planos_urban_PB.pdf" target="_blank"> Descargar Planos Planta Baja </a> 
+                            <div class="txtinfo"><? echo $app_lang['pasar_encima_imagen'] ?></div>                            
+                            <a class="btn btn-small btn-planos" href="<? echo $appFrontUrl ?>/assets/pdf/planos_urban_PB.pdf" target="_blank"> <? echo $app_lang['descargar_planos'] ?> <? echo $app_lang['planta_baja'] ?> </a> 
                         </div>
                         
     
@@ -1160,7 +1153,7 @@
             <div class="btn-play"> 
                 <div class="con-play">
                     <div class="ico-play">
-                        <span> Ver Vídeo </span>
+                        <span> <? echo $app_lang['ver_video'] ?> </span>
                     </div>                    
                 </div>
             </div>
@@ -1187,7 +1180,7 @@
 
                     <div class="box-h2">
 
-                        <h2> CONTACTO </h2>
+                        <h2 style="text-transform:uppercase"> <? echo $app_lang['contacto'] ?> </h2>
                         <div class="linea"></div>
 
                     </div>
@@ -1198,17 +1191,17 @@
 
                     <form id="frmContacto" method="post">
 
-                        <input type="text" name="nombre" id="nombre" class="w33 form-required" placeholder="nombre *" />
-                        <input type="text" name="email" id="email" class="w33 form-required form-email" placeholder="correo electrónico *" />
-                        <input type="text" name="empresa" id="empresa" class="w33 form-required" placeholder="empresa *" />
-                        <textarea name="mensaje" id="mensaje" class="w100 form-required" style="margin-top:50px" placeholder="mensaje *"></textarea>
+                        <input type="text" name="nombre" id="nombre" class="w33 form-required" placeholder="<? echo $app_lang['nombre'] ?> *" />
+                        <input type="text" name="email" id="email" class="w33 form-required form-email" placeholder="<? echo $app_lang['correo_electronico'] ?> *" />
+                        <input type="text" name="empresa" id="empresa" class="w33 form-required" placeholder="<? echo $app_lang['empresa'] ?> *" />
+                        <textarea name="mensaje" id="mensaje" class="w100 form-required" style="margin-top:50px" placeholder="<? echo $app_lang['mensaje'] ?> *"></textarea>
                         
                         <div class="chk">
                             <input type="checkbox" id="acepto" name="acepto" value="1">
-                            <label for="acepto">He leído y acepto la <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>">política de privacidad</a></label>
+                            <label for="acepto"><? echo $app_lang['leido_acepto'] ?> <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>"><? echo $app_lang['politica_privacidad'] ?></a></label>
                         </div>
                         
-                        <a class="btn" id="btn_send_contact"> Enviar </a>
+                        <a class="btn" id="btn_send_contact"> <? echo $app_lang['enviar'] ?> </a>
 
                         <div class="msg-alerta" id="confirm_send"></div>
                         
@@ -1233,7 +1226,7 @@
                 <div class="col">
 
                     <div class="titulo w1">
-                        <div class="tit"> Comercializa </div>
+                        <div class="tit"> <? echo $app_lang['comercializa'] ?> </div>
                         <div class="linea"></div>
                     </div>
 
@@ -1251,7 +1244,7 @@
                 <div class="col">
 
                     <div class="titulo w2">
-                        <div class="tit"> Promotor delegado </div>
+                        <div class="tit"> <? echo $app_lang['promotor_delegado'] ?> </div>
                         <div class="linea"></div>
                     </div>
 

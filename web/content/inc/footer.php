@@ -15,7 +15,7 @@
                     </div>
                     
                     <div class="legal">
-                        <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>" class="link" title="Aviso legal">Aviso legal</a>
+                        <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>" class="link"><? echo $app_lang['aviso_legal'] ?></a>
                     </div>
                                     
                 </div>
