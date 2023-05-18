@@ -486,36 +486,21 @@
                             <p>Urban Lofts BCN is located between two of the main arterial roads in Barcelona, Avenida Diagonal and Gran Via de les Corts Catalanes, so it is perfectly connected to public transport. It is also very close to Ronda de Dalt and Ronda Litoral, the main rapid ring roads to and from the city. </p>
                             <p>(Estimated time to the airport: 20 minutes).</p>  
                         <? } ?>
-                            
-                        <br/><br/><br/>
                                                 
                     </div>
 
                 </div>
-                
-            </div>
-            
-            <div class="col_100">
-                
-                <div class="col_70 mapa-com resp">
-                        <img src="<? echo $appFrontUrl ?>/assets/img/com_mapa.jpg" alt="" />                    
-                </div>
-                
-                <div class="col_70 mapa-com no-resp">
-                                      
-                </div>
 
+                <div class="col_100">
 
-                <div class="col_30 icons-com">
-
-                    <div class="box">
+                    <div class="box images-anim">
 
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/metro_icon.png" style="width:90px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/metro_icon.png" style="width: 145px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Metro </div>
@@ -540,7 +525,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_bus_icon.png" style="width:80px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/bus_icon.png" style="width: 80px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Bus </div>
@@ -570,10 +555,10 @@
                         
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item tram">
+                        <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_tram_icon.png" style="width:140px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/tram_icon.png" style="width: 80px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Tram </div>
@@ -594,7 +579,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_bicing_icon.png" style="width:70px" />
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/bicing_icon.png" style="width: 123px" />
                                 </div>
                             </div>
                             <div class="tit"> Bicing </div>
@@ -611,7 +596,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_pie_icon.png" style="width:35px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/pie_icon.png" style="width: 50px" /> 
                                 </div>
                             </div>
                             <div class="tit"> A pie </div>
@@ -644,10 +629,10 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_rodalies_icon.png" style="width:60px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/tren_icon.png" style="width: 92px" /> 
                                 </div>
                             </div>
-                            <div class="tit"> Rodalies </div>
+                            <div class="tit"> Tren </div>
                             <table>
                                 <tr>
                                     <td class="dato text-right"> 1.100 m </td>
@@ -658,28 +643,16 @@
 
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item coche">
+                        <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_coche_icon.png" style="width:80px" />
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/coche_icon.png" style="width: 114px" />
                                 </div>                        
                             </div>
                             <div class="tit"> Coche </div>
                             <table>
                                 <tr>
-                                    <td class="descr descr-full text-center"> 
-                                        <? if ($app_code_lang == LANG::ES) { ?>
-                                        La proximidad a la Ronda de Dalt y Ronda Litoral, permite una rápida conexión con las principales calles, autopistas y el aeropuerto.<br/><br/>(20 minutos)
-                                        <? } ?>
-                                        
-                                        <? if ($app_code_lang == LANG::ES) { ?>
-                                        La proximidad a la Ronda de Dalt y Ronda Litoral, permite una rápida conexión con las principales calles, autopistas y el aeropuerto.<br/><br/>(20 minutos)
-                                        <? } ?>
-                                        
-                                        <? if ($app_code_lang == LANG::EN) { ?>
-                                        Its proximity to the Ronda de Dalt and Ronda Litoral allows for quick access to main roads, highways, and the airport.<br/><br/>(20 minutes) 
-                                        <? } ?>
-                                    </td>
+                                    <td class="descr descr-full text-center"> La proximidad a la Ronda de Dalt y Ronda Litoral, permite una rápida conexión con las principales calles, autopistas y el aeropuerto.<br/><br/>(20 minutos). </td>
                                 </tr>
                             </table>
                         </div>                        
@@ -690,6 +663,10 @@
                 
             </div>
             
+            <div class="col_100 mapa-com">
+                    <img src="<? echo $appFrontUrl ?>/assets/img/mapa_comunicaciones.jpg" alt="" />                    
+            </div>
+
         </div>
 
 
@@ -1578,15 +1555,13 @@
                     lightbox_servicios_position();
                     lightbox_empresa_position();
                     
-                    set_mapa_com_height();
-                    
                 });
                 
                 lightbox_mapa_position();
                 lightbox_servicios_position();
                 lightbox_empresa_position();
                 
-                set_mapa_com_height();
+                
                 
                 /*setTimeout(function(){ 
                     $('.slide__text').css('transition','transform 0.8s 0.8s, opacity 0.8s 0.8s');

@@ -138,6 +138,8 @@
         class LANG {
 
             const ES = 'es';
+            const EN = 'en';
+            const CAT = 'cat';
             
         }
 

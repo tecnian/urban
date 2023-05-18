@@ -706,9 +706,9 @@ body {
 	}
 	#comunicaciones .box .item{
 		display: inline-block;
-		width: 24%;
+		width: 45%;
 		vertical-align: top;
-		margin-top: 20px;
+		margin-top: -10px;
 	}
 	#comunicaciones .box .item .icono{
 		display: table;
@@ -720,13 +720,23 @@ body {
 		width: 100%;
 		vertical-align: bottom;                
 	}
+        #comunicaciones .box .item .icono .con-icono img{
+		width: 50%;		            
+	}
 	#comunicaciones .box .item .tit{	
 		display: inline-block;
 		width: 100%;
 		font-family: var(--font-avenir-demibold);
-		font-size: 18px;
-		margin-top: 20px;
+		font-size: 16px;
+		margin-top: 15px;
 		margin-bottom: 8px;
+	}
+        #comunicaciones .box .item.tram{	
+		margin-top: -30px;
+	}
+        #comunicaciones .box .item.coche{	
+		width: 55%;
+                margin-top: -20px;
 	}
 	#comunicaciones .box .item table{
 		display: inline-block;
@@ -734,6 +744,8 @@ body {
 	#comunicaciones .box .item table td{
 		padding: 0px 6px;
 		vertical-align: top;
+                line-height: 18px;
+                font-size: 14px;
 	}
 	#comunicaciones .box .item .dato{
 		color: #999;
@@ -742,10 +754,27 @@ body {
 		width: 100%;
 	}
         #comunicaciones .mapa-com{
-		margin-top: 20px;
+                width: 68%;
+	}
+        #comunicaciones .mapa-com.resp{
+                display: none;
+	}
+        #comunicaciones .mapa-com.no-resp{
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url('../img/com_mapa.jpg');                
 	}
         #comunicaciones .mapa-com img{
 		width: 100%;
+	}
+        #comunicaciones .icons-com{
+		background-color: #ededed;  
+                padding-bottom: 30px;     
+                width: 32%;
+	}
+        #comunicaciones .icons-com .box{
+		margin-top: 0px;          
 	}
 
 
@@ -1899,6 +1928,13 @@ body {
                     margin-top: 50px;
                 }
                 
+                #comunicaciones .mapa-com{
+                        width: 62%;
+                }
+                #comunicaciones .icons-com{
+                        width: 38%;
+                }
+                
         
 	}
         
@@ -1922,6 +1958,9 @@ body {
                     padding-right: 10%;
                 }
         
+                #comunicaciones .box .item table td{
+                        font-size: 12px;
+                }
 	}
         
         @media only screen and (max-width: 1260px) {
@@ -1956,6 +1995,25 @@ body {
 			font-size: 13px;
 			margin-bottom: 10px;
 		}	
+                
+                #comunicaciones .mapa-com{
+                        width: 100%;    
+                }
+                #comunicaciones .mapa-com.resp{
+                        display: block;
+                }
+                #comunicaciones .mapa-com.no-resp{
+                        display: none;
+                }
+                #comunicaciones .icons-com{
+                        width: 100%;            
+                }
+                #comunicaciones .box .item{
+                        width: 24%;
+                }
+                #comunicaciones .box .item table td{
+                        font-size: 14px;
+                }
 		
 	}
 

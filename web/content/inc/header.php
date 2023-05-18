@@ -17,13 +17,20 @@
                         <li> <a href="#comunicaciones"> <? echo $app_lang['comunicaciones'] ?> </a> </li>         
                         <li> <a href="#edificio"> <? echo $app_lang['el_edificio'] ?> </a> </li>        
                         <li> <a href="#calidades"> <? echo $app_lang['lofts'] ?> </a> </li>                        
-                        <li> <a href="#video"> <? echo $app_lang['video'] ?> </a> </li>
+                        <!--<li> <a href="#video"> <? echo $app_lang['video'] ?> </a> </li>-->
                         <li> <a href="#contacto"> <? echo $app_lang['contacto'] ?> </a> </li>
                         
                         <li> 
                             <div class="idiomas">
-                                <a href="#"> CAT </a>
-                                <a href="#"> EN </a>
+                                <? if ($app_code_lang != LANG::ES) { ?>
+                                <a href="/es"> ES </a>
+                                <? } ?>
+                                <? if ($app_code_lang != LANG::CAT) { ?>
+                                <a href="/cat"> CAT </a>
+                                <? } ?>
+                                <? if ($app_code_lang != LANG::EN) { ?>
+                                <a href="/en"> EN </a>
+                                <? } ?>                                
                             </div>
                         </li>
 
@@ -41,12 +48,19 @@
                     <li> <a href="#comunicaciones"> <? echo $app_lang['comunicaciones'] ?> </a> </li>
                     <li> <a href="#edificio"> <? echo $app_lang['el_edificio'] ?> </a> </li>        
                     <li> <a href="#calidades"> <? echo $app_lang['lofts'] ?> </a> </li>           
-                    <li> <a href="#video"> <? echo $app_lang['video'] ?> </a> </li>
+                    <!--<li> <a href="#video"> <? echo $app_lang['video'] ?> </a> </li>-->
                     <li> <a href="#contacto"> <? echo $app_lang['contacto'] ?> </a> </li>
 
                     <div class="idiomas">
-                        <a href="#" title="Català"> CAT </a>
-                        <a href="#" title="English"> EN </a>
+                        <? if ($app_code_lang != LANG::ES) { ?>
+                        <a href="/es"> ES </a>
+                        <? } ?>
+                        <? if ($app_code_lang != LANG::CAT) { ?>
+                        <a href="/cat"> CAT </a>
+                        <? } ?>
+                        <? if ($app_code_lang != LANG::EN) { ?>
+                        <a href="/en"> EN </a>
+                        <? } ?>                        
                     </div>
 
                 </ul>
@@ -61,7 +75,17 @@
                         <div id="container_cookies">
                             <div class="mensaje">
                                 
-                                <div class="txt">Esta web utiliza cookies propias y de terceros con la finalidad de analizar los hábitos de navegación de los usuarios y así poder proporcionar un mejor servicio en la web, de la forma descrita en la nuestra Política de Cookies. Si continua navegando, consideramos que acepta su uso. Para más información o cambiar la configuración, consulte nuestra <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>">Política de Cookies</a>.</div>     
+                                <? if ($app_code_lang == LANG::ES) { ?>
+                                <div class="txt">Esta web utiliza cookies propias y de terceros con la finalidad de analizar los hábitos de navegación de los usuarios y así poder proporcionar un mejor servicio en la web, de la forma descrita en la nuestra Política de Cookies. Si continua navegando, consideramos que acepta su uso. Para más información o cambiar la configuración, consulte nuestra <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>">Política de Cookies</a>.</div>   
+                                <? } ?>
+                                <? if ($app_code_lang == LANG::CAT) { ?>
+                                <div class="txt">Esta web utiliza cookies propias y de terceros con la finalidad de analizar los hábitos de navegación de los usuarios y así poder proporcionar un mejor servicio en la web, de la forma descrita en la nuestra Política de Cookies. Si continua navegando, consideramos que acepta su uso. Para más información o cambiar la configuración, consulte nuestra <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>">Política de Cookies</a>.</div>   
+                                <? } ?>
+                                <? if ($app_code_lang == LANG::EN) { ?>
+                                <div class="txt">This website uses its own and third-party cookies in order to analyze the browsing habits of users and thus be able to provide a better service on the web, in the manner described in our Cookies Policy. If you go on surfing, we will consider you accepting its use. For more information or to change the settings, see our <a target="_blank" href="<? echo $app_url['aviso-legal'] ?>">Cookies Policy</a>.</div>   
+                                <? } ?>
+                                
+                                
                                 <div class="acepto"><? echo $app_lang['acepto'] ?></div>
                                                                 
                             </div>

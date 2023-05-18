@@ -374,6 +374,14 @@ $(document).ready(function(){
                 $('.lightbox-empresa').css('left',left + 'px');                
             }
 
+            function set_mapa_com_height()
+            {
+                var h = $('#comunicaciones .icons-com').height();
+                
+                var new_h = parseFloat(h) + 30;
+                
+                $('#comunicaciones .mapa-com.no-resp').height(new_h);
+            }
 
 
 function send_contact()
