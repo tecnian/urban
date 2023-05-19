@@ -672,7 +672,7 @@
                                         La proximidad a la Ronda de Dalt y Ronda Litoral, permite una rápida conexión con las principales calles, autopistas y el aeropuerto.<br/><br/>(20 minutos)
                                         <? } ?>
                                         
-                                        <? if ($app_code_lang == LANG::ES) { ?>
+                                        <? if ($app_code_lang == LANG::CAT) { ?>
                                         La proximidad a la Ronda de Dalt y Ronda Litoral, permite una rápida conexión con las principales calles, autopistas y el aeropuerto.<br/><br/>(20 minutos)
                                         <? } ?>
                                         
