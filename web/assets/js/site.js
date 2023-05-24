@@ -89,6 +89,8 @@ $(document).ready(function(){
             var item = $(this).attr('data-item');
             
             show_mapa(item);
+            
+            $(this).trigger('click');
 
         });
         
@@ -102,6 +104,14 @@ $(document).ready(function(){
             
             $(".btn_localizacion").removeClass('active');
             $(this).addClass('active');
+
+        });
+        
+        $('#donde').mouseout(function() {
+            
+            $(".btn_localizacion").removeClass('active');
+            
+            $(".mapa-info").css('display','none');
 
         });
         

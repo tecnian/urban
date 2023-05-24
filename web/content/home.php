@@ -23,8 +23,7 @@
                                     
                                     <? if ($app_code_lang == LANG::ES) { ?>
                                     <h1> 
-                                        25 viviendas tipo loft en alquiler.<br/>
-                                        Espacios diáfanos, abiertos, funcionales y con luz, sobre todo, con mucha luz.
+                                        25 viviendas tipo loft en alquiler.<br/>                                        
                                     </h1> 
                                     
                                     <h1 class="color"> 
@@ -39,8 +38,7 @@
                                     
                                     <? if ($app_code_lang == LANG::CAT) { ?>
                                     <h1> 
-                                        25 viviendas tipo loft en alquiler.<br/>
-                                        Espacios diáfanos, abiertos, funcionales y con luz, sobre todo, con mucha luz.
+                                        25 viviendas tipo loft en alquiler.<br/>                                        
                                     </h1> 
                                     
                                     <h1 class="color"> 
@@ -55,8 +53,7 @@
                                     
                                     <? if ($app_code_lang == LANG::EN) { ?>
                                     <h1> 
-                                        25 loft-style homes for rent.<br/>
-                                        Exceptionally bright, open, functional spaces.
+                                        25 loft-style homes for rent.<br/>                                        
                                     </h1> 
                                     
                                     <h1 class="color"> 
@@ -298,7 +295,7 @@
                         
                         <div class="mapa-info" id="mapa_info_4" data-item="4">
                             <div class="izq">
-                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ocio_mar.png" /> </div>
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ocio_mar_<? echo $app_code_lang ?>.png" /> </div>
                             </div>
 
                             <div class="der">
@@ -328,7 +325,7 @@
                         
                         <div class="mapa-info" id="mapa_info_5" data-item="5">
                             <div class="izq">
-                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_hoteles.png" /> </div>
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_hoteles_<? echo $app_code_lang ?>.png" /> </div>
                             </div>
 
                             <div class="der">
@@ -352,7 +349,7 @@
                         
                         <div class="mapa-info" id="mapa_info_6" data-item="6">
                             <div class="izq">
-                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ejes_comerciales.png" /> </div>
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ejes_comerciales_<? echo $app_code_lang ?>.png" /> </div>
                             </div>
 
                             <div class="der">
@@ -376,7 +373,7 @@
                         
                         <div class="mapa-info" id="mapa_info_7" data-item="7">
                             <div class="izq">
-                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ejes_empresariales.png" /> </div>
+                                <div class="imagen"> <img src="<? echo $appFrontUrl ?>/assets/img/icon_ejes_empresariales_<? echo $app_code_lang ?>.png" /> </div>
                             </div>
 
                             <div class="der">
@@ -515,7 +512,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/metro_icon.png" style="width:90px" /> 
+                                    <img src="<? echo $appFrontUrl ?>/assets/img/metro_icon.png" style="width:60px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Metro </div>
@@ -540,7 +537,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_bus_icon.png" style="width:80px" /> 
+                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_bus_icon.png" style="width:50px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Bus </div>
@@ -573,7 +570,7 @@
                         <div class="item tram">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_tram_icon.png" style="width:140px" /> 
+                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_tram_icon.png" style="width:90px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Tram </div>
@@ -594,7 +591,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_bicing_icon.png" style="width:70px" />
+                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_bicing_icon.png" style="width:45px" />
                                 </div>
                             </div>
                             <div class="tit"> Bicing </div>
@@ -611,7 +608,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_pie_icon.png" style="width:35px" /> 
+                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_pie_icon.png" style="width:25px" /> 
                                 </div>
                             </div>
                             <div class="tit"> A pie </div>
@@ -644,7 +641,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_rodalies_icon.png" style="width:60px" /> 
+                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_rodalies_icon.png" style="width:40px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Rodalies </div>
@@ -661,7 +658,7 @@
                         <div class="item coche">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_coche_icon.png" style="width:80px" />
+                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_coche_icon.png" style="width:50px" />
                                 </div>                        
                             </div>
                             <div class="tit"> Coche </div>
@@ -715,7 +712,7 @@
                                             
                         <? if ($app_code_lang == LANG::ES) { ?>
                         <div class="col_50">
-                            <p>Urban Lofts BCN, localizado en el número 92 de la calle Perú, lo forman dos edificios conectados a través de tres núcleos de comunicaciones verticales. El conjunto ha sido objeto de una rehabilitación integral en la que se han respetado el sistema compositivo, el lenguaje arquitectónico y los materiales de la fachada original para preservar ese antiguo espíritu industrial.</p>
+                            <p>Urban Lofts BCN, localizado en el número 88 de la calle Perú, lo forman dos edificios conectados a través de tres núcleos de comunicaciones verticales. El conjunto ha sido objeto de una rehabilitación integral en la que se han respetado el sistema compositivo, el lenguaje arquitectónico y los materiales de la fachada original para preservar ese antiguo espíritu industrial.</p>
                         </div>  
                         <div class="col_50">
                             <p>Se trata de una construcción moderna, actual, con una amplia variedad de servicios y prestaciones, además de diversos espacios comunes en planta baja y en cubierta diseñados para la comodidad y el disfrute de sus residentes.</p>                        
@@ -725,7 +722,7 @@
                         
                         <? if ($app_code_lang == LANG::CAT) { ?>
                         <div class="col_50">
-                            <p>Urban Lofts BCN, localizado en el número 92 de la calle Perú, lo forman dos edificios conectados a través de tres núcleos de comunicaciones verticales. El conjunto ha sido objeto de una rehabilitación integral en la que se han respetado el sistema compositivo, el lenguaje arquitectónico y los materiales de la fachada original para preservar ese antiguo espíritu industrial.</p>
+                            <p>Urban Lofts BCN, localizado en el número 88 de la calle Perú, lo forman dos edificios conectados a través de tres núcleos de comunicaciones verticales. El conjunto ha sido objeto de una rehabilitación integral en la que se han respetado el sistema compositivo, el lenguaje arquitectónico y los materiales de la fachada original para preservar ese antiguo espíritu industrial.</p>
                         </div>  
                         <div class="col_50">
                             <p>Se trata de una construcción moderna, actual, con una amplia variedad de servicios y prestaciones, además de diversos espacios comunes en planta baja y en cubierta diseñados para la comodidad y el disfrute de sus residentes.</p>                        
@@ -735,7 +732,7 @@
                         
                         <? if ($app_code_lang == LANG::EN) { ?>
                         <div class="col_50">
-                            <p>Urban Lofts BCN, located at 92 Peru Street, is formed by two buildings connected by three vertical cores. The complex has undergone an integral rehabilitation respecting the compositional system, the architectural language, and the materials of the original facade in order to preserve the old industrial essence of the building.</p>
+                            <p>Urban Lofts BCN, located at 88 Peru Street, is formed by two buildings connected by three vertical cores. The complex has undergone an integral rehabilitation respecting the compositional system, the architectural language, and the materials of the original facade in order to preserve the old industrial essence of the building.</p>
                         </div>  
                         <div class="col_50">
                             <p>It is a modern, contemporary building with an ample number of services and amenities, as well as several common areas on the ground and top floors designed for the comfort and enjoyment of residents.</p>                        
@@ -754,7 +751,7 @@
         <div class="row" id="slider">
             
             <div class="gallery">
-                <? for ($x = 1; $x <= 13; $x++) { ?>
+                <? for ($x = 1; $x <= 10; $x++) { ?>
                 <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider_<? echo $x ?>_edificio.jpg')"></div>
                 <? } ?>       
             </div>    
@@ -1067,7 +1064,7 @@
                     <div id="slider_lofts" class="imagen-sostenibilidad">
 
                         <div class="gallery">
-                            <? for ($s = 1; $s <= 18; $s++) { ?>
+                            <? for ($s = 1; $s <= 7; $s++) { ?>
                             <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/lofts_slider_<? echo $s ?>.jpg')"></div>
                             <? } ?>
                         </div>  
@@ -1397,7 +1394,7 @@
         <!-- video
         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
-        <!--<div class="row" id="video" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/video_image.jpg');">
+        <div class="row" id="video" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/video_image.jpg');">
             
             <div class="btn-play"> 
                 <div class="con-play">
@@ -1411,7 +1408,7 @@
                 <iframe id="yt_video" width="560" height="315" src="https://www.youtube.com/embed/3KSvRAl7emA?rel=0&showinfo=0&modestbranding=1&wmode=transparent" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             
-        </div>   -->   
+        </div> 
         
         
 

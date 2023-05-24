@@ -17,7 +17,7 @@
                         <li> <a href="#comunicaciones"> <? echo $app_lang['comunicaciones'] ?> </a> </li>         
                         <li> <a href="#edificio"> <? echo $app_lang['el_edificio'] ?> </a> </li>        
                         <li> <a href="#calidades"> <? echo $app_lang['lofts'] ?> </a> </li>                        
-                        <!--<li> <a href="#video"> <? echo $app_lang['video'] ?> </a> </li>-->
+                        <li> <a href="#video"> <? echo $app_lang['video'] ?> </a> </li>
                         <li> <a href="#contacto"> <? echo $app_lang['contacto'] ?> </a> </li>
                         
                         <li> 
@@ -48,7 +48,7 @@
                     <li> <a href="#comunicaciones"> <? echo $app_lang['comunicaciones'] ?> </a> </li>
                     <li> <a href="#edificio"> <? echo $app_lang['el_edificio'] ?> </a> </li>        
                     <li> <a href="#calidades"> <? echo $app_lang['lofts'] ?> </a> </li>           
-                    <!--<li> <a href="#video"> <? echo $app_lang['video'] ?> </a> </li>-->
+                    <li> <a href="#video"> <? echo $app_lang['video'] ?> </a> </li>
                     <li> <a href="#contacto"> <? echo $app_lang['contacto'] ?> </a> </li>
 
                     <div class="idiomas">
