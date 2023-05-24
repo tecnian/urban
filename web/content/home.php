@@ -1411,7 +1411,58 @@
         </div> 
         
         
+        <div class="row" id="catalogo">
+            
+            <div class="content-catalogo">
 
+                <div id="back-catalogo">
+                     
+                    <div class="content">
+                            
+                        <div class="col_100">
+
+                            <div class="box-h2">
+
+                                <h2> CATÁLOGO </h2>
+                                <div class="linea"></div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col_50">
+
+                            <div class="texto">
+
+                                <div class="comillas"> " </div>
+                                
+                                <div class="comen">
+                                    Futuro y pasado, innovación<br/>
+                                    y tradición para crear nuevos<br/>
+                                    espacios para ser vividos.       
+                                </div>
+
+                                <div class="autor">
+                                    <span>Artur Fuster</span><br/>
+                                    Arquitecto        
+                                </div>
+
+                                <div class="boton">
+                                    <a class="btn btn-catalogo" href="<? echo $appContentUrl ?>/pageflip/index.html" target="_blank"> Ver Catálogo </a>
+                                </div>
+
+                            </div>                    
+
+                        </div>
+                    
+                    </div>
+
+                </div>
+    
+                
+            </div>
+
+        </div>
 
 
 
