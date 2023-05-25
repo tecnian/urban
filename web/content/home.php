@@ -512,7 +512,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/metro_icon.png" style="width:60px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/metro_icon.png" style="width:60px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Metro </div>
@@ -537,7 +537,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_bus_icon.png" style="width:50px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/com_bus_icon.png" style="width:50px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Bus </div>
@@ -570,7 +570,7 @@
                         <div class="item tram">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_tram_icon.png" style="width:90px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/com_tram_icon.png" style="width:90px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Tram </div>
@@ -591,7 +591,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_bicing_icon.png" style="width:45px" />
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/com_bicing_icon.png" style="width:45px" />
                                 </div>
                             </div>
                             <div class="tit"> Bicing </div>
@@ -608,7 +608,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_pie_icon.png" style="width:25px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/com_pie_icon.png" style="width:25px" /> 
                                 </div>
                             </div>
                             <div class="tit"> A pie </div>
@@ -641,7 +641,7 @@
                         <div class="item">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_rodalies_icon.png" style="width:40px" /> 
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/com_rodalies_icon.png" style="width:40px" /> 
                                 </div>
                             </div>
                             <div class="tit"> Rodalies </div>
@@ -658,7 +658,7 @@
                         <div class="item coche">
                             <div class="icono"> 
                                 <div class="con-icono">
-                                    <img src="<? echo $appFrontUrl ?>/assets/img/com_coche_icon.png" style="width:50px" />
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/com_coche_icon.png" style="width:50px" />
                                 </div>                        
                             </div>
                             <div class="tit"> Coche </div>
@@ -1405,7 +1405,7 @@
             </div>
             
             <div class="embed-container video_iframe">
-                <iframe id="yt_video" width="560" height="315" src="https://www.youtube.com/embed/3KSvRAl7emA?rel=0&showinfo=0&modestbranding=1&wmode=transparent" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="yt_video" width="560" height="315" src="https://www.youtube.com/embed/j1RD00zWMtQ?rel=0&showinfo=0&modestbranding=1&wmode=transparent" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             
         </div> 
@@ -1437,14 +1437,11 @@
                                 <div class="comillas"> " </div>
                                 
                                 <div class="comen">
-                                    Futuro y pasado, innovación<br/>
-                                    y tradición para crear nuevos<br/>
-                                    espacios para ser vividos.       
+                                    En <strong>Urban Lofts BCN</strong><br/>encontrarás viviendas concebidas para proporcionar la calidez y el confort de un hogar.   
                                 </div>
 
                                 <div class="autor">
-                                    <span>Artur Fuster</span><br/>
-                                    Arquitecto        
+                                        
                                 </div>
 
                                 <div class="boton">

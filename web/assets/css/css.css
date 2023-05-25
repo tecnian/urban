@@ -629,6 +629,7 @@ body {
 		right: 20px;
 		top: 20px;
 		z-index: 99999999999;
+                display: none;
 	}
 	#mapas #fotos .lightbox-mapa .ico-close img{
 		width: 40px;
@@ -1524,13 +1525,14 @@ body {
 		width: 100%;
 		/*background-color: #3c3c3c;*/
 		background-image: url('../img/catalogo_image3.jpg'), url('../img/catalogo-doble.jpg');
-		background-position: center top, center center;
+                background-position: center top, center center;
 		background-repeat: no-repeat, no-repeat;
 		background-size: 100%, cover;
 	}
 	#catalogo{
 		float: left;
 		width: 100%;
+                margin-top: 60px;
 	}
 	#catalogo .box-h2{
 		display: inline-block;
@@ -1545,7 +1547,7 @@ body {
 		display: inline-block;
 		width: 85px;
 		height: 1px;
-		border-bottom: 2px solid var(--color-primary);
+		border-bottom: 2px solid var(--color-secondary);
 		margin-top: 20px;
 	}	
 	#catalogo .texto{
@@ -2050,6 +2052,9 @@ body {
 		#mapas #donde-select{
 			display: inline-block;
 		}	
+                #mapas #fotos .lightbox-mapa .ico-close{
+                        display: block;
+                }
 
 	}
 
