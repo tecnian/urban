@@ -1064,7 +1064,7 @@
                     <div id="slider_lofts" class="imagen-sostenibilidad">
 
                         <div class="gallery">
-                            <? for ($s = 1; $s <= 7; $s++) { ?>
+                            <? for ($s = 1; $s <= 9; $s++) { ?>
                             <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/lofts_slider_<? echo $s ?>.jpg')"></div>
                             <? } ?>
                         </div>  
@@ -1589,8 +1589,8 @@
                 
                 $('#donde').mouseout(function() {
 
-                    show_mapa(0);
-
+                    //show_mapa(0);
+                    
                 });
 
                 var scroll = $(window).scrollTop();
