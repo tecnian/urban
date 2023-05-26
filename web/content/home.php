@@ -751,7 +751,7 @@
         <div class="row" id="slider">
             
             <div class="gallery">
-                <? for ($x = 1; $x <= 10; $x++) { ?>
+                <? for ($x = 1; $x <= 8; $x++) { ?>
                 <div class="gallery-cell" style="background-image: url('<? echo $appFrontUrl ?>/assets/img/slider_<? echo $x ?>_edificio.jpg')"></div>
                 <? } ?>       
             </div>    
@@ -1146,7 +1146,7 @@
                     </div>
                     
                     <div class="col_30">
-                        <a href="#" class="btn"><? echo $app_lang['descargar_memoria'] ?></a>
+                        <a href="<? echo $appFrontUrl ?>/assets/pdf/memoria_calidades_esp.pdf" target="_blank" class="btn"><? echo $app_lang['descargar_memoria'] ?></a>
                     </div>
                     
                     <div class="col_20">
