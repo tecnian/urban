@@ -38,16 +38,16 @@
                                     
                                     <? if ($app_code_lang == LANG::CAT) { ?>
                                     <h1> 
-                                        25 viviendas tipo loft en alquiler.<br/>                                        
+                                        25 habitatges tipus loft en lloguer.<br/>                                        
                                     </h1> 
                                     
                                     <h1 class="color"> 
-                                        Todo empieza ahora.<br/>
-                                        Un nuevo proyecto, una nueva vida.
+                                        Tot comença ara.<br/>
+                                        Un nou projecte, una nova vida.
                                     </h1> 
                                     
                                     <h1> 
-                                        <span>¡VIVE TU PROYECTO DE VIDA!</span>
+                                        <span>VIU EL TEU PROJECTE DE VIDA!</span>
                                     </h1> 
                                     <? } ?>
                                     
@@ -103,9 +103,9 @@
                         <? } ?>   
                             
                         <? if ($app_code_lang == LANG::CAT) { ?>
-                            <p>Urban Lofts BCN es un proyecto de promoción de viviendas tipo lofts que se ubica en el Distrito de Sant Martí de Barcelona y forma parte del Área 22@.</p>
-                            <p>La parcela en que se ubica, en la confluencia de la Calle Perú con la Calle Bilbao, está próxima a la Avenida Diagonal, la Gran Vía de les Corts Catalanes.</p>
-                            <p>Esta nueva promoción forma parte de un conjunto mayor que integrará nuevos edificios de oficinas, un hotel y nuevas zonas verdes y de servicios. Una vez consolidado constituirá un nuevo eje de centralidad del Área 22@ y de la ciudad de Barcelona en su conjunto.</p>                        
+                            <p>URBAN LOFT BCN és un projecte de promoció d'habitatges tipus lofts que se situa en el Districte de Sant Martí de Barcelona i forma part de l'Àrea 22@.</p>
+                            <p>La parcel·la en què se situa, en la confluència del Carrer Perú amb el Carrer Bilbao, és pròxima a l'Avinguda Diagonal, al nou Parc del Centre i a la Gran Via de les Corts Catalans.</p>
+                            <p>Aquesta nova promoció forma part d'un conjunt major que integrarà nous edificis d'oficines, un hotel i noves zones verdes i de serveis. Una vegada consolidat constituirà un nou eix de centralitat de l'Àrea 22@ i de la ciutat de Barcelona en el seu conjunt.</p>                        
                         <? } ?>   
                             
                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -147,11 +147,9 @@
                         <? } ?>
                         
                         <? if ($app_code_lang == LANG::CAT) { ?>
-                        <strong>El Área 22@:</strong>
+                        <strong>L'Àrea 22@:</strong>
                         <br/>
-                        Un distrito innovador, tecnológico,<br/>
-                        social y cultural que sitúa a Barcelona<br/>
-                        como referente europeo
+                        Un districte innovador, tecnològic, social i cultural que situa a Barcelona com a referent europeu
                         <? } ?>
                         
                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -178,9 +176,9 @@
                     
                     <? if ($app_code_lang == LANG::CAT) { ?>
                     <p>
-                        El Área 22@ en el distrito de Sant Martí, transforma 200 hectáreas de suelo industrial del barrio del Poblenou, en un distrito innovador que ofrece espacios modernos para la concentración estratégica de actividades intensivas del conocimiento. Es el proyecto de transformación urbanística más importante de la ciudad de Barcelona en los últimos años y uno de los más ambiciosos de Europa de estas características.
+                        L'Àrea 22@ en el districte de Sant Martí, transforma 200 hectàrees de sòl industrial del barri del Poblenou, en un districte innovador que ofereix espais moderns per a la concentració estratègica d'activitats intensives del coneixement. És el projecte de transformació urbanística més important de la ciutat de Barcelona en els últims anys i un dels més ambiciosos d'Europa d'aquestes característiques.
                         <br/><br/>
-                        El proyecto 22@Barcelona transforma las antiguas áreas industriales del Poblenou en un entorno de elevada calidad para trabajar, vivir y aprender así como reinterpreta la función de los antiguos tejidos industriales del Poblenou y crea un nuevo modelo de espacio urbano.
+                        El projecte 22@Barcelona transforma les antigues àrees industrials del Poblenou en un entorn d'elevada qualitat per a treballar, viure i aprendre així com reinterpreta la funció dels antics teixits industrials del Poblenou i crea un nou model d'espai urbà.
                     </p>
                     <? } ?>
 
@@ -231,7 +229,7 @@
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::CAT) { ?>
-                                        Glòries es más que un parque, es un motor para la transformación de la ciudad, es un ecosistema urbano, autosuficiencia energética, gestión económica de los recursos, entorno digital y eficiencia en los desplazamientos, son algunos de los factores destinados a desarrollarse más ampliamente en la ciudad. Glòries es la piedra angular de un nuevo dinamismo y del desarrollo de una estrategia ecológica a escala de la metrópolis catalana, una naturaleza confortable al servicio de los ciudadanos.          
+                                        Glòries és més que un parc, és un motor per a la transformació de la ciutat, és un ecosistema urbà, autosuficiència energètica, gestió econòmica dels recursos, entorn digital i eficiència en els desplaçaments, són alguns dels factors destinats a desenvolupar-se més àmpliament a la ciutat. Glòries és la pedra angular d'un nou dinamisme i del desenvolupament d'una estratègia ecològica a escala de la metròpolis catalana, una naturalesa confortable al servei dels ciutadans.       
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -255,7 +253,7 @@
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::CAT) { ?>
-                                        Can Ricart, una de las primeras fábricas de estampación mecánica de tejidos de algodón en Cataluña, y referente histórico de la industrialización de la Ciudad Condal, será finalmente un espacio de ampliación de estudios de la Universidad de Barcelona. En un futuro cercano, será uno de los principales centros de formación universitaria del sector 22@ del Poble Nou.                                        
+                                        Can Ricart, una de les primeres fàbriques d'estampació mecànica de teixits de cotó a Catalunya, i referent històric de la industrialització de la Ciutat Comtal, serà finalment un espai d'ampliació d'estudis de la Universitat de Barcelona. En un futur pròxim, serà un dels principals centres de formació universitària del sector 22@ del Poble Nou.                                     
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -280,8 +278,8 @@
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::CAT) { ?>
-                                        Diagonal Mar es una zona cosmopolita, moderna y multicultural, muy valorada por los clientes internacionales por ofrecer apartamentos lujosos y confortables. Propiedades como Diagonal Mar ofrecen fantásticas vistas y todas las comodidades necesarias para garantizar una excelente calidad de vida a sus residentes.
-                                        La mayoría de estos proyectos han sido gestionados por el equipo de ACTUAL BCN.                             
+                                        Diagonal Mar és una zona cosmopolita, moderna i multicultural, molt valorada pels clients internacionals per oferir apartaments luxosos i confortables. Propietats com Diagonal Mar ofereixen fantàstiques vistes i totes les comoditats necessàries per a garantir una excel·lent qualitat de vida als seus residents.
+                                        La majoria d'aquests projectes han estat gestionats per l'equip d'ACTUAL BCN.                            
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -336,7 +334,7 @@
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::CAT) { ?>
-                                        En el Distrito 22@, y cerca de Urban Lofts BCN, podemos encontrar algunos de los mejores hoteles de Barcelona, como Meliá Barcelona, Hilton, AC, Princess, Silken Diagonal o Four Points by Sheraton, entre otros.                  
+                                        En el Districte 22@, i prop de Urban Lofts BCN, podem trobar alguns dels millors hotels de Barcelona, com Meliá Barcelona, Hilton, AC, Princess, Silken Diagonal o Four Points by Sheraton, entre altres.             
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -360,7 +358,7 @@
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::CAT) { ?>
-                                        Alrededor de Urban Lofts BCN podemos encontrar grandes centros comerciales, Glòries y Diagonal Mar, así como multitud de tiendas, una amplia oferta gastronómica y multicines, entre otros. Asimismo, el conocido mercado de Nous Encants, establecido hace 7 siglos, donde se comercializan artículos de segunda mano y vintage, crea un ambiente de especial singularidad para el entorno.          
+                                        Al voltant de Urban Lofts BCN podem trobar grans centres comercials, Glòries i Diagonal Mar, així com multitud de botigues, una àmplia oferta gastronòmica i multicines, entre altres. Així mateix, el conegut mercat de Nous Encants, establert fa 7 segles, on es comercialitzen articles de segona mà i vintage, crea un ambient d'especial singularitat per a l'entorn.       
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -385,8 +383,8 @@
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::CAT) { ?>
-                                        El distrito 22@, donde se ubica Urban Lofts BCN, se ha transformado en una zona de negocios, donde más de 8.800 empresas han optado por establecer sus sedes, el 30% de las cuales trabajan en tecnología o educación.
-                                        Una parte del área está formada por empresas de telecomunicaciones y nuevas tecnologías, así como universidades, centros de formación continua y centros de investigación y tecnología, como la sede de la Comisión del Mercado de las Telecomunicaciones y las oficinas de la Torre Glòries, entre otros.      
+                                        El districte 22@, on se situa Urban Lofts BCN, s'ha transformat en una zona de negocis, on més de 8.800 empreses han optat per establir les seves seus, el 30% de les quals treballen en tecnologia o educació.
+                                        Una part de l'àrea està formada per empreses de telecomunicacions i noves tecnologies, així com universitats, centres de formació contínua i centres de recerca i tecnologia, com la seu de la Comissió del Mercat de les Telecomunicacions i les oficines de la Torre Glòries, entre altres.
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -475,8 +473,8 @@
                         <? } ?>
                             
                         <? if ($app_code_lang == LANG::CAT) { ?>
-                            <p>Urban Lofts BCN está ubicado entre dos de las mayores arterias de comunicación de Barcelona, la Avenida Diagonal y la Gran Via de les Corts Catalanes, por lo que está perfectamente conectado por transporte público. Además, se encuentra muy cerca de la Ronda de Dalt y la Ronda Litoral, las principales vías rápidas de acceso y salida de la ciudad.</p>
-                            <p>(Tiempo estimado hasta el aeropuerto: 20 minutos).</p>  
+                            <p>Urban Lofts BCN està situat entre dues de les majors artèries de comunicació de Barcelona, l'Avinguda Diagonal i la Gran Via de les Corts Catalans, per la qual cosa està perfectament connectat per transport públic. A més, es troba molt prop de la Ronda de Dalt i la Ronda Litoral, les principals vies ràpides d'accés i sortida de la ciutat.</p>
+                            <p>(Temps estimat fins a l'aeroport: 20 minuts).</p>  
                         <? } ?>
                             
                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -670,7 +668,7 @@
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::CAT) { ?>
-                                        La proximidad a la Ronda de Dalt y Ronda Litoral, permite una rápida conexión con las principales calles, autopistas y el aeropuerto.<br/><br/>(20 minutos)
+                                        La proximitat a la Ronda de Dalt i Ronda Litoral, permet una ràpida connexió amb els principals carrers, autopistes i l'aeroport.<br/><br/>(20 minuts)
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -722,11 +720,11 @@
                         
                         <? if ($app_code_lang == LANG::CAT) { ?>
                         <div class="col_50">
-                            <p>Urban Lofts BCN, localizado en el número 88 de la calle Perú, lo forman dos edificios conectados a través de tres núcleos de comunicaciones verticales. El conjunto ha sido objeto de una rehabilitación integral en la que se han respetado el sistema compositivo, el lenguaje arquitectónico y los materiales de la fachada original para preservar ese antiguo espíritu industrial.</p>
+                            <p>Urban Lofts BCN, localitzat en el número 88 del carrer Perú, el formen dos edificis connectats a través de tres nuclis de comunicacions verticals. El conjunt ha estat objecte d'una rehabilitació integral en la qual s'han respectat el sistema compositiu, el llenguatge arquitectònic i els materials de la façana original per a preservar aquest antic esperit industrial.</p>
                         </div>  
                         <div class="col_50">
-                            <p>Se trata de una construcción moderna, actual, con una amplia variedad de servicios y prestaciones, además de diversos espacios comunes en planta baja y en cubierta diseñados para la comodidad y el disfrute de sus residentes.</p>                        
-                            <p>Todas las viviendas tienen la opción de disponer, además, de plazas de parking y trastero en las plantas sótano del edificio.</p>                    
+                            <p>Es tracta d'una construcció moderna, actual, amb una àmplia varietat de serveis i prestacions, a més de diversos espais comuns en planta baixa i en coberta dissenyats per a la comoditat i el gaudi dels seus residents.</p>                        
+                            <p>Tots els habitatges tenen l'opció de disposar, a més, de places de pàrquing i traster en les plantes soterrani de l'edifici.</p>                    
                         </div>
                         <? } ?>
                         
@@ -1107,14 +1105,14 @@
                         
                         <? if ($app_code_lang == LANG::CAT) { ?>
                         <div class="col_50">
-                            <p>El proyecto cuenta con 25 viviendas tipo loft, de 1 o 2 dormitorios, distribuidas en planta baja, primera y segunda planta, y con orientación a la calle Perú o al interior de la manzana.</p>
-                            <p>La superficie de los lofts varía entre los 100 y los 126 m2 construidos. Las plantas bajas, además, disponen de unas amplias terrazas ajardinadas. </p>
-                            <p>Las viviendas disponen de grandes ventanales que proporcionan luminosidad, calidez y confort a todas las estancias. Y la distribución de cada loft se ha diseñado para conseguir el máximo aprovechamiento de los espacios. </p>
-                            <p>Detalles como la potenciación de las jácenas de los techos o el tubo de ventilación aportan ese aire industrial tan característico en el interior de este tipo de viviendas.</p>
+                            <p>El projecte compta amb 25 habitatges tipus loft, d'1 o 2 dormitoris, distribuïdes en planta baixa, primera i segona planta, i amb orientació al carrer Perú o a l'interior de la poma.</p>
+                            <p>La superfície dels lofts varia entre els 100 i els 126 m² construïts. Les plantes baixes, a més, disposen d'unes àmplies terrasses enjardinades.</p>
+                            <p>Els habitatges disposen de grans finestrals que proporcionen lluminositat, calidesa i confort a totes les estades. I la distribució de cada loft s'ha dissenyat per a aconseguir el màxim aprofitament dels espais.</p>
+                            <p>Detalls com la potenciació de les jàsseres dels sostres o el tub de ventilació aporten aquest aire industrial tan característic a l'interior d'aquesta mena d'habitatges.</p>
                         </div>    
                         <div class="col_50">
-                            <p>Los lofts con 2 dormitorios tienen un núcleo central de 2 baños y una cocina abierta con un amplio salón comedor. Los de 1 dormitorio disponen de un amplio espacio abierto de cocina comedor y un baño completo, con bañera y ducha.</p>
-                            <p>Todas las viviendas están listas para entrar a vivir. Disponen de cocina totalmente equipada, incluyendo frigorífico-combi y lavavajillas, luminarias en todas las dependencias, armarios empotrados forrados, iluminados y completamente preparados con barras, estantes y cajones, y baños completos con mueble bajo lavabo y todos los accesorios necesarios ya instalados, como toalleros, portarrollos, etc.</p>
+                            <p>Els lofts amb 2 dormitoris tenen un nucli central de 2 banys i una cuina oberta amb un ampli saló menjador. Els d'1 dormitori disposen d'un ampli espai obert de cuina menjador i un bany complet, amb banyera i dutxa.</p>
+                            <p>Tots els habitatges estan llestes per a entrar a viure. Disposen de cuina totalment equipada, incloent-hi frigorífic-combi i rentavaixella, lluminàries en totes les dependències, armaris de paret folrats, il·luminats i completament preparats amb barres, prestatges i calaixos, i banys complets amb moble sota lavabo i tots els accessoris necessaris ja instal·lats, com a tovallolers, porta-rotllos, etc.</p>
                         </div>      
                         <? } ?>
                         
@@ -1405,7 +1403,7 @@
             </div>
             
             <div class="embed-container video_iframe">
-                <iframe id="yt_video" width="560" height="315" src="https://www.youtube.com/embed/j1RD00zWMtQ?rel=0&showinfo=0&modestbranding=1&wmode=transparent" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="yt_video" width="560" height="315" src="https://www.youtube.com/embed/WJhZs7OK4_I?rel=0&showinfo=0&modestbranding=1&wmode=transparent" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             
         </div> 
@@ -1423,7 +1421,7 @@
 
                             <div class="box-h2">
 
-                                <h2> CATÁLOGO </h2>
+                                <h2 style="text-transform:uppercase"> <? echo $app_lang['catalogo'] ?> </h2>
                                 <div class="linea"></div>
 
                             </div>
@@ -1437,7 +1435,17 @@
                                 <div class="comillas"> " </div>
                                 
                                 <div class="comen">
+                                    <? if ($app_code_lang == LANG::ES) { ?>
                                     En <strong>Urban Lofts BCN</strong><br/>encontrarás viviendas concebidas para proporcionar la calidez y el confort de un hogar.   
+                                    <? } ?>
+                                    
+                                    <? if ($app_code_lang == LANG::CAT) { ?>
+                                    En <strong>Urban Lofts BCN</strong><br/>trobaràs habitatges concebuts per a proporcionar la calidesa i el confort d'una llar.   
+                                    <? } ?>
+                                    
+                                    <? if ($app_code_lang == LANG::EN) { ?>
+                                    En <strong>Urban Lofts BCN</strong><br/>encontrarás viviendas concebidas para proporcionar la calidez y el confort de un hogar.   
+                                    <? } ?>
                                 </div>
 
                                 <div class="autor">
@@ -1445,7 +1453,7 @@
                                 </div>
 
                                 <div class="boton">
-                                    <a class="btn btn-catalogo" href="<? echo $appContentUrl ?>/pageflip/index.html" target="_blank"> Ver Catálogo </a>
+                                    <a class="btn btn-catalogo" href="<? echo $appContentUrl ?>/pageflip/index.html" target="_blank"> <? echo $app_lang['ver_catalogo'] ?> </a>
                                 </div>
 
                             </div>                    
