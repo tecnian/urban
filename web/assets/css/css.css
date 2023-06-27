@@ -238,6 +238,13 @@ body {
                 -o-transform : scale(1);
 	}
         
+        a.link{
+		color: var(--color-secondary);
+		text-decoration: none;
+	}
+	a.link:hover{
+		color: var(--color-primary);
+	}
 
 
 	/* pull

@@ -14,7 +14,7 @@
         <h4>DATOS GENERALES</h4>
         
         <p>PERU 84-102 BARCELONA S.L está domiciliada en la Avenida Diagonal 67 6º planta, con CIF B-66833286. Inscrita en el Registro Mercantil de Barcelona Tomo 45917, Folio 176, Hoja B490020, Inscripción 12º.</p>
-        <p>En la web www.urbanbcn22offices.com hay una serie de contenidos de carácter informativo sobre el proyecto que nos incumbe.</p>
+        <p>En la web www.urbanloftsbcn.com hay una serie de contenidos de carácter informativo sobre el proyecto que nos incumbe.</p>
         <p>Su principal objetivo es facilitar a los clientes y al público en general, una orientación relativa al producto que se ofrece (Oficina y local Restaurante).</p>
 
         <h4>CLÁUSULA POLÍTICA DE PRIVACIDAD WEB</h4>

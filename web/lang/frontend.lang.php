@@ -11,7 +11,7 @@
                 $app_lang['acepto'] = "Accept";
                 $app_lang['aviso_legal'] = "Legal Notice";
                 $app_lang['can_ricart'] = "Can Ricart";
-                $app_lang['catalogo'] = "Catálogo";
+                $app_lang['catalogo'] = "Brochure";
                 $app_lang['contacto'] = "Contact";
                 $app_lang['comercializa'] = "Marketed by";
                 $app_lang['comunicaciones'] = "Connections";
@@ -46,8 +46,8 @@
                 $app_lang['seleccionar_planta'] = "Select Floor";
                 $app_lang['seleccionar_zona'] = "Select Zone";
                 $app_lang['servicios_comunes'] = "Common Services";
-                $app_lang['ver_catalogo'] = "Ver Catálogo";
-                $app_lang['ver_tour_360'] = "Ver Tour 360º";
+                $app_lang['ver_catalogo'] = "See Brochure";
+                $app_lang['ver_tour_360'] = "See Tour 360º";
                 $app_lang['ver_video'] = "Watch Video";
                 $app_lang['video'] = "Video";
                 
@@ -107,7 +107,7 @@
                 $app_lang['comunicaciones'] = "Comunicacions";
                 $app_lang['correo_electronico'] = "correu electrònic";
                 $app_lang['datos_enviados'] = "Les dades s'han enviat correctament";
-                $app_lang['descargar_memoria'] = "Descarregar Memòria de Qualitats";
+                $app_lang['descargar_memoria'] = "Descarregar Memòria Qualitats";
                 $app_lang['descargar_planos'] = "Descarregar plànols";
                 $app_lang['diagonal_mar'] = "Diagonal Mar";
                 $app_lang['ejes_comerciales_area_22'] = "Eixos Comercials Àrea 22@";
@@ -124,13 +124,13 @@
                 $app_lang['lofts'] = "Lofts";
                 $app_lang['mensaje'] = "missatge";
                 $app_lang['nombre'] = "nom";
-                $app_lang['ocio_mar'] = "Ocio & Mar";
+                $app_lang['ocio_mar'] = "Oci & Mar";
                 $app_lang['pasar_encima_imagen'] = "Passar per sobre de la imatge per a seleccionar el pis";
                 $app_lang['placa_les_glories'] = "Plaça Les Glòries";
                 $app_lang['planos'] = "Plànos";
                 $app_lang['planta_baja'] = "Planta Baixa";
                 $app_lang['planta_primera'] = "Planta Primera";
-                $app_lang['planta_segunda'] = "Planta Segunda";
+                $app_lang['planta_segunda'] = "Planta Segona";
                 $app_lang['politica_privacidad'] = "política de privacitat";
                 $app_lang['promotor_delegado'] = "Promotor delegat";
                 $app_lang['seleccionar_planta'] = "Seleccionar planta";

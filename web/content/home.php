@@ -306,9 +306,9 @@
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::CAT) { ?>
-                                        La zona del 22@ (Poblenou), está perfectamente equipada con parques, zonas verdes, instalaciones deportivas y zonas de ocio como el Parc del Centre, situado junto a "Urban Lofts BCN", el Parc Diagonal Mar, la Rambla del Poble Nou (centro neurálgico del distrito, repleto de tiendas, bares y restaurantes), la Avenida Diagonal, el Teatro Nacional de Catalunya (TNC) o el Museo del Diseño, entre otros.
+                                        La zona del 22@ (Poblenou), està perfectament equipada amb parcs, zones verdes, instal·lacions esportives i zones d'oci com el Parc del Centre, situat al costat de Urban Lofts BCN, el Parc Diagonal Mar, la Rambla del Poble Nou (centre neuràlgic del districte, ple de botigues, bars i restaurants), l'Avinguda Diagonal, el Teatre Nacional de Catalunya (TNC) o el Museu del Disseny, entre d'altres.
                                         <br/>
-                                        Las mejores playas de Barcelona se encuentran cerca del Urban Lofts BCN, al igual que los puertos deportivos Port Fórum y Port Olímpic.                     
+                                        Les millors platges de Barcelona són a prop de Urban Lofts BCN, igual que els ports esportius Port Fórum i Port Olímpic.                   
                                         <? } ?>
                                         
                                         <? if ($app_code_lang == LANG::EN) { ?>
@@ -516,17 +516,18 @@
                             <div class="tit"> Metro </div>
                             <table>
                                 <tr>
-                                    <td class="dato text-right"> 1.370 m </td>
-                                    <td class="descr text-left"> Glories (Línea 1) </td>
+                                    <td class="dato text-right"> 950 m </td>
+                                    <td class="descr text-left"> Línea 4 (Poble Nou) </td>
                                 </tr>
                                 <tr>
-                                    <td class="dato text-right"> 1.111 m </td>
-                                    <td class="descr text-left"> Clot (Línea 2) </td>
+                                    <td class="dato text-right"> 1.100 m </td>
+                                    <td class="descr text-left"> Línea 1 (Glòries) </td>
                                 </tr>
                                 <tr>
-                                    <td class="dato text-right"> 823 m </td>
-                                    <td class="descr text-left"> Poble Nou (Línea 4) </td>
+                                    <td class="dato text-right"> 1.100 m </td>
+                                    <td class="descr text-left"> Línea 2 (El Clot) </td>
                                 </tr>
+                                
                             </table>
                         </div>
 
@@ -541,24 +542,24 @@
                             <div class="tit"> Bus </div>
                             <table>
                                 <tr>
-                                    <td class="dato text-right"> 349 m </td>
-                                    <td class="descr text-left"> Línea </td>
+                                    <td class="dato text-right"> 130 m </td>
+                                    <td class="descr text-left"> Línea 192 </td>
                                 </tr>
                                 <tr>
-                                    <td class="dato text-right"> 260 m </td>
-                                    <td class="descr text-left"> Línea </td>
+                                    <td class="dato text-right"> 220 m </td>
+                                    <td class="descr text-left"> Línea H12 </td>
                                 </tr>
                                 <tr>
-                                    <td class="dato text-right"> 50 m </td>
-                                    <td class="descr text-left"> Línea </td>
+                                    <td class="dato text-right"> 400 m </td>
+                                    <td class="descr text-left"> Línea H14 </td>
                                 </tr>
                                 <tr>
-                                    <td class="dato text-right"> 547 m </td>
-                                    <td class="descr text-left"> Línea </td>
+                                    <td class="dato text-right"> 400 m </td>
+                                    <td class="descr text-left"> Línea V27 </td>
                                 </tr>
                                 <tr>
-                                    <td class="dato text-right"> 160 m </td>
-                                    <td class="descr text-left"> Línea </td>
+                                    <td class="dato text-right"> 450 m </td>
+                                    <td class="descr text-left"> Línea 7 </td>
                                 </tr>
                             </table>
                         </div>
@@ -574,12 +575,12 @@
                             <div class="tit"> Tram </div>
                             <table>
                                 <tr>
-                                    <td class="dato text-right"> 330 m </td>
-                                    <td class="descr text-left"> Pere IV (línea T4) </td>
+                                    <td class="dato text-right"> 450 m </td>
+                                    <td class="descr text-left"> Línea T4 (Pere IV) </td>
                                 </tr>
                                 <tr>
-                                    <td class="dato text-right"> 340 m </td>
-                                    <td class="descr text-left"> Can Jaumandreu<br/>(Línea 5 y 6) </td>
+                                    <td class="dato text-right"> 300 m </td>
+                                    <td class="descr text-left"> Línea 5 y 6<br/>(Can Jaumandreu) </td>
                                 </tr>
                             </table>
                         </div>                        
@@ -595,44 +596,13 @@
                             <div class="tit"> Bicing </div>
                             <table>
                                 <tr>
-                                    <td class="dato text-right"> 138 m </td>
+                                    <td class="dato text-right"> 160 m </td>
                                     <td class="descr text-left"> Estación Bicing </td>
                                 </tr>
                             </table>
                         </div>                        
 
-                        <!-- item
-                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-                        <div class="item">
-                            <div class="icono"> 
-                                <div class="con-icono">
-                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/com_pie_icon.png" style="width:25px" /> 
-                                </div>
-                            </div>
-                            <div class="tit"> A pie </div>
-                            <table>
-                                <tr>
-                                    <td class="dato text-right"> 6 min. </td>
-                                    <td class="descr text-left"> Metro </td>
-                                </tr>
-                                <tr>
-                                    <td class="dato text-right"> 1/2 min. </td>
-                                    <td class="descr text-left"> Bus </td>
-                                </tr>
-                                <tr>
-                                    <td class="dato text-right"> 6 min. </td>
-                                    <td class="descr text-left"> Centro Comercial </td>
-                                </tr>
-                                <tr>
-                                    <td class="dato text-right"> 3 min. </td>
-                                    <td class="descr text-left"> Parc del Centre </td>
-                                </tr>
-                                <tr>
-                                    <td class="dato text-right"> 3 min. </td>
-                                    <td class="descr text-left"> Tranvía </td>
-                                </tr>
-                            </table>
-                        </div>                        
+                                            
 
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -645,11 +615,44 @@
                             <div class="tit"> Rodalies </div>
                             <table>
                                 <tr>
-                                    <td class="dato text-right"> 1.100 m </td>
+                                    <td class="dato text-right"> 1.200 m </td>
                                     <td class="descr text-left"> Estación Clot-Aragó <br/>Línea R1<br/> Línea R2, R2 Nord </td>
                                 </tr>
                             </table>
-                        </div>                        
+                        </div>         
+                        
+                        <!-- item
+                        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+                        <div class="item">
+                            <div class="icono"> 
+                                <div class="con-icono">
+                                    <img class="icon-anim" src="<? echo $appFrontUrl ?>/assets/img/com_pie_icon.png" style="width:25px" /> 
+                                </div>
+                            </div>
+                            <div class="tit"> A pie </div>
+                            <table>
+                                <tr>
+                                    <td class="dato text-right"> 1' </td>
+                                    <td class="descr text-left"> Bus Línea 192 </td>
+                                </tr>
+                                <tr>
+                                    <td class="dato text-right"> 12' </td>
+                                    <td class="descr text-left"> Metro Línea 4 (Poble Nou)</td>
+                                </tr>
+                                <tr>
+                                    <td class="dato text-right"> 6' </td>
+                                    <td class="descr text-left"> Centro Comercial Glòries </td>
+                                </tr>
+                                <tr>
+                                    <td class="dato text-right"> 5' </td>
+                                    <td class="descr text-left"> Parc del Centre </td>
+                                </tr>
+                                <tr>
+                                    <td class="dato text-right"> 6' </td>
+                                    <td class="descr text-left"> Tranvía </td>
+                                </tr>
+                            </table>
+                        </div>    
 
                         <!-- item
                         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1403,7 +1406,7 @@
             </div>
             
             <div class="embed-container video_iframe">
-                <iframe id="yt_video" width="560" height="315" src="https://www.youtube.com/embed/WJhZs7OK4_I?rel=0&showinfo=0&modestbranding=1&wmode=transparent" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="yt_video" width="560" height="315" src="https://www.youtube.com/embed/78xTwxCxOCw?rel=0&showinfo=0&modestbranding=1&wmode=transparent" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             
         </div> 
@@ -1444,7 +1447,7 @@
                                     <? } ?>
                                     
                                     <? if ($app_code_lang == LANG::EN) { ?>
-                                    En <strong>Urban Lofts BCN</strong><br/>encontrarás viviendas concebidas para proporcionar la calidez y el confort de un hogar.   
+                                    At <strong>Urban Lofts BCN</strong><br/>you will find homes designed to provide the warmth and comfort of a home. 
                                     <? } ?>
                                 </div>
 
@@ -1558,7 +1561,7 @@
                     <div class="datos w2"> 
                         +34 93 303 03 78
                         <br/>
-                        www.actualadv.com
+                        <a class="link" href="http://actualadv.com" target="_blank">www.actualadv.com</a>
                     </div>
                     
                 </div>
