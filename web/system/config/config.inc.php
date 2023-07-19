@@ -146,9 +146,9 @@
 			class CONN_DB
 			{
 				const HOST = 'localhost';
-				const USER = '';
-				const PSW = '';
-				const NAME = '';
+				const USER = 'urbanlofts';
+				const PSW = '9h@pDNhN';
+				const NAME = 'urbanlofts_bd';
 			}
 			break;
 	}
@@ -163,9 +163,9 @@
 		const HOST = '';
                 const PORT = 0;
                 
-                const ADDRESS = 'calbiol@actualbcn.com';  
+                const ADDRESS = 'info@actualbcn.com';  
                 const TITLE = 'Urban Lofts BCN';
-                const ADMIN = 'calbiol@actualbcn.com';
+                const ADMIN = 'info@actualbcn.com';
                 const SMTP = false;
                 
                 const AUTH = false;

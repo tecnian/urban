@@ -1537,11 +1537,13 @@
 
                     <div class="logo">
                         <div class="con">
-                            <!--<img src="<? echo $appFrontUrl ?>/assets/img/jll_logo.png" style="width: 130px" />-->
+                            <a class="link" href="https://www.aproperties.es/barcelona/el-poblenou/lofts-de-obra-nueva-en-alquiler-amueblados-en-22" target="_blank"><img src="<? echo $appFrontUrl ?>/assets/img/logo_properties.png" style="width:230px" /></a>
                         </div>                    
                     </div>
                     <div class="datos w1">
-                        +34 93 XXX XX XX 
+                        +34 93 528 89 08
+                        <br/>
+                        <a class="link" href="https://www.aproperties.es/barcelona/el-poblenou/lofts-de-obra-nueva-en-alquiler-amueblados-en-22" target="_blank">www.aproperties.es</a>
                     </div>
 
                 </div>

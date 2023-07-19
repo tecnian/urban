@@ -60,7 +60,7 @@
     
     $arr_mail['subject'] = $subject;
     $arr_mail['body'] = $content;
-    $arr_mail['emails'][0] = MAIL::ADMIN;
+    $arr_mail['emails'][0] = MAIL::ADMIN;        
         
     send_email($_mail,$arr_mail);
     

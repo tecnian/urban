@@ -223,7 +223,7 @@
                     <body bgcolor="#f1f1f1">
                         <table cellspacing="15" cellpadding="0" border="0" align="center" width="600">
                             <tr>
-                                <td><img src="'.$url.'/assets/img/logo_mail.png" alt="" style="width:200px" /></td>
+                                <td><img src="'.$url.'/assets/img/logo_urban_footer.png" alt="" style="width:200px" /></td>
                             </tr>            
                         </table>
                         <table cellspacing="20" cellpadding="0" border="0" align="center" width="600" bgcolor="#ffffff">
