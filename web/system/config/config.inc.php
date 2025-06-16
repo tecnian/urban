@@ -62,7 +62,7 @@
                         $appServerUrl = '';
                         
                         define("APP_ROOT_PATH","$appDocumentRoot$appServerRoot");
-                        define("APP_ROOT_URL","http://$host$appServerUrl");
+                        define("APP_ROOT_URL","https://$host$appServerUrl");
                     			
 			break;
                                     
